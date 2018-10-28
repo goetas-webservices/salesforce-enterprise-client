@@ -1,0 +1,3 @@
+GoetasWebservices\Client\SalesforceEnterprise\Fault\MalformedSearchFault:
+    xml_root_name: MalformedSearchFault
+    xml_root_namespace: 'urn:fault.enterprise.soap.sforce.com'

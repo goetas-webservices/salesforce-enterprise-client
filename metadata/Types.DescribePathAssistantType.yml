@@ -1,0 +1,80 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantType:
+    properties:
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: bool
+        apiName:
+            expose: true
+            access_type: public_method
+            serialized_name: apiName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiName
+                setter: setApiName
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        pathPicklistField:
+            expose: true
+            access_type: public_method
+            serialized_name: pathPicklistField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPathPicklistField
+                setter: setPathPicklistField
+            type: string
+        picklistsForRecordType:
+            expose: true
+            access_type: public_method
+            serialized_name: picklistsForRecordType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPicklistsForRecordType
+                setter: setPicklistsForRecordType
+            xml_list:
+                inline: true
+                entry_name: picklistsForRecordType
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\PicklistForRecordType>
+        recordTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeId
+                setter: setRecordTypeId
+            type: string
+        steps:
+            expose: true
+            access_type: public_method
+            serialized_name: steps
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSteps
+                setter: setSteps
+            xml_list:
+                inline: true
+                entry_name: steps
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantStepType>

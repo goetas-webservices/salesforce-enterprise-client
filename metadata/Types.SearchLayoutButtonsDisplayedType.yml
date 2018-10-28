@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchLayoutButtonsDisplayedType:
+    properties:
+        applicable:
+            expose: true
+            access_type: public_method
+            serialized_name: applicable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getApplicable
+                setter: setApplicable
+            type: bool
+        buttons:
+            expose: true
+            access_type: public_method
+            serialized_name: buttons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getButtons
+                setter: setButtons
+            xml_list:
+                inline: true
+                entry_name: buttons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\SearchLayoutButtonType>

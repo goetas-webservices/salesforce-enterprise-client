@@ -1,0 +1,222 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTestResultLimitsType:
+    properties:
+        apexTestResult:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexTestResult
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexTestResult
+                setter: setApexTestResult
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTestResultType
+        apexTestResultId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexTestResultId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexTestResultId
+                setter: setApexTestResultId
+            type: string
+        asyncCalls:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncCalls
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncCalls
+                setter: setAsyncCalls
+            type: int
+        callouts:
+            expose: true
+            access_type: public_method
+            serialized_name: Callouts
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCallouts
+                setter: setCallouts
+            type: int
+        cpu:
+            expose: true
+            access_type: public_method
+            serialized_name: Cpu
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCpu
+                setter: setCpu
+            type: int
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dml:
+            expose: true
+            access_type: public_method
+            serialized_name: Dml
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDml
+                setter: setDml
+            type: int
+        dmlRows:
+            expose: true
+            access_type: public_method
+            serialized_name: DmlRows
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDmlRows
+                setter: setDmlRows
+            type: int
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: int
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        limitContext:
+            expose: true
+            access_type: public_method
+            serialized_name: LimitContext
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimitContext
+                setter: setLimitContext
+            type: string
+        limitExceptions:
+            expose: true
+            access_type: public_method
+            serialized_name: LimitExceptions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimitExceptions
+                setter: setLimitExceptions
+            type: string
+        mobilePush:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilePush
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobilePush
+                setter: setMobilePush
+            type: int
+        queryRows:
+            expose: true
+            access_type: public_method
+            serialized_name: QueryRows
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryRows
+                setter: setQueryRows
+            type: int
+        soql:
+            expose: true
+            access_type: public_method
+            serialized_name: Soql
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSoql
+                setter: setSoql
+            type: int
+        sosl:
+            expose: true
+            access_type: public_method
+            serialized_name: Sosl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSosl
+                setter: setSosl
+            type: int
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

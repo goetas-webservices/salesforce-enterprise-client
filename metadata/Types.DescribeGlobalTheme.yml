@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalTheme:
+    xml_root_name: describeGlobalTheme
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

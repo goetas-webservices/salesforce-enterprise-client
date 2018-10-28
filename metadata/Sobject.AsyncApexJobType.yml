@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AsyncApexJobType:
+    properties:
+        apexClass:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexClass
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexClass
+                setter: setApexClass
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexClassType
+        apexClassId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexClassId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexClassId
+                setter: setApexClassId
+            type: string
+        asyncApex:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncApex
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncApex
+                setter: setAsyncApex
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        completedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CompletedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompletedDate
+                setter: setCompletedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        extendedStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtendedStatus
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExtendedStatus
+                setter: setExtendedStatus
+            type: string
+        jobItemsProcessed:
+            expose: true
+            access_type: public_method
+            serialized_name: JobItemsProcessed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJobItemsProcessed
+                setter: setJobItemsProcessed
+            type: int
+        jobType:
+            expose: true
+            access_type: public_method
+            serialized_name: JobType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJobType
+                setter: setJobType
+            type: string
+        lastProcessed:
+            expose: true
+            access_type: public_method
+            serialized_name: LastProcessed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastProcessed
+                setter: setLastProcessed
+            type: string
+        lastProcessedOffset:
+            expose: true
+            access_type: public_method
+            serialized_name: LastProcessedOffset
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastProcessedOffset
+                setter: setLastProcessedOffset
+            type: int
+        methodName:
+            expose: true
+            access_type: public_method
+            serialized_name: MethodName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMethodName
+                setter: setMethodName
+            type: string
+        numberOfErrors:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfErrors
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNumberOfErrors
+                setter: setNumberOfErrors
+            type: int
+        parentJobId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentJobId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentJobId
+                setter: setParentJobId
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        totalJobItems:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalJobItems
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTotalJobItems
+                setter: setTotalJobItems
+            type: int

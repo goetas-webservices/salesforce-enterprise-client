@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\TopicAssignmentType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        entity:
+            expose: true
+            access_type: public_method
+            serialized_name: Entity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntity
+                setter: setEntity
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContractType
+        entityId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityId
+                setter: setEntityId
+            type: string
+        entityKeyPrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityKeyPrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityKeyPrefix
+                setter: setEntityKeyPrefix
+            type: string
+        entityType:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityType
+                setter: setEntityType
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        topic:
+            expose: true
+            access_type: public_method
+            serialized_name: Topic
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopic
+                setter: setTopic
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\TopicType
+        topicId:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopicId
+                setter: setTopicId
+            type: string

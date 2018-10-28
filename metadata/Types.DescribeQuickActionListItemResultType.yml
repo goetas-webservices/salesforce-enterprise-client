@@ -1,0 +1,100 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeQuickActionListItemResultType:
+    properties:
+        accessLevelRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: accessLevelRequired
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccessLevelRequired
+                setter: setAccessLevelRequired
+            type: string
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: colors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            xml_list:
+                inline: true
+                entry_name: colors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType>
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: iconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: icons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            xml_list:
+                inline: true
+                entry_name: icons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        miniIconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: miniIconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMiniIconUrl
+                setter: setMiniIconUrl
+            type: string
+        quickActionName:
+            expose: true
+            access_type: public_method
+            serialized_name: quickActionName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuickActionName
+                setter: setQuickActionName
+            type: string
+        targetSobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: targetSobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetSobjectType
+                setter: setTargetSobjectType
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

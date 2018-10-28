@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePrimaryCompactLayouts:
+    xml_root_name: describePrimaryCompactLayouts
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sObjectTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectTypes
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectTypes
+                setter: setSObjectTypes
+            xml_list:
+                inline: true
+                entry_name: sObjectTypes
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

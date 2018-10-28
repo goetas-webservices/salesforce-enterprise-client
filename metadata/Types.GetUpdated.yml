@@ -1,0 +1,34 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetUpdated:
+    xml_root_name: getUpdated
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectType
+                setter: setSObjectType
+            type: string
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: startDate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: endDate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

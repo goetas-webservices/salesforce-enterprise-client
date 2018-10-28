@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PerformQuickActions:
+    xml_root_name: performQuickActions
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        quickActions:
+            expose: true
+            access_type: public_method
+            serialized_name: quickActions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuickActions
+                setter: setQuickActions
+            xml_list:
+                inline: true
+                entry_name: quickActions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\PerformQuickActionRequestType>

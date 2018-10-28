@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LimitInfoType:
+    properties:
+        current:
+            expose: true
+            access_type: public_method
+            serialized_name: current
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCurrent
+                setter: setCurrent
+            type: int
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            type: int
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\QueryOptions:
+    xml_root_name: QueryOptions
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        batchSize:
+            expose: true
+            access_type: public_method
+            serialized_name: batchSize
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBatchSize
+                setter: setBatchSize
+            type: int

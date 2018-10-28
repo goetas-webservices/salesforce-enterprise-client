@@ -1,0 +1,138 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutType:
+    properties:
+        buttonLayoutSection:
+            expose: true
+            access_type: public_method
+            serialized_name: buttonLayoutSection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getButtonLayoutSection
+                setter: setButtonLayoutSection
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutButtonType>
+            xml_list:
+                inline: false
+                entry_name: detailButtons
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        detailLayoutSections:
+            expose: true
+            access_type: public_method
+            serialized_name: detailLayoutSections
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDetailLayoutSections
+                setter: setDetailLayoutSections
+            xml_list:
+                inline: true
+                entry_name: detailLayoutSections
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType>
+        editLayoutSections:
+            expose: true
+            access_type: public_method
+            serialized_name: editLayoutSections
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEditLayoutSections
+                setter: setEditLayoutSections
+            xml_list:
+                inline: true
+                entry_name: editLayoutSections
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType>
+        feedView:
+            expose: true
+            access_type: public_method
+            serialized_name: feedView
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedView
+                setter: setFeedView
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutFeedFilterType>
+            xml_list:
+                inline: false
+                entry_name: feedFilters
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        highlightsPanelLayoutSection:
+            expose: true
+            access_type: public_method
+            serialized_name: highlightsPanelLayoutSection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHighlightsPanelLayoutSection
+                setter: setHighlightsPanelLayoutSection
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        quickActionList:
+            expose: true
+            access_type: public_method
+            serialized_name: quickActionList
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuickActionList
+                setter: setQuickActionList
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeQuickActionListItemResultType>
+            xml_list:
+                inline: false
+                entry_name: quickActionListItems
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        relatedContent:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedContent
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedContent
+                setter: setRelatedContent
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeRelatedContentItemType>
+            xml_list:
+                inline: false
+                entry_name: relatedContentItems
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        relatedLists:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedLists
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedLists
+                setter: setRelatedLists
+            xml_list:
+                inline: true
+                entry_name: relatedLists
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\RelatedListType>
+        saveOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: saveOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSaveOptions
+                setter: setSaveOptions
+            xml_list:
+                inline: true
+                entry_name: saveOptions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSaveOptionType>

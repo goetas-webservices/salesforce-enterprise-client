@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeTheme:
+    xml_root_name: describeTheme
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            xml_list:
+                inline: true
+                entry_name: sobjectType
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

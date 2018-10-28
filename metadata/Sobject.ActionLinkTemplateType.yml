@@ -1,0 +1,222 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ActionLinkTemplateType:
+    properties:
+        actionLinkGroupTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionLinkGroupTemplate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionLinkGroupTemplate
+                setter: setActionLinkGroupTemplate
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ActionLinkGroupTemplateType
+        actionLinkGroupTemplateId:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionLinkGroupTemplateId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionLinkGroupTemplateId
+                setter: setActionLinkGroupTemplateId
+            type: string
+        actionUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionUrl
+                setter: setActionUrl
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        headers:
+            expose: true
+            access_type: public_method
+            serialized_name: Headers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeaders
+                setter: setHeaders
+            type: string
+        isConfirmationRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: IsConfirmationRequired
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsConfirmationRequired
+                setter: setIsConfirmationRequired
+            type: bool
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isGroupDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: IsGroupDefault
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsGroupDefault
+                setter: setIsGroupDefault
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        labelKey:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabelKey
+                setter: setLabelKey
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        linkType:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkType
+                setter: setLinkType
+            type: string
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: Method
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: string
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: int
+        requestBody:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestBody
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequestBody
+                setter: setRequestBody
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userAlias:
+            expose: true
+            access_type: public_method
+            serialized_name: UserAlias
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserAlias
+                setter: setUserAlias
+            type: string
+        userVisibility:
+            expose: true
+            access_type: public_method
+            serialized_name: UserVisibility
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserVisibility
+                setter: setUserVisibility
+            type: string

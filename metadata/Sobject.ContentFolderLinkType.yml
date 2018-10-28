@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentFolderLinkType:
+    properties:
+        contentFolder:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentFolder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentFolder
+                setter: setContentFolder
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentFolderType
+        contentFolderId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentFolderId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentFolderId
+                setter: setContentFolderId
+            type: string
+        enableFolderStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: EnableFolderStatus
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEnableFolderStatus
+                setter: setEnableFolderStatus
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        parentEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentEntityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentEntityId
+                setter: setParentEntityId
+            type: string

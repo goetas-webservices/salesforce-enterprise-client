@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\QuickActionTemplateResultType:
+    properties:
+        contextId:
+            expose: true
+            access_type: public_method
+            serialized_name: contextId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextId
+                setter: setContextId
+            type: string
+        defaultValueFormulas:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueFormulas
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValueFormulas
+                setter: setDefaultValueFormulas
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        defaultValues:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValues
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValues
+                setter: setDefaultValues
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool

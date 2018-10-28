@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LocationType:
+    properties:
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: latitude
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: float
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: longitude
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: float

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\UserTerritoryDeleteHeader:
+    xml_root_name: UserTerritoryDeleteHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        transferToUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: transferToUserId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTransferToUserId
+                setter: setTransferToUserId
+            type: string

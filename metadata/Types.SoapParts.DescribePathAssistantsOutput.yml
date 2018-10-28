@@ -1,0 +1,13 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapParts\DescribePathAssistantsOutput:
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        parameters:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getParameters
+                setter: setParameters
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: describePathAssistantsResponse
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantsResponse

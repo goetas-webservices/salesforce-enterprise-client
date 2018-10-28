@@ -1,0 +1,122 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexLogType:
+    properties:
+        application:
+            expose: true
+            access_type: public_method
+            serialized_name: Application
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApplication
+                setter: setApplication
+            type: string
+        durationMilliseconds:
+            expose: true
+            access_type: public_method
+            serialized_name: DurationMilliseconds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurationMilliseconds
+                setter: setDurationMilliseconds
+            type: int
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: Location
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: string
+        logLength:
+            expose: true
+            access_type: public_method
+            serialized_name: LogLength
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogLength
+                setter: setLogLength
+            type: int
+        logUser:
+            expose: true
+            access_type: public_method
+            serialized_name: LogUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogUser
+                setter: setLogUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        logUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: LogUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogUserId
+                setter: setLogUserId
+            type: string
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: Operation
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            type: string
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: Request
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: string
+        startTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartTime
+                setter: setStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

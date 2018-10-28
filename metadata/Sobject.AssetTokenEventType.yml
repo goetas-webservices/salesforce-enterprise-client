@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AssetTokenEventType:
+    properties:
+        actorTokenPayload:
+            expose: true
+            access_type: public_method
+            serialized_name: ActorTokenPayload
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActorTokenPayload
+                setter: setActorTokenPayload
+            type: string
+        asset:
+            expose: true
+            access_type: public_method
+            serialized_name: Asset
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsset
+                setter: setAsset
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AssetType
+        assetId:
+            expose: true
+            access_type: public_method
+            serialized_name: AssetId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssetId
+                setter: setAssetId
+            type: string
+        assetName:
+            expose: true
+            access_type: public_method
+            serialized_name: AssetName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssetName
+                setter: setAssetName
+            type: string
+        assetSerialNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AssetSerialNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssetSerialNumber
+                setter: setAssetSerialNumber
+            type: string
+        connectedApp:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectedApp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getConnectedApp
+                setter: setConnectedApp
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ConnectedApplicationType
+        connectedAppId:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectedAppId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getConnectedAppId
+                setter: setConnectedAppId
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        deviceId:
+            expose: true
+            access_type: public_method
+            serialized_name: DeviceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeviceId
+                setter: setDeviceId
+            type: string
+        deviceKey:
+            expose: true
+            access_type: public_method
+            serialized_name: DeviceKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeviceKey
+                setter: setDeviceKey
+            type: string
+        expiration:
+            expose: true
+            access_type: public_method
+            serialized_name: Expiration
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExpiration
+                setter: setExpiration
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        replayId:
+            expose: true
+            access_type: public_method
+            serialized_name: ReplayId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getReplayId
+                setter: setReplayId
+            type: string
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

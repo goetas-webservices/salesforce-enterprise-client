@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewColumnType:
+    properties:
+        ascendingLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: ascendingLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAscendingLabel
+                setter: setAscendingLabel
+            type: string
+        descendingLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: descendingLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescendingLabel
+                setter: setDescendingLabel
+            type: string
+        fieldNameOrPath:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldNameOrPath
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldNameOrPath
+                setter: setFieldNameOrPath
+            type: string
+        hidden:
+            expose: true
+            access_type: public_method
+            serialized_name: hidden
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHidden
+                setter: setHidden
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        searchable:
+            expose: true
+            access_type: public_method
+            serialized_name: searchable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchable
+                setter: setSearchable
+            type: bool
+        selectListItem:
+            expose: true
+            access_type: public_method
+            serialized_name: selectListItem
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSelectListItem
+                setter: setSelectListItem
+            type: string
+        sortDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: sortDirection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortDirection
+                setter: setSortDirection
+            type: string
+        sortIndex:
+            expose: true
+            access_type: public_method
+            serialized_name: sortIndex
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortIndex
+                setter: setSortIndex
+            type: int
+        sortable:
+            expose: true
+            access_type: public_method
+            serialized_name: sortable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortable
+                setter: setSortable
+            type: bool
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

@@ -1,0 +1,100 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoqlListViewType:
+    properties:
+        columns:
+            expose: true
+            access_type: public_method
+            serialized_name: columns
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColumns
+                setter: setColumns
+            xml_list:
+                inline: true
+                entry_name: columns
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewColumnType>
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        orderBy:
+            expose: true
+            access_type: public_method
+            serialized_name: orderBy
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrderBy
+                setter: setOrderBy
+            xml_list:
+                inline: true
+                entry_name: orderBy
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewOrderByType>
+        query:
+            expose: true
+            access_type: public_method
+            serialized_name: query
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuery
+                setter: setQuery
+            type: string
+        relatedEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedEntityId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedEntityId
+                setter: setRelatedEntityId
+            type: string
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScope
+                setter: setScope
+            type: string
+        scopeEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: scopeEntityId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScopeEntityId
+                setter: setScopeEntityId
+            type: string
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            type: string
+        whereCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: whereCondition
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhereCondition
+                setter: setWhereCondition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SoqlWhereConditionType

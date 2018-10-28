@@ -1,0 +1,252 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OpportunityFeedType:
+    properties:
+        bestComment:
+            expose: true
+            access_type: public_method
+            serialized_name: BestComment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBestComment
+                setter: setBestComment
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\FeedCommentType
+        bestCommentId:
+            expose: true
+            access_type: public_method
+            serialized_name: BestCommentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBestCommentId
+                setter: setBestCommentId
+            type: string
+        body:
+            expose: true
+            access_type: public_method
+            serialized_name: Body
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBody
+                setter: setBody
+            type: string
+        commentCount:
+            expose: true
+            access_type: public_method
+            serialized_name: CommentCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCommentCount
+                setter: setCommentCount
+            type: int
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        feedAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedAttachments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedAttachments
+                setter: setFeedAttachments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feedComments:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedComments
+                setter: setFeedComments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feedLikes:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedLikes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedLikes
+                setter: setFeedLikes
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feedSignals:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedSignals
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedSignals
+                setter: setFeedSignals
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feedTrackedChanges:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedTrackedChanges
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedTrackedChanges
+                setter: setFeedTrackedChanges
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        insertedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: InsertedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInsertedBy
+                setter: setInsertedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        insertedById:
+            expose: true
+            access_type: public_method
+            serialized_name: InsertedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInsertedById
+                setter: setInsertedById
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isRichText:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRichText
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRichText
+                setter: setIsRichText
+            type: bool
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        likeCount:
+            expose: true
+            access_type: public_method
+            serialized_name: LikeCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLikeCount
+                setter: setLikeCount
+            type: int
+        linkUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkUrl
+                setter: setLinkUrl
+            type: string
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: Parent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\OpportunityType
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string
+        relatedRecordId:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedRecordId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedRecordId
+                setter: setRelatedRecordId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

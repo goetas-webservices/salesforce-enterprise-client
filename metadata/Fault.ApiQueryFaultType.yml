@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Fault\ApiQueryFaultType:
+    properties:
+        row:
+            expose: true
+            access_type: public_method
+            serialized_name: row
+            xml_element:
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRow
+                setter: setRow
+            type: int
+        column:
+            expose: true
+            access_type: public_method
+            serialized_name: column
+            xml_element:
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            accessor:
+                getter: getColumn
+                setter: setColumn
+            type: int

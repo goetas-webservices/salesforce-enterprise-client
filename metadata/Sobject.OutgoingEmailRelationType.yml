@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OutgoingEmailRelationType:
+    properties:
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: string
+        outgoingEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: OutgoingEmail
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOutgoingEmail
+                setter: setOutgoingEmail
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\OutgoingEmailType
+        outgoingEmailId:
+            expose: true
+            access_type: public_method
+            serialized_name: OutgoingEmailId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOutgoingEmailId
+                setter: setOutgoingEmailId
+            type: string
+        relation:
+            expose: true
+            access_type: public_method
+            serialized_name: Relation
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelation
+                setter: setRelation
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        relationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationAddress
+                setter: setRelationAddress
+            type: string
+        relationId:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationId
+                setter: setRelationId
+            type: string

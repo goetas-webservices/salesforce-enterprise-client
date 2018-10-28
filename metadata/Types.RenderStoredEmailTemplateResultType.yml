@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RenderStoredEmailTemplateResultType:
+    properties:
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        renderedEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: renderedEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRenderedEmail
+                setter: setRenderedEmail
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SingleEmailMessageType
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool

@@ -1,0 +1,90 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ChildRelationshipType:
+    properties:
+        cascadeDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: cascadeDelete
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCascadeDelete
+                setter: setCascadeDelete
+            type: bool
+        childSObject:
+            expose: true
+            access_type: public_method
+            serialized_name: childSObject
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getChildSObject
+                setter: setChildSObject
+            type: string
+        deprecatedAndHidden:
+            expose: true
+            access_type: public_method
+            serialized_name: deprecatedAndHidden
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeprecatedAndHidden
+                setter: setDeprecatedAndHidden
+            type: bool
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: field
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: string
+        junctionIdListNames:
+            expose: true
+            access_type: public_method
+            serialized_name: junctionIdListNames
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getJunctionIdListNames
+                setter: setJunctionIdListNames
+            xml_list:
+                inline: true
+                entry_name: junctionIdListNames
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        junctionReferenceTo:
+            expose: true
+            access_type: public_method
+            serialized_name: junctionReferenceTo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getJunctionReferenceTo
+                setter: setJunctionReferenceTo
+            xml_list:
+                inline: true
+                entry_name: junctionReferenceTo
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        relationshipName:
+            expose: true
+            access_type: public_method
+            serialized_name: relationshipName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipName
+                setter: setRelationshipName
+            type: string
+        restrictedDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: restrictedDelete
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRestrictedDelete
+                setter: setRestrictedDelete
+            type: bool

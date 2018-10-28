@@ -1,0 +1,218 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OutgoingEmailType:
+    properties:
+        bccAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: BccAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBccAddress
+                setter: setBccAddress
+            type: string
+        bccIds:
+            expose: true
+            access_type: public_method
+            serialized_name: BccIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBccIds
+                setter: setBccIds
+            xml_list:
+                inline: true
+                entry_name: BccIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        ccAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: CcAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCcAddress
+                setter: setCcAddress
+            type: string
+        ccIds:
+            expose: true
+            access_type: public_method
+            serialized_name: CcIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCcIds
+                setter: setCcIds
+            xml_list:
+                inline: true
+                entry_name: CcIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        contentDocumentIds:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentIds
+                setter: setContentDocumentIds
+            xml_list:
+                inline: true
+                entry_name: ContentDocumentIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        contentDocumentLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentLinks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentLinks
+                setter: setContentDocumentLinks
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        emailTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: EmailTemplate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmailTemplate
+                setter: setEmailTemplate
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        emailTemplateId:
+            expose: true
+            access_type: public_method
+            serialized_name: EmailTemplateId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmailTemplateId
+                setter: setEmailTemplateId
+            type: string
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: string
+        htmlBody:
+            expose: true
+            access_type: public_method
+            serialized_name: HtmlBody
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHtmlBody
+                setter: setHtmlBody
+            type: string
+        outgoingEmailRelations:
+            expose: true
+            access_type: public_method
+            serialized_name: OutgoingEmailRelations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOutgoingEmailRelations
+                setter: setOutgoingEmailRelations
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        relatedTo:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedTo
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedTo
+                setter: setRelatedTo
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        relatedToId:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedToId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedToId
+                setter: setRelatedToId
+            type: string
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: Subject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        textBody:
+            expose: true
+            access_type: public_method
+            serialized_name: TextBody
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTextBody
+                setter: setTextBody
+            type: string
+        toAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ToAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getToAddress
+                setter: setToAddress
+            type: string
+        toIds:
+            expose: true
+            access_type: public_method
+            serialized_name: ToIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getToIds
+                setter: setToIds
+            xml_list:
+                inline: true
+                entry_name: ToIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        validatedFromAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidatedFromAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getValidatedFromAddress
+                setter: setValidatedFromAddress
+            type: string
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: Who
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        whoId:
+            expose: true
+            access_type: public_method
+            serialized_name: WhoId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhoId
+                setter: setWhoId
+            type: string

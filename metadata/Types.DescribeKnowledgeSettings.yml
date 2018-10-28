@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeKnowledgeSettings:
+    xml_root_name: describeKnowledgeSettings
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

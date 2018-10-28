@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType:
+    properties:
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: color
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColor
+                setter: setColor
+            type: string
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: string
+        theme:
+            expose: true
+            access_type: public_method
+            serialized_name: theme
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTheme
+                setter: setTheme
+            type: string

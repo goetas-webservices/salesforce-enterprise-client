@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\AnalyticsCloudComponentType:
+    properties:
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getError
+                setter: setError
+            type: string
+        filter:
+            expose: true
+            access_type: public_method
+            serialized_name: filter
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFilter
+                setter: setFilter
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: string
+        hideOnError:
+            expose: true
+            access_type: public_method
+            serialized_name: hideOnError
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHideOnError
+                setter: setHideOnError
+            type: bool
+        showSharing:
+            expose: true
+            access_type: public_method
+            serialized_name: showSharing
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowSharing
+                setter: setShowSharing
+            type: bool
+        showTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: showTitle
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowTitle
+                setter: setShowTitle
+            type: bool
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: string

@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\OwnerChangeOptions:
+    xml_root_name: OwnerChangeOptions
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        options:
+            expose: true
+            access_type: public_method
+            serialized_name: options
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptions
+                setter: setOptions
+            xml_list:
+                inline: true
+                entry_name: options
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\OwnerChangeOptionType>

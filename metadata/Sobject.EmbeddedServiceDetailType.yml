@@ -1,0 +1,332 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\EmbeddedServiceDetailType:
+    properties:
+        avatarImg:
+            expose: true
+            access_type: public_method
+            serialized_name: AvatarImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAvatarImg
+                setter: setAvatarImg
+            type: string
+        cancelApptBookingFlowName:
+            expose: true
+            access_type: public_method
+            serialized_name: CancelApptBookingFlowName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCancelApptBookingFlowName
+                setter: setCancelApptBookingFlowName
+            type: string
+        contrastInvertedColor:
+            expose: true
+            access_type: public_method
+            serialized_name: ContrastInvertedColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContrastInvertedColor
+                setter: setContrastInvertedColor
+            type: string
+        contrastPrimaryColor:
+            expose: true
+            access_type: public_method
+            serialized_name: ContrastPrimaryColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContrastPrimaryColor
+                setter: setContrastPrimaryColor
+            type: string
+        customMinimizedComponent:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomMinimizedComponent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomMinimizedComponent
+                setter: setCustomMinimizedComponent
+            type: string
+        customPrechatComponent:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomPrechatComponent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomPrechatComponent
+                setter: setCustomPrechatComponent
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        fieldServiceConfirmCardImg:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldServiceConfirmCardImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldServiceConfirmCardImg
+                setter: setFieldServiceConfirmCardImg
+            type: string
+        fieldServiceHomeImg:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldServiceHomeImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldServiceHomeImg
+                setter: setFieldServiceHomeImg
+            type: string
+        fieldServiceLogoImg:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldServiceLogoImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldServiceLogoImg
+                setter: setFieldServiceLogoImg
+            type: string
+        flowDeveloperName:
+            expose: true
+            access_type: public_method
+            serialized_name: FlowDeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlowDeveloperName
+                setter: setFlowDeveloperName
+            type: string
+        font:
+            expose: true
+            access_type: public_method
+            serialized_name: Font
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFont
+                setter: setFont
+            type: string
+        fontSize:
+            expose: true
+            access_type: public_method
+            serialized_name: FontSize
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFontSize
+                setter: setFontSize
+            type: string
+        headerBackgroundImg:
+            expose: true
+            access_type: public_method
+            serialized_name: HeaderBackgroundImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeaderBackgroundImg
+                setter: setHeaderBackgroundImg
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        isFieldServiceEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFieldServiceEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFieldServiceEnabled
+                setter: setIsFieldServiceEnabled
+            type: bool
+        isLiveAgentEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsLiveAgentEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsLiveAgentEnabled
+                setter: setIsLiveAgentEnabled
+            type: bool
+        isOfflineCaseEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsOfflineCaseEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsOfflineCaseEnabled
+                setter: setIsOfflineCaseEnabled
+            type: bool
+        isPrechatEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsPrechatEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsPrechatEnabled
+                setter: setIsPrechatEnabled
+            type: bool
+        isQueuePositionEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsQueuePositionEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsQueuePositionEnabled
+                setter: setIsQueuePositionEnabled
+            type: bool
+        modifyApptBookingFlowName:
+            expose: true
+            access_type: public_method
+            serialized_name: ModifyApptBookingFlowName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getModifyApptBookingFlowName
+                setter: setModifyApptBookingFlowName
+            type: string
+        navBarColor:
+            expose: true
+            access_type: public_method
+            serialized_name: NavBarColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNavBarColor
+                setter: setNavBarColor
+            type: string
+        offlineCaseBackgroundImg:
+            expose: true
+            access_type: public_method
+            serialized_name: OfflineCaseBackgroundImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOfflineCaseBackgroundImg
+                setter: setOfflineCaseBackgroundImg
+            type: string
+        prechatBackgroundImg:
+            expose: true
+            access_type: public_method
+            serialized_name: PrechatBackgroundImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPrechatBackgroundImg
+                setter: setPrechatBackgroundImg
+            type: string
+        primaryColor:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPrimaryColor
+                setter: setPrimaryColor
+            type: string
+        secondaryColor:
+            expose: true
+            access_type: public_method
+            serialized_name: SecondaryColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSecondaryColor
+                setter: setSecondaryColor
+            type: string
+        shouldHideAuthDialog:
+            expose: true
+            access_type: public_method
+            serialized_name: ShouldHideAuthDialog
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShouldHideAuthDialog
+                setter: setShouldHideAuthDialog
+            type: bool
+        shouldShowExistingAppointment:
+            expose: true
+            access_type: public_method
+            serialized_name: ShouldShowExistingAppointment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShouldShowExistingAppointment
+                setter: setShouldShowExistingAppointment
+            type: bool
+        shouldShowNewAppointment:
+            expose: true
+            access_type: public_method
+            serialized_name: ShouldShowNewAppointment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShouldShowNewAppointment
+                setter: setShouldShowNewAppointment
+            type: bool
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: Site
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSite
+                setter: setSite
+            type: string
+        smallCompanyLogoImg:
+            expose: true
+            access_type: public_method
+            serialized_name: SmallCompanyLogoImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSmallCompanyLogoImg
+                setter: setSmallCompanyLogoImg
+            type: string
+        waitingStateBackgroundImg:
+            expose: true
+            access_type: public_method
+            serialized_name: WaitingStateBackgroundImg
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWaitingStateBackgroundImg
+                setter: setWaitingStateBackgroundImg
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int

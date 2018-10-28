@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\DuplicateRuleType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        duplicateRecordSets:
+            expose: true
+            access_type: public_method
+            serialized_name: DuplicateRecordSets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDuplicateRecordSets
+                setter: setDuplicateRecordSets
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: bool
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastViewedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastViewedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastViewedDate
+                setter: setLastViewedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        masterLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: MasterLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMasterLabel
+                setter: setMasterLabel
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        sobjectSubtype:
+            expose: true
+            access_type: public_method
+            serialized_name: SobjectSubtype
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectSubtype
+                setter: setSobjectSubtype
+            type: string
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: SobjectType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

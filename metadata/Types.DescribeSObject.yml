@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSObject:
+    xml_root_name: describeSObject
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectType
+                setter: setSObjectType
+            type: string

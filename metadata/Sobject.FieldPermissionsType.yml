@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\FieldPermissionsType:
+    properties:
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: Field
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: string
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: Parent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\PermissionSetType
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string
+        permissionsEdit:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEdit
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEdit
+                setter: setPermissionsEdit
+            type: bool
+        permissionsRead:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsRead
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsRead
+                setter: setPermissionsRead
+            type: bool
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: SobjectType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

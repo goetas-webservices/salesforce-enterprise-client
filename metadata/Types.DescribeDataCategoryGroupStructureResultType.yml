@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeDataCategoryGroupStructureResultType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        sobject:
+            expose: true
+            access_type: public_method
+            serialized_name: sobject
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobject
+                setter: setSobject
+            type: string
+        topCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: topCategories
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopCategories
+                setter: setTopCategories
+            xml_list:
+                inline: true
+                entry_name: topCategories
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DataCategoryType>

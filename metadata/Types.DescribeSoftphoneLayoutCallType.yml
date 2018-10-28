@@ -1,0 +1,64 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutCallType:
+    properties:
+        infoFields:
+            expose: true
+            access_type: public_method
+            serialized_name: infoFields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInfoFields
+                setter: setInfoFields
+            xml_list:
+                inline: true
+                entry_name: infoFields
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutInfoFieldType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        screenPopOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: screenPopOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScreenPopOptions
+                setter: setScreenPopOptions
+            xml_list:
+                inline: true
+                entry_name: screenPopOptions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneScreenPopOptionType>
+        screenPopsOpenWithin:
+            expose: true
+            access_type: public_method
+            serialized_name: screenPopsOpenWithin
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScreenPopsOpenWithin
+                setter: setScreenPopsOpenWithin
+            type: string
+        sections:
+            expose: true
+            access_type: public_method
+            serialized_name: sections
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSections
+                setter: setSections
+            xml_list:
+                inline: true
+                entry_name: sections
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutSectionType>

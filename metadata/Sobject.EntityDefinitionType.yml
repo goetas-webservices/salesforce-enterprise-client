@@ -1,0 +1,567 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType:
+    properties:
+        childRelationships:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildRelationships
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChildRelationships
+                setter: setChildRelationships
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        dataSteward:
+            expose: true
+            access_type: public_method
+            serialized_name: DataSteward
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataSteward
+                setter: setDataSteward
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        dataStewardId:
+            expose: true
+            access_type: public_method
+            serialized_name: DataStewardId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataStewardId
+                setter: setDataStewardId
+            type: string
+        defaultCompactLayoutId:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultCompactLayoutId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultCompactLayoutId
+                setter: setDefaultCompactLayoutId
+            type: string
+        detailUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: DetailUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDetailUrl
+                setter: setDetailUrl
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        editDefinitionUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: EditDefinitionUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEditDefinitionUrl
+                setter: setEditDefinitionUrl
+            type: string
+        editUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: EditUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEditUrl
+                setter: setEditUrl
+            type: string
+        externalSharingModel:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalSharingModel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalSharingModel
+                setter: setExternalSharingModel
+            type: string
+        fields:
+            expose: true
+            access_type: public_method
+            serialized_name: Fields
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFields
+                setter: setFields
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        hasSubtypes:
+            expose: true
+            access_type: public_method
+            serialized_name: HasSubtypes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasSubtypes
+                setter: setHasSubtypes
+            type: bool
+        helpSettingPageName:
+            expose: true
+            access_type: public_method
+            serialized_name: HelpSettingPageName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHelpSettingPageName
+                setter: setHelpSettingPageName
+            type: string
+        helpSettingPageUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: HelpSettingPageUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHelpSettingPageUrl
+                setter: setHelpSettingPageUrl
+            type: string
+        internalSharingModel:
+            expose: true
+            access_type: public_method
+            serialized_name: InternalSharingModel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInternalSharingModel
+                setter: setInternalSharingModel
+            type: string
+        isApexTriggerable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsApexTriggerable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsApexTriggerable
+                setter: setIsApexTriggerable
+            type: bool
+        isAutoActivityCaptureEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAutoActivityCaptureEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAutoActivityCaptureEnabled
+                setter: setIsAutoActivityCaptureEnabled
+            type: bool
+        isCompactLayoutable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCompactLayoutable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCompactLayoutable
+                setter: setIsCompactLayoutable
+            type: bool
+        isCustomSetting:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCustomSetting
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCustomSetting
+                setter: setIsCustomSetting
+            type: bool
+        isCustomizable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCustomizable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCustomizable
+                setter: setIsCustomizable
+            type: bool
+        isDeprecatedAndHidden:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeprecatedAndHidden
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeprecatedAndHidden
+                setter: setIsDeprecatedAndHidden
+            type: bool
+        isEverCreatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEverCreatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEverCreatable
+                setter: setIsEverCreatable
+            type: bool
+        isEverDeletable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEverDeletable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEverDeletable
+                setter: setIsEverDeletable
+            type: bool
+        isEverUpdatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEverUpdatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEverUpdatable
+                setter: setIsEverUpdatable
+            type: bool
+        isFeedEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFeedEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFeedEnabled
+                setter: setIsFeedEnabled
+            type: bool
+        isIdEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsIdEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsIdEnabled
+                setter: setIsIdEnabled
+            type: bool
+        isLayoutable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsLayoutable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsLayoutable
+                setter: setIsLayoutable
+            type: bool
+        isMruEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsMruEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsMruEnabled
+                setter: setIsMruEnabled
+            type: bool
+        isProcessEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsProcessEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsProcessEnabled
+                setter: setIsProcessEnabled
+            type: bool
+        isQueryable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsQueryable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsQueryable
+                setter: setIsQueryable
+            type: bool
+        isReplicateable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReplicateable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReplicateable
+                setter: setIsReplicateable
+            type: bool
+        isRetrieveable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRetrieveable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRetrieveable
+                setter: setIsRetrieveable
+            type: bool
+        isSearchLayoutable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsSearchLayoutable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSearchLayoutable
+                setter: setIsSearchLayoutable
+            type: bool
+        isSearchable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsSearchable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSearchable
+                setter: setIsSearchable
+            type: bool
+        isSubtype:
+            expose: true
+            access_type: public_method
+            serialized_name: IsSubtype
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSubtype
+                setter: setIsSubtype
+            type: bool
+        isTriggerable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsTriggerable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsTriggerable
+                setter: setIsTriggerable
+            type: bool
+        isWorkflowEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsWorkflowEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsWorkflowEnabled
+                setter: setIsWorkflowEnabled
+            type: bool
+        keyPrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: KeyPrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getKeyPrefix
+                setter: setKeyPrefix
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        masterLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: MasterLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMasterLabel
+                setter: setMasterLabel
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        newUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: NewUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNewUrl
+                setter: setNewUrl
+            type: string
+        ownerChangeOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerChangeOptions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnerChangeOptions
+                setter: setOwnerChangeOptions
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        particles:
+            expose: true
+            access_type: public_method
+            serialized_name: Particles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParticles
+                setter: setParticles
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        pluralLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: PluralLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPluralLabel
+                setter: setPluralLabel
+            type: string
+        publisher:
+            expose: true
+            access_type: public_method
+            serialized_name: Publisher
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPublisher
+                setter: setPublisher
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\PublisherType
+        publisherId:
+            expose: true
+            access_type: public_method
+            serialized_name: PublisherId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPublisherId
+                setter: setPublisherId
+            type: string
+        qualifiedApiName:
+            expose: true
+            access_type: public_method
+            serialized_name: QualifiedApiName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getQualifiedApiName
+                setter: setQualifiedApiName
+            type: string
+        recordTypesSupported:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordTypesSupported
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypesSupported
+                setter: setRecordTypesSupported
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\RecordTypeInfoType>
+            xml_list:
+                inline: false
+                entry_name: recordTypeInfos
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        relationshipDomains:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationshipDomains
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipDomains
+                setter: setRelationshipDomains
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        runningUserEntityAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: RunningUserEntityAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRunningUserEntityAccess
+                setter: setRunningUserEntityAccess
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserEntityAccessType
+        runningUserEntityAccessId:
+            expose: true
+            access_type: public_method
+            serialized_name: RunningUserEntityAccessId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRunningUserEntityAccessId
+                setter: setRunningUserEntityAccessId
+            type: string
+        searchLayouts:
+            expose: true
+            access_type: public_method
+            serialized_name: SearchLayouts
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchLayouts
+                setter: setSearchLayouts
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType

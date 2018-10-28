@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ReportChartComponentType:
+    properties:
+        cacheData:
+            expose: true
+            access_type: public_method
+            serialized_name: cacheData
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCacheData
+                setter: setCacheData
+            type: bool
+        contextFilterableField:
+            expose: true
+            access_type: public_method
+            serialized_name: contextFilterableField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextFilterableField
+                setter: setContextFilterableField
+            type: string
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getError
+                setter: setError
+            type: string
+        hideOnError:
+            expose: true
+            access_type: public_method
+            serialized_name: hideOnError
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHideOnError
+                setter: setHideOnError
+            type: bool
+        includeContext:
+            expose: true
+            access_type: public_method
+            serialized_name: includeContext
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIncludeContext
+                setter: setIncludeContext
+            type: bool
+        showTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: showTitle
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowTitle
+                setter: setShowTitle
+            type: bool
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: string

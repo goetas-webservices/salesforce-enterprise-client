@@ -1,0 +1,134 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapEnvelope\Headers\UpsertInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        sessionHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getSessionHeader
+                setter: setSessionHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: SessionHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\SessionHeader''>'
+        assignmentRuleHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getAssignmentRuleHeader
+                setter: setAssignmentRuleHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: AssignmentRuleHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\AssignmentRuleHeader''>'
+        mruHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getMruHeader
+                setter: setMruHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: MruHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\MruHeader''>'
+        allowFieldTruncationHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getAllowFieldTruncationHeader
+                setter: setAllowFieldTruncationHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: AllowFieldTruncationHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\AllowFieldTruncationHeader''>'
+        disableFeedTrackingHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getDisableFeedTrackingHeader
+                setter: setDisableFeedTrackingHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: DisableFeedTrackingHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\DisableFeedTrackingHeader''>'
+        streamingEnabledHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getStreamingEnabledHeader
+                setter: setStreamingEnabledHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: StreamingEnabledHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\StreamingEnabledHeader''>'
+        allOrNoneHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getAllOrNoneHeader
+                setter: setAllOrNoneHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: AllOrNoneHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\AllOrNoneHeader''>'
+        duplicateRuleHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getDuplicateRuleHeader
+                setter: setDuplicateRuleHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: DuplicateRuleHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\DuplicateRuleHeader''>'
+        localeOptions:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getLocaleOptions
+                setter: setLocaleOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: LocaleOptions
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\LocaleOptions''>'
+        debuggingHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getDebuggingHeader
+                setter: setDebuggingHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: DebuggingHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\DebuggingHeader''>'
+        packageVersionHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getPackageVersionHeader
+                setter: setPackageVersionHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: PackageVersionHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\PackageVersionHeader''>'
+        emailHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getEmailHeader
+                setter: setEmailHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: EmailHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\EmailHeader''>'
+        ownerChangeOptions:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getOwnerChangeOptions
+                setter: setOwnerChangeOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: OwnerChangeOptions
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\OwnerChangeOptions''>'

@@ -1,0 +1,2242 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PermissionSetLicenseType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        expirationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpirationDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExpirationDate
+                setter: setExpirationDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        grantedByLicenses:
+            expose: true
+            access_type: public_method
+            serialized_name: GrantedByLicenses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGrantedByLicenses
+                setter: setGrantedByLicenses
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        masterLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: MasterLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMasterLabel
+                setter: setMasterLabel
+            type: string
+        maximumPermissionsAccessCMC:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAccessCMC
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAccessCMC
+                setter: setMaximumPermissionsAccessCMC
+            type: bool
+        maximumPermissionsActivateContract:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsActivateContract
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsActivateContract
+                setter: setMaximumPermissionsActivateContract
+            type: bool
+        maximumPermissionsActivateOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsActivateOrder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsActivateOrder
+                setter: setMaximumPermissionsActivateOrder
+            type: bool
+        maximumPermissionsAddAnalyticsRemoteConnections:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAddAnalyticsRemoteConnections
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAddAnalyticsRemoteConnections
+                setter: setMaximumPermissionsAddAnalyticsRemoteConnections
+            type: bool
+        maximumPermissionsAddDirectMessageMembers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAddDirectMessageMembers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAddDirectMessageMembers
+                setter: setMaximumPermissionsAddDirectMessageMembers
+            type: bool
+        maximumPermissionsAllowEmailIC:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAllowEmailIC
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAllowEmailIC
+                setter: setMaximumPermissionsAllowEmailIC
+            type: bool
+        maximumPermissionsAllowLightningLogin:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAllowLightningLogin
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAllowLightningLogin
+                setter: setMaximumPermissionsAllowLightningLogin
+            type: bool
+        maximumPermissionsAllowUniversalSearch:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAllowUniversalSearch
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAllowUniversalSearch
+                setter: setMaximumPermissionsAllowUniversalSearch
+            type: bool
+        maximumPermissionsAllowViewEditConvertedLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAllowViewEditConvertedLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAllowViewEditConvertedLeads
+                setter: setMaximumPermissionsAllowViewEditConvertedLeads
+            type: bool
+        maximumPermissionsAllowViewKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAllowViewKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAllowViewKnowledge
+                setter: setMaximumPermissionsAllowViewKnowledge
+            type: bool
+        maximumPermissionsApexRestServices:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsApexRestServices
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsApexRestServices
+                setter: setMaximumPermissionsApexRestServices
+            type: bool
+        maximumPermissionsApiEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsApiEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsApiEnabled
+                setter: setMaximumPermissionsApiEnabled
+            type: bool
+        maximumPermissionsAssignPermissionSets:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAssignPermissionSets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAssignPermissionSets
+                setter: setMaximumPermissionsAssignPermissionSets
+            type: bool
+        maximumPermissionsAssignTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAssignTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAssignTopics
+                setter: setMaximumPermissionsAssignTopics
+            type: bool
+        maximumPermissionsAuthorApex:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAuthorApex
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAuthorApex
+                setter: setMaximumPermissionsAuthorApex
+            type: bool
+        maximumPermissionsAutomaticActivityCapture:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsAutomaticActivityCapture
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsAutomaticActivityCapture
+                setter: setMaximumPermissionsAutomaticActivityCapture
+            type: bool
+        maximumPermissionsBulkApiHardDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsBulkApiHardDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsBulkApiHardDelete
+                setter: setMaximumPermissionsBulkApiHardDelete
+            type: bool
+        maximumPermissionsBulkMacrosAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsBulkMacrosAllowed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsBulkMacrosAllowed
+                setter: setMaximumPermissionsBulkMacrosAllowed
+            type: bool
+        maximumPermissionsCampaignInfluence2:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCampaignInfluence2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCampaignInfluence2
+                setter: setMaximumPermissionsCampaignInfluence2
+            type: bool
+        maximumPermissionsCanApproveFeedPost:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanApproveFeedPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanApproveFeedPost
+                setter: setMaximumPermissionsCanApproveFeedPost
+            type: bool
+        maximumPermissionsCanEditDataPrepRecipe:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanEditDataPrepRecipe
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanEditDataPrepRecipe
+                setter: setMaximumPermissionsCanEditDataPrepRecipe
+            type: bool
+        maximumPermissionsCanInsertFeedSystemFields:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanInsertFeedSystemFields
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanInsertFeedSystemFields
+                setter: setMaximumPermissionsCanInsertFeedSystemFields
+            type: bool
+        maximumPermissionsCanManageMaps:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanManageMaps
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanManageMaps
+                setter: setMaximumPermissionsCanManageMaps
+            type: bool
+        maximumPermissionsCanUseNewDashboardBuilder:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanUseNewDashboardBuilder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanUseNewDashboardBuilder
+                setter: setMaximumPermissionsCanUseNewDashboardBuilder
+            type: bool
+        maximumPermissionsCanVerifyComment:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCanVerifyComment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCanVerifyComment
+                setter: setMaximumPermissionsCanVerifyComment
+            type: bool
+        maximumPermissionsChangeDashboardColors:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChangeDashboardColors
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChangeDashboardColors
+                setter: setMaximumPermissionsChangeDashboardColors
+            type: bool
+        maximumPermissionsChatterComposeUiCodesnippet:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterComposeUiCodesnippet
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterComposeUiCodesnippet
+                setter: setMaximumPermissionsChatterComposeUiCodesnippet
+            type: bool
+        maximumPermissionsChatterEditOwnPost:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterEditOwnPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterEditOwnPost
+                setter: setMaximumPermissionsChatterEditOwnPost
+            type: bool
+        maximumPermissionsChatterEditOwnRecordPost:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterEditOwnRecordPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterEditOwnRecordPost
+                setter: setMaximumPermissionsChatterEditOwnRecordPost
+            type: bool
+        maximumPermissionsChatterFileLink:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterFileLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterFileLink
+                setter: setMaximumPermissionsChatterFileLink
+            type: bool
+        maximumPermissionsChatterInternalUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterInternalUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterInternalUser
+                setter: setMaximumPermissionsChatterInternalUser
+            type: bool
+        maximumPermissionsChatterInviteExternalUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterInviteExternalUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterInviteExternalUsers
+                setter: setMaximumPermissionsChatterInviteExternalUsers
+            type: bool
+        maximumPermissionsChatterOwnGroups:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsChatterOwnGroups
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsChatterOwnGroups
+                setter: setMaximumPermissionsChatterOwnGroups
+            type: bool
+        maximumPermissionsCloseConversations:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCloseConversations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCloseConversations
+                setter: setMaximumPermissionsCloseConversations
+            type: bool
+        maximumPermissionsConfigCustomRecs:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsConfigCustomRecs
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsConfigCustomRecs
+                setter: setMaximumPermissionsConfigCustomRecs
+            type: bool
+        maximumPermissionsConnectOrgToEnvironmentHub:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsConnectOrgToEnvironmentHub
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsConnectOrgToEnvironmentHub
+                setter: setMaximumPermissionsConnectOrgToEnvironmentHub
+            type: bool
+        maximumPermissionsContentAdministrator:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsContentAdministrator
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsContentAdministrator
+                setter: setMaximumPermissionsContentAdministrator
+            type: bool
+        maximumPermissionsContentWorkspaces:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsContentWorkspaces
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsContentWorkspaces
+                setter: setMaximumPermissionsContentWorkspaces
+            type: bool
+        maximumPermissionsConvertLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsConvertLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsConvertLeads
+                setter: setMaximumPermissionsConvertLeads
+            type: bool
+        maximumPermissionsCreateCustomizeDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateCustomizeDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateCustomizeDashboards
+                setter: setMaximumPermissionsCreateCustomizeDashboards
+            type: bool
+        maximumPermissionsCreateCustomizeFilters:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateCustomizeFilters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateCustomizeFilters
+                setter: setMaximumPermissionsCreateCustomizeFilters
+            type: bool
+        maximumPermissionsCreateCustomizeReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateCustomizeReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateCustomizeReports
+                setter: setMaximumPermissionsCreateCustomizeReports
+            type: bool
+        maximumPermissionsCreateDashboardFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateDashboardFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateDashboardFolders
+                setter: setMaximumPermissionsCreateDashboardFolders
+            type: bool
+        maximumPermissionsCreateLtngTempInPub:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateLtngTempInPub
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateLtngTempInPub
+                setter: setMaximumPermissionsCreateLtngTempInPub
+            type: bool
+        maximumPermissionsCreatePackaging:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreatePackaging
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreatePackaging
+                setter: setMaximumPermissionsCreatePackaging
+            type: bool
+        maximumPermissionsCreateReportFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateReportFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateReportFolders
+                setter: setMaximumPermissionsCreateReportFolders
+            type: bool
+        maximumPermissionsCreateReportInLightning:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateReportInLightning
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateReportInLightning
+                setter: setMaximumPermissionsCreateReportInLightning
+            type: bool
+        maximumPermissionsCreateTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateTopics
+                setter: setMaximumPermissionsCreateTopics
+            type: bool
+        maximumPermissionsCreateWorkspaces:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCreateWorkspaces
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCreateWorkspaces
+                setter: setMaximumPermissionsCreateWorkspaces
+            type: bool
+        maximumPermissionsCustomMobileAppsAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCustomMobileAppsAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCustomMobileAppsAccess
+                setter: setMaximumPermissionsCustomMobileAppsAccess
+            type: bool
+        maximumPermissionsCustomSidebarOnAllPages:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCustomSidebarOnAllPages
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCustomSidebarOnAllPages
+                setter: setMaximumPermissionsCustomSidebarOnAllPages
+            type: bool
+        maximumPermissionsCustomizeApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsCustomizeApplication
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsCustomizeApplication
+                setter: setMaximumPermissionsCustomizeApplication
+            type: bool
+        maximumPermissionsDataExport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsDataExport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsDataExport
+                setter: setMaximumPermissionsDataExport
+            type: bool
+        maximumPermissionsDelegatedTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsDelegatedTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsDelegatedTwoFactor
+                setter: setMaximumPermissionsDelegatedTwoFactor
+            type: bool
+        maximumPermissionsDeleteActivatedContract:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsDeleteActivatedContract
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsDeleteActivatedContract
+                setter: setMaximumPermissionsDeleteActivatedContract
+            type: bool
+        maximumPermissionsDeleteTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsDeleteTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsDeleteTopics
+                setter: setMaximumPermissionsDeleteTopics
+            type: bool
+        maximumPermissionsDistributeFromPersWksp:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsDistributeFromPersWksp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsDistributeFromPersWksp
+                setter: setMaximumPermissionsDistributeFromPersWksp
+            type: bool
+        maximumPermissionsEditActivatedOrders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditActivatedOrders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditActivatedOrders
+                setter: setMaximumPermissionsEditActivatedOrders
+            type: bool
+        maximumPermissionsEditBrandTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditBrandTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditBrandTemplates
+                setter: setMaximumPermissionsEditBrandTemplates
+            type: bool
+        maximumPermissionsEditCaseComments:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditCaseComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditCaseComments
+                setter: setMaximumPermissionsEditCaseComments
+            type: bool
+        maximumPermissionsEditEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditEvent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditEvent
+                setter: setMaximumPermissionsEditEvent
+            type: bool
+        maximumPermissionsEditHtmlTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditHtmlTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditHtmlTemplates
+                setter: setMaximumPermissionsEditHtmlTemplates
+            type: bool
+        maximumPermissionsEditKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditKnowledge
+                setter: setMaximumPermissionsEditKnowledge
+            type: bool
+        maximumPermissionsEditMyDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditMyDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditMyDashboards
+                setter: setMaximumPermissionsEditMyDashboards
+            type: bool
+        maximumPermissionsEditMyReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditMyReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditMyReports
+                setter: setMaximumPermissionsEditMyReports
+            type: bool
+        maximumPermissionsEditOppLineItemUnitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditOppLineItemUnitPrice
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditOppLineItemUnitPrice
+                setter: setMaximumPermissionsEditOppLineItemUnitPrice
+            type: bool
+        maximumPermissionsEditPublicDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditPublicDocuments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditPublicDocuments
+                setter: setMaximumPermissionsEditPublicDocuments
+            type: bool
+        maximumPermissionsEditPublicFilters:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditPublicFilters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditPublicFilters
+                setter: setMaximumPermissionsEditPublicFilters
+            type: bool
+        maximumPermissionsEditPublicTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditPublicTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditPublicTemplates
+                setter: setMaximumPermissionsEditPublicTemplates
+            type: bool
+        maximumPermissionsEditReadonlyFields:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditReadonlyFields
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditReadonlyFields
+                setter: setMaximumPermissionsEditReadonlyFields
+            type: bool
+        maximumPermissionsEditTask:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditTask
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditTask
+                setter: setMaximumPermissionsEditTask
+            type: bool
+        maximumPermissionsEditTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEditTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEditTopics
+                setter: setMaximumPermissionsEditTopics
+            type: bool
+        maximumPermissionsEmailAdministration:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEmailAdministration
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEmailAdministration
+                setter: setMaximumPermissionsEmailAdministration
+            type: bool
+        maximumPermissionsEmailMass:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEmailMass
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEmailMass
+                setter: setMaximumPermissionsEmailMass
+            type: bool
+        maximumPermissionsEmailSingle:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEmailSingle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEmailSingle
+                setter: setMaximumPermissionsEmailSingle
+            type: bool
+        maximumPermissionsEmailTemplateManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEmailTemplateManagement
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEmailTemplateManagement
+                setter: setMaximumPermissionsEmailTemplateManagement
+            type: bool
+        maximumPermissionsEnableCommunityAppLauncher:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEnableCommunityAppLauncher
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEnableCommunityAppLauncher
+                setter: setMaximumPermissionsEnableCommunityAppLauncher
+            type: bool
+        maximumPermissionsEnableNotifications:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsEnableNotifications
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsEnableNotifications
+                setter: setMaximumPermissionsEnableNotifications
+            type: bool
+        maximumPermissionsExportReport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsExportReport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsExportReport
+                setter: setMaximumPermissionsExportReport
+            type: bool
+        maximumPermissionsFeedPinning:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsFeedPinning
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsFeedPinning
+                setter: setMaximumPermissionsFeedPinning
+            type: bool
+        maximumPermissionsFlowUFLRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsFlowUFLRequired
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsFlowUFLRequired
+                setter: setMaximumPermissionsFlowUFLRequired
+            type: bool
+        maximumPermissionsForceTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsForceTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsForceTwoFactor
+                setter: setMaximumPermissionsForceTwoFactor
+            type: bool
+        maximumPermissionsGiveRecognitionBadge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsGiveRecognitionBadge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsGiveRecognitionBadge
+                setter: setMaximumPermissionsGiveRecognitionBadge
+            type: bool
+        maximumPermissionsGovernNetworks:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsGovernNetworks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsGovernNetworks
+                setter: setMaximumPermissionsGovernNetworks
+            type: bool
+        maximumPermissionsHideReadByList:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsHideReadByList
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsHideReadByList
+                setter: setMaximumPermissionsHideReadByList
+            type: bool
+        maximumPermissionsIdentityConnect:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsIdentityConnect
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsIdentityConnect
+                setter: setMaximumPermissionsIdentityConnect
+            type: bool
+        maximumPermissionsIdentityEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsIdentityEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsIdentityEnabled
+                setter: setMaximumPermissionsIdentityEnabled
+            type: bool
+        maximumPermissionsImportCustomObjects:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsImportCustomObjects
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsImportCustomObjects
+                setter: setMaximumPermissionsImportCustomObjects
+            type: bool
+        maximumPermissionsImportLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsImportLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsImportLeads
+                setter: setMaximumPermissionsImportLeads
+            type: bool
+        maximumPermissionsImportPersonal:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsImportPersonal
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsImportPersonal
+                setter: setMaximumPermissionsImportPersonal
+            type: bool
+        maximumPermissionsInsightsAppAdmin:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsAppAdmin
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsAppAdmin
+                setter: setMaximumPermissionsInsightsAppAdmin
+            type: bool
+        maximumPermissionsInsightsAppDashboardEditor:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsAppDashboardEditor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsAppDashboardEditor
+                setter: setMaximumPermissionsInsightsAppDashboardEditor
+            type: bool
+        maximumPermissionsInsightsAppEltEditor:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsAppEltEditor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsAppEltEditor
+                setter: setMaximumPermissionsInsightsAppEltEditor
+            type: bool
+        maximumPermissionsInsightsAppUploadUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsAppUploadUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsAppUploadUser
+                setter: setMaximumPermissionsInsightsAppUploadUser
+            type: bool
+        maximumPermissionsInsightsAppUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsAppUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsAppUser
+                setter: setMaximumPermissionsInsightsAppUser
+            type: bool
+        maximumPermissionsInsightsCreateApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInsightsCreateApplication
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInsightsCreateApplication
+                setter: setMaximumPermissionsInsightsCreateApplication
+            type: bool
+        maximumPermissionsInstallPackaging:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsInstallPackaging
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsInstallPackaging
+                setter: setMaximumPermissionsInstallPackaging
+            type: bool
+        maximumPermissionsIotUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsIotUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsIotUser
+                setter: setMaximumPermissionsIotUser
+            type: bool
+        maximumPermissionsLightningConsoleAllowedForUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsLightningConsoleAllowedForUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsLightningConsoleAllowedForUser
+                setter: setMaximumPermissionsLightningConsoleAllowedForUser
+            type: bool
+        maximumPermissionsLightningExperienceUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsLightningExperienceUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsLightningExperienceUser
+                setter: setMaximumPermissionsLightningExperienceUser
+            type: bool
+        maximumPermissionsListEmailSend:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsListEmailSend
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsListEmailSend
+                setter: setMaximumPermissionsListEmailSend
+            type: bool
+        maximumPermissionsLtngPromoReserved01UserPerm:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsLtngPromoReserved01UserPerm
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsLtngPromoReserved01UserPerm
+                setter: setMaximumPermissionsLtngPromoReserved01UserPerm
+            type: bool
+        maximumPermissionsManageAnalyticSnapshots:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageAnalyticSnapshots
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageAnalyticSnapshots
+                setter: setMaximumPermissionsManageAnalyticSnapshots
+            type: bool
+        maximumPermissionsManageAuthProviders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageAuthProviders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageAuthProviders
+                setter: setMaximumPermissionsManageAuthProviders
+            type: bool
+        maximumPermissionsManageBusinessHourHolidays:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageBusinessHourHolidays
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageBusinessHourHolidays
+                setter: setMaximumPermissionsManageBusinessHourHolidays
+            type: bool
+        maximumPermissionsManageCallCenters:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCallCenters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCallCenters
+                setter: setMaximumPermissionsManageCallCenters
+            type: bool
+        maximumPermissionsManageCases:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCases
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCases
+                setter: setMaximumPermissionsManageCases
+            type: bool
+        maximumPermissionsManageCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCategories
+                setter: setMaximumPermissionsManageCategories
+            type: bool
+        maximumPermissionsManageCertificates:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCertificates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCertificates
+                setter: setMaximumPermissionsManageCertificates
+            type: bool
+        maximumPermissionsManageChatterMessages:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageChatterMessages
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageChatterMessages
+                setter: setMaximumPermissionsManageChatterMessages
+            type: bool
+        maximumPermissionsManageContentPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageContentPermissions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageContentPermissions
+                setter: setMaximumPermissionsManageContentPermissions
+            type: bool
+        maximumPermissionsManageContentProperties:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageContentProperties
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageContentProperties
+                setter: setMaximumPermissionsManageContentProperties
+            type: bool
+        maximumPermissionsManageContentTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageContentTypes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageContentTypes
+                setter: setMaximumPermissionsManageContentTypes
+            type: bool
+        maximumPermissionsManageCustomPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCustomPermissions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCustomPermissions
+                setter: setMaximumPermissionsManageCustomPermissions
+            type: bool
+        maximumPermissionsManageCustomReportTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageCustomReportTypes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageCustomReportTypes
+                setter: setMaximumPermissionsManageCustomReportTypes
+            type: bool
+        maximumPermissionsManageDashbdsInPubFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageDashbdsInPubFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageDashbdsInPubFolders
+                setter: setMaximumPermissionsManageDashbdsInPubFolders
+            type: bool
+        maximumPermissionsManageDataCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageDataCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageDataCategories
+                setter: setMaximumPermissionsManageDataCategories
+            type: bool
+        maximumPermissionsManageDataIntegrations:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageDataIntegrations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageDataIntegrations
+                setter: setMaximumPermissionsManageDataIntegrations
+            type: bool
+        maximumPermissionsManageDynamicDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageDynamicDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageDynamicDashboards
+                setter: setMaximumPermissionsManageDynamicDashboards
+            type: bool
+        maximumPermissionsManageEmailClientConfig:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageEmailClientConfig
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageEmailClientConfig
+                setter: setMaximumPermissionsManageEmailClientConfig
+            type: bool
+        maximumPermissionsManageEncryptionKeys:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageEncryptionKeys
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageEncryptionKeys
+                setter: setMaximumPermissionsManageEncryptionKeys
+            type: bool
+        maximumPermissionsManageExchangeConfig:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageExchangeConfig
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageExchangeConfig
+                setter: setMaximumPermissionsManageExchangeConfig
+            type: bool
+        maximumPermissionsManageHealthCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageHealthCheck
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageHealthCheck
+                setter: setMaximumPermissionsManageHealthCheck
+            type: bool
+        maximumPermissionsManageInteraction:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageInteraction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageInteraction
+                setter: setMaximumPermissionsManageInteraction
+            type: bool
+        maximumPermissionsManageInternalUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageInternalUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageInternalUsers
+                setter: setMaximumPermissionsManageInternalUsers
+            type: bool
+        maximumPermissionsManageIpAddresses:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageIpAddresses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageIpAddresses
+                setter: setMaximumPermissionsManageIpAddresses
+            type: bool
+        maximumPermissionsManageKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageKnowledge
+                setter: setMaximumPermissionsManageKnowledge
+            type: bool
+        maximumPermissionsManageKnowledgeImportExport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageKnowledgeImportExport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageKnowledgeImportExport
+                setter: setMaximumPermissionsManageKnowledgeImportExport
+            type: bool
+        maximumPermissionsManageLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageLeads
+                setter: setMaximumPermissionsManageLeads
+            type: bool
+        maximumPermissionsManageLoginAccessPolicies:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageLoginAccessPolicies
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageLoginAccessPolicies
+                setter: setMaximumPermissionsManageLoginAccessPolicies
+            type: bool
+        maximumPermissionsManageMobile:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageMobile
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageMobile
+                setter: setMaximumPermissionsManageMobile
+            type: bool
+        maximumPermissionsManageNetworks:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageNetworks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageNetworks
+                setter: setMaximumPermissionsManageNetworks
+            type: bool
+        maximumPermissionsManagePasswordPolicies:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManagePasswordPolicies
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManagePasswordPolicies
+                setter: setMaximumPermissionsManagePasswordPolicies
+            type: bool
+        maximumPermissionsManageProfilesPermissionsets:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageProfilesPermissionsets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageProfilesPermissionsets
+                setter: setMaximumPermissionsManageProfilesPermissionsets
+            type: bool
+        maximumPermissionsManagePvtRptsAndDashbds:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManagePvtRptsAndDashbds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManagePvtRptsAndDashbds
+                setter: setMaximumPermissionsManagePvtRptsAndDashbds
+            type: bool
+        maximumPermissionsManageRemoteAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageRemoteAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageRemoteAccess
+                setter: setMaximumPermissionsManageRemoteAccess
+            type: bool
+        maximumPermissionsManageReportsInPubFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageReportsInPubFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageReportsInPubFolders
+                setter: setMaximumPermissionsManageReportsInPubFolders
+            type: bool
+        maximumPermissionsManageRoles:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageRoles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageRoles
+                setter: setMaximumPermissionsManageRoles
+            type: bool
+        maximumPermissionsManageSearchPromotionRules:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSearchPromotionRules
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSearchPromotionRules
+                setter: setMaximumPermissionsManageSearchPromotionRules
+            type: bool
+        maximumPermissionsManageSessionPermissionSets:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSessionPermissionSets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSessionPermissionSets
+                setter: setMaximumPermissionsManageSessionPermissionSets
+            type: bool
+        maximumPermissionsManageSharing:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSharing
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSharing
+                setter: setMaximumPermissionsManageSharing
+            type: bool
+        maximumPermissionsManageSolutions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSolutions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSolutions
+                setter: setMaximumPermissionsManageSolutions
+            type: bool
+        maximumPermissionsManageSurveys:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSurveys
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSurveys
+                setter: setMaximumPermissionsManageSurveys
+            type: bool
+        maximumPermissionsManageSynonyms:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageSynonyms
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageSynonyms
+                setter: setMaximumPermissionsManageSynonyms
+            type: bool
+        maximumPermissionsManageTemplatedApp:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageTemplatedApp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageTemplatedApp
+                setter: setMaximumPermissionsManageTemplatedApp
+            type: bool
+        maximumPermissionsManageTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageTwoFactor
+                setter: setMaximumPermissionsManageTwoFactor
+            type: bool
+        maximumPermissionsManageUnlistedGroups:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageUnlistedGroups
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageUnlistedGroups
+                setter: setMaximumPermissionsManageUnlistedGroups
+            type: bool
+        maximumPermissionsManageUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsManageUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsManageUsers
+                setter: setMaximumPermissionsManageUsers
+            type: bool
+        maximumPermissionsMassInlineEdit:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsMassInlineEdit
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsMassInlineEdit
+                setter: setMaximumPermissionsMassInlineEdit
+            type: bool
+        maximumPermissionsMergeTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsMergeTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsMergeTopics
+                setter: setMaximumPermissionsMergeTopics
+            type: bool
+        maximumPermissionsModerateChatter:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsModerateChatter
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsModerateChatter
+                setter: setMaximumPermissionsModerateChatter
+            type: bool
+        maximumPermissionsModerateNetworkUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsModerateNetworkUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsModerateNetworkUsers
+                setter: setMaximumPermissionsModerateNetworkUsers
+            type: bool
+        maximumPermissionsModifyAllData:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsModifyAllData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsModifyAllData
+                setter: setMaximumPermissionsModifyAllData
+            type: bool
+        maximumPermissionsModifyMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsModifyMetadata
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsModifyMetadata
+                setter: setMaximumPermissionsModifyMetadata
+            type: bool
+        maximumPermissionsModifySecureAgents:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsModifySecureAgents
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsModifySecureAgents
+                setter: setMaximumPermissionsModifySecureAgents
+            type: bool
+        maximumPermissionsNewReportBuilder:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsNewReportBuilder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsNewReportBuilder
+                setter: setMaximumPermissionsNewReportBuilder
+            type: bool
+        maximumPermissionsPackaging2:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsPackaging2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsPackaging2
+                setter: setMaximumPermissionsPackaging2
+            type: bool
+        maximumPermissionsPasswordNeverExpires:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsPasswordNeverExpires
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsPasswordNeverExpires
+                setter: setMaximumPermissionsPasswordNeverExpires
+            type: bool
+        maximumPermissionsPreventClassicExperience:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsPreventClassicExperience
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsPreventClassicExperience
+                setter: setMaximumPermissionsPreventClassicExperience
+            type: bool
+        maximumPermissionsPrivacyDataAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsPrivacyDataAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsPrivacyDataAccess
+                setter: setMaximumPermissionsPrivacyDataAccess
+            type: bool
+        maximumPermissionsPublishPackaging:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsPublishPackaging
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsPublishPackaging
+                setter: setMaximumPermissionsPublishPackaging
+            type: bool
+        maximumPermissionsRemoveDirectMessageMembers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsRemoveDirectMessageMembers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsRemoveDirectMessageMembers
+                setter: setMaximumPermissionsRemoveDirectMessageMembers
+            type: bool
+        maximumPermissionsResetPasswords:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsResetPasswords
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsResetPasswords
+                setter: setMaximumPermissionsResetPasswords
+            type: bool
+        maximumPermissionsRunFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsRunFlow
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsRunFlow
+                setter: setMaximumPermissionsRunFlow
+            type: bool
+        maximumPermissionsRunReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsRunReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsRunReports
+                setter: setMaximumPermissionsRunReports
+            type: bool
+        maximumPermissionsSalesConsole:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSalesConsole
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSalesConsole
+                setter: setMaximumPermissionsSalesConsole
+            type: bool
+        maximumPermissionsScheduleReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsScheduleReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsScheduleReports
+                setter: setMaximumPermissionsScheduleReports
+            type: bool
+        maximumPermissionsSelectFilesFromSalesforce:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSelectFilesFromSalesforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSelectFilesFromSalesforce
+                setter: setMaximumPermissionsSelectFilesFromSalesforce
+            type: bool
+        maximumPermissionsSendAnnouncementEmails:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSendAnnouncementEmails
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSendAnnouncementEmails
+                setter: setMaximumPermissionsSendAnnouncementEmails
+            type: bool
+        maximumPermissionsSendSitRequests:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSendSitRequests
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSendSitRequests
+                setter: setMaximumPermissionsSendSitRequests
+            type: bool
+        maximumPermissionsShareInternalArticles:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsShareInternalArticles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsShareInternalArticles
+                setter: setMaximumPermissionsShareInternalArticles
+            type: bool
+        maximumPermissionsShowCompanyNameAsUserBadge:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsShowCompanyNameAsUserBadge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsShowCompanyNameAsUserBadge
+                setter: setMaximumPermissionsShowCompanyNameAsUserBadge
+            type: bool
+        maximumPermissionsSolutionImport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSolutionImport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSolutionImport
+                setter: setMaximumPermissionsSolutionImport
+            type: bool
+        maximumPermissionsStdAutomaticActivityCapture:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsStdAutomaticActivityCapture
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsStdAutomaticActivityCapture
+                setter: setMaximumPermissionsStdAutomaticActivityCapture
+            type: bool
+        maximumPermissionsSubmitMacrosAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubmitMacrosAllowed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubmitMacrosAllowed
+                setter: setMaximumPermissionsSubmitMacrosAllowed
+            type: bool
+        maximumPermissionsSubscribeDashboardToOtherUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubscribeDashboardToOtherUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubscribeDashboardToOtherUsers
+                setter: setMaximumPermissionsSubscribeDashboardToOtherUsers
+            type: bool
+        maximumPermissionsSubscribeReportToOtherUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubscribeReportToOtherUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubscribeReportToOtherUsers
+                setter: setMaximumPermissionsSubscribeReportToOtherUsers
+            type: bool
+        maximumPermissionsSubscribeReportsRunAsUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubscribeReportsRunAsUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubscribeReportsRunAsUser
+                setter: setMaximumPermissionsSubscribeReportsRunAsUser
+            type: bool
+        maximumPermissionsSubscribeToLightningDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubscribeToLightningDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubscribeToLightningDashboards
+                setter: setMaximumPermissionsSubscribeToLightningDashboards
+            type: bool
+        maximumPermissionsSubscribeToLightningReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsSubscribeToLightningReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsSubscribeToLightningReports
+                setter: setMaximumPermissionsSubscribeToLightningReports
+            type: bool
+        maximumPermissionsTransferAnyCase:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsTransferAnyCase
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsTransferAnyCase
+                setter: setMaximumPermissionsTransferAnyCase
+            type: bool
+        maximumPermissionsTransferAnyEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsTransferAnyEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsTransferAnyEntity
+                setter: setMaximumPermissionsTransferAnyEntity
+            type: bool
+        maximumPermissionsTransferAnyLead:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsTransferAnyLead
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsTransferAnyLead
+                setter: setMaximumPermissionsTransferAnyLead
+            type: bool
+        maximumPermissionsTwoFactorApi:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsTwoFactorApi
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsTwoFactorApi
+                setter: setMaximumPermissionsTwoFactorApi
+            type: bool
+        maximumPermissionsUseTeamReassignWizards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsUseTeamReassignWizards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsUseTeamReassignWizards
+                setter: setMaximumPermissionsUseTeamReassignWizards
+            type: bool
+        maximumPermissionsUseTemplatedApp:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsUseTemplatedApp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsUseTemplatedApp
+                setter: setMaximumPermissionsUseTemplatedApp
+            type: bool
+        maximumPermissionsUseWebLink:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsUseWebLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsUseWebLink
+                setter: setMaximumPermissionsUseWebLink
+            type: bool
+        maximumPermissionsViewAllActivities:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewAllActivities
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewAllActivities
+                setter: setMaximumPermissionsViewAllActivities
+            type: bool
+        maximumPermissionsViewAllData:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewAllData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewAllData
+                setter: setMaximumPermissionsViewAllData
+            type: bool
+        maximumPermissionsViewAllUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewAllUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewAllUsers
+                setter: setMaximumPermissionsViewAllUsers
+            type: bool
+        maximumPermissionsViewContent:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewContent
+                setter: setMaximumPermissionsViewContent
+            type: bool
+        maximumPermissionsViewDataAssessment:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewDataAssessment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewDataAssessment
+                setter: setMaximumPermissionsViewDataAssessment
+            type: bool
+        maximumPermissionsViewDataCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewDataCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewDataCategories
+                setter: setMaximumPermissionsViewDataCategories
+            type: bool
+        maximumPermissionsViewEncryptedData:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewEncryptedData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewEncryptedData
+                setter: setMaximumPermissionsViewEncryptedData
+            type: bool
+        maximumPermissionsViewEventLogFiles:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewEventLogFiles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewEventLogFiles
+                setter: setMaximumPermissionsViewEventLogFiles
+            type: bool
+        maximumPermissionsViewHealthCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewHealthCheck
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewHealthCheck
+                setter: setMaximumPermissionsViewHealthCheck
+            type: bool
+        maximumPermissionsViewHelpLink:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewHelpLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewHelpLink
+                setter: setMaximumPermissionsViewHelpLink
+            type: bool
+        maximumPermissionsViewMyTeamsDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewMyTeamsDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewMyTeamsDashboards
+                setter: setMaximumPermissionsViewMyTeamsDashboards
+            type: bool
+        maximumPermissionsViewOnlyEmbeddedAppUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewOnlyEmbeddedAppUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewOnlyEmbeddedAppUser
+                setter: setMaximumPermissionsViewOnlyEmbeddedAppUser
+            type: bool
+        maximumPermissionsViewPublicDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewPublicDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewPublicDashboards
+                setter: setMaximumPermissionsViewPublicDashboards
+            type: bool
+        maximumPermissionsViewPublicReports:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewPublicReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewPublicReports
+                setter: setMaximumPermissionsViewPublicReports
+            type: bool
+        maximumPermissionsViewRoles:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewRoles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewRoles
+                setter: setMaximumPermissionsViewRoles
+            type: bool
+        maximumPermissionsViewSetup:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsViewSetup
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsViewSetup
+                setter: setMaximumPermissionsViewSetup
+            type: bool
+        maximumPermissionsWaveTabularDownload:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsWaveTabularDownload
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsWaveTabularDownload
+                setter: setMaximumPermissionsWaveTabularDownload
+            type: bool
+        maximumPermissionsWorkCalibrationUser:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsWorkCalibrationUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsWorkCalibrationUser
+                setter: setMaximumPermissionsWorkCalibrationUser
+            type: bool
+        maximumPermissionsWorkDotComUserPerm:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPermissionsWorkDotComUserPerm
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaximumPermissionsWorkDotComUserPerm
+                setter: setMaximumPermissionsWorkDotComUserPerm
+            type: bool
+        permissionSetLicenseAssignments:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionSetLicenseAssignments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionSetLicenseAssignments
+                setter: setPermissionSetLicenseAssignments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        permissionSetLicenseKey:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionSetLicenseKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionSetLicenseKey
+                setter: setPermissionSetLicenseKey
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        totalLicenses:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalLicenses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTotalLicenses
+                setter: setTotalLicenses
+            type: int
+        usedLicenses:
+            expose: true
+            access_type: public_method
+            serialized_name: UsedLicenses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsedLicenses
+                setter: setUsedLicenses
+            type: int

@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\IconDefinitionType:
+    properties:
+        contentType:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentType
+                setter: setContentType
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        tabDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinition
+                setter: setTabDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\TabDefinitionType
+        tabDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinitionId
+                setter: setTabDefinitionId
+            type: string
+        theme:
+            expose: true
+            access_type: public_method
+            serialized_name: Theme
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTheme
+                setter: setTheme
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: Url
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int

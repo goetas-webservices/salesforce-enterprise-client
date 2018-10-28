@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\FilteredLookupInfoType:
+    properties:
+        controllingFields:
+            expose: true
+            access_type: public_method
+            serialized_name: controllingFields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getControllingFields
+                setter: setControllingFields
+            xml_list:
+                inline: true
+                entry_name: controllingFields
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        dependent:
+            expose: true
+            access_type: public_method
+            serialized_name: dependent
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDependent
+                setter: setDependent
+            type: bool
+        optionalFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: optionalFilter
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionalFilter
+                setter: setOptionalFilter
+            type: bool

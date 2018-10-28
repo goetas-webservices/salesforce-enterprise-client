@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\TopicUserEventType:
+    properties:
+        actionEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionEnum
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionEnum
+                setter: setActionEnum
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        topicId:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopicId
+                setter: setTopicId
+            type: string
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

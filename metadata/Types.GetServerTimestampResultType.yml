@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetServerTimestampResultType:
+    properties:
+        timestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: timestamp
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimestamp
+                setter: setTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\LightningUsageByFlexiPageMetricsType:
+    properties:
+        flexiPageNameOrId:
+            expose: true
+            access_type: public_method
+            serialized_name: FlexiPageNameOrId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlexiPageNameOrId
+                setter: setFlexiPageNameOrId
+            type: string
+        flexiPageType:
+            expose: true
+            access_type: public_method
+            serialized_name: FlexiPageType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlexiPageType
+                setter: setFlexiPageType
+            type: string
+        metricsDate:
+            expose: true
+            access_type: public_method
+            serialized_name: MetricsDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMetricsDate
+                setter: setMetricsDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        recordCountEPT:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordCountEPT
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordCountEPT
+                setter: setRecordCountEPT
+            type: int
+        sumEPT:
+            expose: true
+            access_type: public_method
+            serialized_name: SumEPT
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSumEPT
+                setter: setSumEPT
+            type: int
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        totalCount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTotalCount
+                setter: setTotalCount
+            type: int

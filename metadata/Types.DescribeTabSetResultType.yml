@@ -1,0 +1,76 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeTabSetResultType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        logoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: logoUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogoUrl
+                setter: setLogoUrl
+            type: string
+        namespace:
+            expose: true
+            access_type: public_method
+            serialized_name: namespace
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespace
+                setter: setNamespace
+            type: string
+        selected:
+            expose: true
+            access_type: public_method
+            serialized_name: selected
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSelected
+                setter: setSelected
+            type: bool
+        tabSetId:
+            expose: true
+            access_type: public_method
+            serialized_name: tabSetId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabSetId
+                setter: setTabSetId
+            type: string
+        tabs:
+            expose: true
+            access_type: public_method
+            serialized_name: tabs
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabs
+                setter: setTabs
+            xml_list:
+                inline: true
+                entry_name: tabs
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeTabType>

@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PackageVersionHeader:
+    xml_root_name: PackageVersionHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        packageVersions:
+            expose: true
+            access_type: public_method
+            serialized_name: packageVersions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPackageVersions
+                setter: setPackageVersions
+            xml_list:
+                inline: true
+                entry_name: packageVersions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\PackageVersionType>

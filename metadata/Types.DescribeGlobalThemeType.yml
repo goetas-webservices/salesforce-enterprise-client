@@ -1,0 +1,27 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalThemeType:
+    properties:
+        global:
+            expose: true
+            access_type: public_method
+            serialized_name: global
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getGlobal
+                setter: setGlobal
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalResultType
+        theme:
+            expose: true
+            access_type: public_method
+            serialized_name: theme
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTheme
+                setter: setTheme
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeThemeItemType>
+            xml_list:
+                inline: false
+                entry_name: themeItems
+                skip_when_empty: false
+                namespace: 'urn:enterprise.soap.sforce.com'

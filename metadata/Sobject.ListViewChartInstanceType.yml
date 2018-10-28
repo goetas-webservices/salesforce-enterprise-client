@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ListViewChartInstanceType:
+    properties:
+        aggregateField:
+            expose: true
+            access_type: public_method
+            serialized_name: AggregateField
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAggregateField
+                setter: setAggregateField
+            type: string
+        aggregateType:
+            expose: true
+            access_type: public_method
+            serialized_name: AggregateType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAggregateType
+                setter: setAggregateType
+            type: string
+        chartType:
+            expose: true
+            access_type: public_method
+            serialized_name: ChartType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChartType
+                setter: setChartType
+            type: string
+        dataQuery:
+            expose: true
+            access_type: public_method
+            serialized_name: DataQuery
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataQuery
+                setter: setDataQuery
+            type: string
+        dataQueryWithoutUserFilters:
+            expose: true
+            access_type: public_method
+            serialized_name: DataQueryWithoutUserFilters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataQueryWithoutUserFilters
+                setter: setDataQueryWithoutUserFilters
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: string
+        groupingField:
+            expose: true
+            access_type: public_method
+            serialized_name: GroupingField
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroupingField
+                setter: setGroupingField
+            type: string
+        isDeletable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeletable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeletable
+                setter: setIsDeletable
+            type: bool
+        isEditable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEditable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEditable
+                setter: setIsEditable
+            type: bool
+        isLastViewed:
+            expose: true
+            access_type: public_method
+            serialized_name: IsLastViewed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsLastViewed
+                setter: setIsLastViewed
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        listViewChart:
+            expose: true
+            access_type: public_method
+            serialized_name: ListViewChart
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getListViewChart
+                setter: setListViewChart
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ListViewChartType
+        listViewChartId:
+            expose: true
+            access_type: public_method
+            serialized_name: ListViewChartId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getListViewChartId
+                setter: setListViewChartId
+            type: string
+        listViewContext:
+            expose: true
+            access_type: public_method
+            serialized_name: ListViewContext
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getListViewContext
+                setter: setListViewContext
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ListViewType
+        listViewContextId:
+            expose: true
+            access_type: public_method
+            serialized_name: ListViewContextId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getListViewContextId
+                setter: setListViewContextId
+            type: string
+        sourceEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSourceEntity
+                setter: setSourceEntity
+            type: string

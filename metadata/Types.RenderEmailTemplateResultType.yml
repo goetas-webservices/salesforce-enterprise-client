@@ -1,0 +1,40 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RenderEmailTemplateResultType:
+    properties:
+        bodyResults:
+            expose: true
+            access_type: public_method
+            serialized_name: bodyResults
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBodyResults
+                setter: setBodyResults
+            xml_list:
+                inline: true
+                entry_name: bodyResults
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\RenderEmailTemplateBodyResultType>
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool

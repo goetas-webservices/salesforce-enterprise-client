@@ -1,0 +1,66 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutItemType:
+    properties:
+        editableForNew:
+            expose: true
+            access_type: public_method
+            serialized_name: editableForNew
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEditableForNew
+                setter: setEditableForNew
+            type: bool
+        editableForUpdate:
+            expose: true
+            access_type: public_method
+            serialized_name: editableForUpdate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEditableForUpdate
+                setter: setEditableForUpdate
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        layoutComponents:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutComponents
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutComponents
+                setter: setLayoutComponents
+            xml_list:
+                inline: true
+                entry_name: layoutComponents
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutComponentType>
+        placeholder:
+            expose: true
+            access_type: public_method
+            serialized_name: placeholder
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPlaceholder
+                setter: setPlaceholder
+            type: bool
+        required:
+            expose: true
+            access_type: public_method
+            serialized_name: required
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequired
+                setter: setRequired
+            type: bool

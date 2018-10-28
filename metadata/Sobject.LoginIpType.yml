@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\LoginIpType:
+    properties:
+        challengeMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: ChallengeMethod
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChallengeMethod
+                setter: setChallengeMethod
+            type: string
+        challengeSentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ChallengeSentDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChallengeSentDate
+                setter: setChallengeSentDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        isAuthenticated:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAuthenticated
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAuthenticated
+                setter: setIsAuthenticated
+            type: bool
+        sourceIp:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceIp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSourceIp
+                setter: setSourceIp
+            type: string
+        users:
+            expose: true
+            access_type: public_method
+            serialized_name: Users
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsers
+                setter: setUsers
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        usersId:
+            expose: true
+            access_type: public_method
+            serialized_name: UsersId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsersId
+                setter: setUsersId
+            type: string

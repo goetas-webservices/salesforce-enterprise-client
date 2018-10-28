@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalResultType:
+    properties:
+        encoding:
+            expose: true
+            access_type: public_method
+            serialized_name: encoding
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEncoding
+                setter: setEncoding
+            type: string
+        maxBatchSize:
+            expose: true
+            access_type: public_method
+            serialized_name: maxBatchSize
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaxBatchSize
+                setter: setMaxBatchSize
+            type: int
+        sobjects:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjects
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjects
+                setter: setSobjects
+            xml_list:
+                inline: true
+                entry_name: sobjects
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalSObjectResultType>

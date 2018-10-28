@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapEnvelope\Headers\QueryMoreInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        sessionHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getSessionHeader
+                setter: setSessionHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: SessionHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\SessionHeader''>'
+        queryOptions:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getQueryOptions
+                setter: setQueryOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: QueryOptions
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\QueryOptions''>'

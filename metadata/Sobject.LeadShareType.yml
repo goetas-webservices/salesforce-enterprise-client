@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\LeadShareType:
+    properties:
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lead:
+            expose: true
+            access_type: public_method
+            serialized_name: Lead
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLead
+                setter: setLead
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\LeadType
+        leadAccessLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: LeadAccessLevel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLeadAccessLevel
+                setter: setLeadAccessLevel
+            type: string
+        leadId:
+            expose: true
+            access_type: public_method
+            serialized_name: LeadId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLeadId
+                setter: setLeadId
+            type: string
+        rowCause:
+            expose: true
+            access_type: public_method
+            serialized_name: RowCause
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRowCause
+                setter: setRowCause
+            type: string
+        userOrGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOrGroup
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserOrGroup
+                setter: setUserOrGroup
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        userOrGroupId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOrGroupId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserOrGroupId
+                setter: setUserOrGroupId
+            type: string

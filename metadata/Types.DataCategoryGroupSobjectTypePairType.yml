@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DataCategoryGroupSobjectTypePairType:
+    properties:
+        dataCategoryGroupName:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryGroupName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryGroupName
+                setter: setDataCategoryGroupName
+            type: string
+        sobject:
+            expose: true
+            access_type: public_method
+            serialized_name: sobject
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobject
+                setter: setSobject
+            type: string

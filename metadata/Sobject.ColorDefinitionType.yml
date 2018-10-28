@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ColorDefinitionType:
+    properties:
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: Color
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getColor
+                setter: setColor
+            type: string
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: Context
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        tabDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinition
+                setter: setTabDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\TabDefinitionType
+        tabDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinitionId
+                setter: setTabDefinitionId
+            type: string
+        theme:
+            expose: true
+            access_type: public_method
+            serialized_name: Theme
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTheme
+                setter: setTheme
+            type: string

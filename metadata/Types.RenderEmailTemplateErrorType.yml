@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RenderEmailTemplateErrorType:
+    properties:
+        fieldName:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldName
+                setter: setFieldName
+            type: string
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: message
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: string
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: offset
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: int
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: statusCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            type: string

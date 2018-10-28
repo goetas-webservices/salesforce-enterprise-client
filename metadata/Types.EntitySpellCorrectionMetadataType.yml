@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySpellCorrectionMetadataType:
+    properties:
+        correctedQuery:
+            expose: true
+            access_type: public_method
+            serialized_name: correctedQuery
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCorrectedQuery
+                setter: setCorrectedQuery
+            type: string
+        hasNonCorrectedResults:
+            expose: true
+            access_type: public_method
+            serialized_name: hasNonCorrectedResults
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasNonCorrectedResults
+                setter: setHasNonCorrectedResults
+            type: bool

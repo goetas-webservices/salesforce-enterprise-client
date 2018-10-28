@@ -1,0 +1,28 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeDataCategoryGroupStructures:
+    xml_root_name: describeDataCategoryGroupStructures
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        pairs:
+            expose: true
+            access_type: public_method
+            serialized_name: pairs
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPairs
+                setter: setPairs
+            xml_list:
+                inline: true
+                entry_name: pairs
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DataCategoryGroupSobjectTypePairType>
+        topCategoriesOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: topCategoriesOnly
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopCategoriesOnly
+                setter: setTopCategoriesOnly
+            type: bool

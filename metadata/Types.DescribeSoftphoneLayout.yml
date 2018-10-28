@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayout:
+    xml_root_name: describeSoftphoneLayout
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

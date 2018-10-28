@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchResultType:
+    properties:
+        queryId:
+            expose: true
+            access_type: public_method
+            serialized_name: queryId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryId
+                setter: setQueryId
+            type: string
+        searchRecords:
+            expose: true
+            access_type: public_method
+            serialized_name: searchRecords
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchRecords
+                setter: setSearchRecords
+            xml_list:
+                inline: true
+                entry_name: searchRecords
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\SearchRecordType>
+        searchResultsMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: searchResultsMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchResultsMetadata
+                setter: setSearchResultsMetadata
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SearchResultsMetadataType

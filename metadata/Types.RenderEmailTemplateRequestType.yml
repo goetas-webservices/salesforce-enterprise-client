@@ -1,0 +1,46 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RenderEmailTemplateRequestType:
+    properties:
+        escapeHtmlInMergeFields:
+            expose: true
+            access_type: public_method
+            serialized_name: escapeHtmlInMergeFields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEscapeHtmlInMergeFields
+                setter: setEscapeHtmlInMergeFields
+            type: bool
+        templateBodies:
+            expose: true
+            access_type: public_method
+            serialized_name: templateBodies
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTemplateBodies
+                setter: setTemplateBodies
+            xml_list:
+                inline: true
+                entry_name: templateBodies
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        whatId:
+            expose: true
+            access_type: public_method
+            serialized_name: whatId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhatId
+                setter: setWhatId
+            type: string
+        whoId:
+            expose: true
+            access_type: public_method
+            serialized_name: whoId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhoId
+                setter: setWhoId
+            type: string

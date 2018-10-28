@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AuraDefinitionInfoType:
+    properties:
+        auraDefinitionBundleInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AuraDefinitionBundleInfo
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuraDefinitionBundleInfo
+                setter: setAuraDefinitionBundleInfo
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AuraDefinitionBundleInfoType
+        auraDefinitionBundleInfoId:
+            expose: true
+            access_type: public_method
+            serialized_name: AuraDefinitionBundleInfoId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuraDefinitionBundleInfoId
+                setter: setAuraDefinitionBundleInfoId
+            type: string
+        auraDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: AuraDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuraDefinitionId
+                setter: setAuraDefinitionId
+            type: string
+        defType:
+            expose: true
+            access_type: public_method
+            serialized_name: DefType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefType
+                setter: setDefType
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: Format
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: Source
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: string

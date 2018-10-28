@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeTabs:
+    xml_root_name: describeTabs
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

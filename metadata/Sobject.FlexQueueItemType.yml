@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\FlexQueueItemType:
+    properties:
+        asyncApexJob:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncApexJob
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncApexJob
+                setter: setAsyncApexJob
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AsyncApexJobType
+        asyncApexJobId:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncApexJobId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncApexJobId
+                setter: setAsyncApexJobId
+            type: string
+        flexQueueItemId:
+            expose: true
+            access_type: public_method
+            serialized_name: FlexQueueItemId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlexQueueItemId
+                setter: setFlexQueueItemId
+            type: string
+        jobPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: JobPosition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJobPosition
+                setter: setJobPosition
+            type: int
+        jobType:
+            expose: true
+            access_type: public_method
+            serialized_name: JobType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJobType
+                setter: setJobType
+            type: string

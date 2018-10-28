@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\OwnerChangeOptionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        execute:
+            expose: true
+            access_type: public_method
+            serialized_name: execute
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getExecute
+                setter: setExecute
+            type: bool

@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PicklistValueInfoType:
+    properties:
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        entityParticle:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityParticle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityParticle
+                setter: setEntityParticle
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityParticleType
+        entityParticleId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityParticleId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityParticleId
+                setter: setEntityParticleId
+            type: string
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: bool
+        isDefaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDefaultValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDefaultValue
+                setter: setIsDefaultValue
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        validFor:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidFor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getValidFor
+                setter: setValidFor
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

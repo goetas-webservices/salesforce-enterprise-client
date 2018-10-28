@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutRowType:
+    properties:
+        layoutItems:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutItems
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutItems
+                setter: setLayoutItems
+            xml_list:
+                inline: true
+                entry_name: layoutItems
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutItemType>
+        numItems:
+            expose: true
+            access_type: public_method
+            serialized_name: numItems
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNumItems
+                setter: setNumItems
+            type: int

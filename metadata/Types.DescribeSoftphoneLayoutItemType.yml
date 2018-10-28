@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutItemType:
+    properties:
+        itemApiName:
+            expose: true
+            access_type: public_method
+            serialized_name: itemApiName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getItemApiName
+                setter: setItemApiName
+            type: string

@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Fault\ApiFaultType:
+    properties:
+        exceptionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: exceptionCode
+            xml_element:
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExceptionCode
+                setter: setExceptionCode
+            type: string
+        exceptionMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: exceptionMessage
+            xml_element:
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExceptionMessage
+                setter: setExceptionMessage
+            type: string
+        extendedErrorDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: extendedErrorDetails
+            xml_element:
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExtendedErrorDetails
+                setter: setExtendedErrorDetails
+            xml_list:
+                inline: true
+                entry_name: extendedErrorDetails
+                namespace: 'urn:fault.enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ExtendedErrorDetailsType>

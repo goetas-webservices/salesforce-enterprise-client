@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ChatterActivityType:
+    properties:
+        commentCount:
+            expose: true
+            access_type: public_method
+            serialized_name: CommentCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCommentCount
+                setter: setCommentCount
+            type: int
+        commentReceivedCount:
+            expose: true
+            access_type: public_method
+            serialized_name: CommentReceivedCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCommentReceivedCount
+                setter: setCommentReceivedCount
+            type: int
+        influenceRawRank:
+            expose: true
+            access_type: public_method
+            serialized_name: InfluenceRawRank
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInfluenceRawRank
+                setter: setInfluenceRawRank
+            type: int
+        likeReceivedCount:
+            expose: true
+            access_type: public_method
+            serialized_name: LikeReceivedCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLikeReceivedCount
+                setter: setLikeReceivedCount
+            type: int
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string
+        postCount:
+            expose: true
+            access_type: public_method
+            serialized_name: PostCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPostCount
+                setter: setPostCount
+            type: int
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

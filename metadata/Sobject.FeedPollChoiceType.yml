@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\FeedPollChoiceType:
+    properties:
+        choiceBody:
+            expose: true
+            access_type: public_method
+            serialized_name: ChoiceBody
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChoiceBody
+                setter: setChoiceBody
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        feedItemId:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedItemId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedItemId
+                setter: setFeedItemId
+            type: string
+        feedPollVotes:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedPollVotes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedPollVotes
+                setter: setFeedPollVotes
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: int

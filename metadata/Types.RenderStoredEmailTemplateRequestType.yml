@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RenderStoredEmailTemplateRequestType:
+    properties:
+        attachmentRetrievalOption:
+            expose: true
+            access_type: public_method
+            serialized_name: attachmentRetrievalOption
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachmentRetrievalOption
+                setter: setAttachmentRetrievalOption
+            type: string
+        templateId:
+            expose: true
+            access_type: public_method
+            serialized_name: templateId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTemplateId
+                setter: setTemplateId
+            type: string
+        updateTemplateUsage:
+            expose: true
+            access_type: public_method
+            serialized_name: updateTemplateUsage
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpdateTemplateUsage
+                setter: setUpdateTemplateUsage
+            type: bool
+        whatId:
+            expose: true
+            access_type: public_method
+            serialized_name: whatId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhatId
+                setter: setWhatId
+            type: string
+        whoId:
+            expose: true
+            access_type: public_method
+            serialized_name: whoId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhoId
+                setter: setWhoId
+            type: string

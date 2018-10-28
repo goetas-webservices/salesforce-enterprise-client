@@ -1,0 +1,50 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType:
+    properties:
+        extendedErrorDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: extendedErrorDetails
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getExtendedErrorDetails
+                setter: setExtendedErrorDetails
+            xml_list:
+                inline: true
+                entry_name: extendedErrorDetails
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ExtendedErrorDetailsType>
+        fields:
+            expose: true
+            access_type: public_method
+            serialized_name: fields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFields
+                setter: setFields
+            xml_list:
+                inline: true
+                entry_name: fields
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: message
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: string
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: statusCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            type: string

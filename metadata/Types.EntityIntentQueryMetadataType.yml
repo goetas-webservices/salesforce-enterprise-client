@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EntityIntentQueryMetadataType:
+    properties:
+        intentQuery:
+            expose: true
+            access_type: public_method
+            serialized_name: intentQuery
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIntentQuery
+                setter: setIntentQuery
+            type: bool
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: message
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: string

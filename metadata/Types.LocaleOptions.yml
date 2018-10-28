@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LocaleOptions:
+    xml_root_name: LocaleOptions
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        localizeErrors:
+            expose: true
+            access_type: public_method
+            serialized_name: localizeErrors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLocalizeErrors
+                setter: setLocalizeErrors
+            type: bool

@@ -1,0 +1,64 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\MergeResultType:
+    properties:
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        mergedRecordIds:
+            expose: true
+            access_type: public_method
+            serialized_name: mergedRecordIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMergedRecordIds
+                setter: setMergedRecordIds
+            xml_list:
+                inline: true
+                entry_name: mergedRecordIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool
+        updatedRelatedIds:
+            expose: true
+            access_type: public_method
+            serialized_name: updatedRelatedIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpdatedRelatedIds
+                setter: setUpdatedRelatedIds
+            xml_list:
+                inline: true
+                entry_name: updatedRelatedIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

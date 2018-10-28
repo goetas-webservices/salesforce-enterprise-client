@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceDocType:
+    properties:
+        contentDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocument
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocument
+                setter: setContentDocument
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentDocumentType
+        contentDocumentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentId
+                setter: setContentDocumentId
+            type: string
+        contentWorkspace:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspace
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspace
+                setter: setContentWorkspace
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceType
+        contentWorkspaceId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspaceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspaceId
+                setter: setContentWorkspaceId
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isOwner:
+            expose: true
+            access_type: public_method
+            serialized_name: IsOwner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsOwner
+                setter: setIsOwner
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

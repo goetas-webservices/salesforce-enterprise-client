@@ -1,0 +1,81 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ExecuteListViewResultType:
+    properties:
+        columns:
+            expose: true
+            access_type: public_method
+            serialized_name: columns
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColumns
+                setter: setColumns
+            xml_list:
+                inline: true
+                entry_name: columns
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewColumnType>
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: developerName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        done:
+            expose: true
+            access_type: public_method
+            serialized_name: done
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDone
+                setter: setDone
+            type: bool
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        records:
+            expose: true
+            access_type: public_method
+            serialized_name: records
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecords
+                setter: setRecords
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewRecordColumnType>
+            xml_list:
+                inline: false
+                entry_name: columns
+                skip_when_empty: false
+                namespace: 'urn:enterprise.soap.sforce.com'
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: int

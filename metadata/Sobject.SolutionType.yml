@@ -1,0 +1,402 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\SolutionType:
+    properties:
+        activityHistories:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityHistories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActivityHistories
+                setter: setActivityHistories
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        attachedContentDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: AttachedContentDocuments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachedContentDocuments
+                setter: setAttachedContentDocuments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        attachments:
+            expose: true
+            access_type: public_method
+            serialized_name: Attachments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachments
+                setter: setAttachments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        caseSolutions:
+            expose: true
+            access_type: public_method
+            serialized_name: CaseSolutions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCaseSolutions
+                setter: setCaseSolutions
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        combinedAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: CombinedAttachments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCombinedAttachments
+                setter: setCombinedAttachments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        contentDocumentLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentLinks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentLinks
+                setter: setContentDocumentLinks
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        emails:
+            expose: true
+            access_type: public_method
+            serialized_name: Emails
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmails
+                setter: setEmails
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        events:
+            expose: true
+            access_type: public_method
+            serialized_name: Events
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEvents
+                setter: setEvents
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feedSubscriptionsForEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedSubscriptionsForEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedSubscriptionsForEntity
+                setter: setFeedSubscriptionsForEntity
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feeds:
+            expose: true
+            access_type: public_method
+            serialized_name: Feeds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeeds
+                setter: setFeeds
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        histories:
+            expose: true
+            access_type: public_method
+            serialized_name: Histories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHistories
+                setter: setHistories
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isHtml:
+            expose: true
+            access_type: public_method
+            serialized_name: IsHtml
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsHtml
+                setter: setIsHtml
+            type: bool
+        isPublished:
+            expose: true
+            access_type: public_method
+            serialized_name: IsPublished
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsPublished
+                setter: setIsPublished
+            type: bool
+        isPublishedInPublicKb:
+            expose: true
+            access_type: public_method
+            serialized_name: IsPublishedInPublicKb
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsPublishedInPublicKb
+                setter: setIsPublishedInPublicKb
+            type: bool
+        isReviewed:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewed
+                setter: setIsReviewed
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastReferencedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastReferencedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastReferencedDate
+                setter: setLastReferencedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastViewedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastViewedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastViewedDate
+                setter: setLastViewedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lookedUpFromActivities:
+            expose: true
+            access_type: public_method
+            serialized_name: LookedUpFromActivities
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLookedUpFromActivities
+                setter: setLookedUpFromActivities
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        openActivities:
+            expose: true
+            access_type: public_method
+            serialized_name: OpenActivities
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpenActivities
+                setter: setOpenActivities
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        owner:
+            expose: true
+            access_type: public_method
+            serialized_name: Owner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwner
+                setter: setOwner
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        ownerId:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnerId
+                setter: setOwnerId
+            type: string
+        processInstances:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessInstances
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProcessInstances
+                setter: setProcessInstances
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        processSteps:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessSteps
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProcessSteps
+                setter: setProcessSteps
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        solutionName:
+            expose: true
+            access_type: public_method
+            serialized_name: SolutionName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSolutionName
+                setter: setSolutionName
+            type: string
+        solutionNote:
+            expose: true
+            access_type: public_method
+            serialized_name: SolutionNote
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSolutionNote
+                setter: setSolutionNote
+            type: string
+        solutionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SolutionNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSolutionNumber
+                setter: setSolutionNumber
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        tasks:
+            expose: true
+            access_type: public_method
+            serialized_name: Tasks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTasks
+                setter: setTasks
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        timesUsed:
+            expose: true
+            access_type: public_method
+            serialized_name: TimesUsed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimesUsed
+                setter: setTimesUsed
+            type: int
+        topicAssignments:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicAssignments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopicAssignments
+                setter: setTopicAssignments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        userRecordAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: UserRecordAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserRecordAccess
+                setter: setUserRecordAccess
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserRecordAccessType
+        votes:
+            expose: true
+            access_type: public_method
+            serialized_name: Votes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getVotes
+                setter: setVotes
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType

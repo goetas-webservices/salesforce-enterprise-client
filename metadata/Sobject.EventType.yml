@@ -1,0 +1,684 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\EventType:
+    properties:
+        acceptedEventInviteeIds:
+            expose: true
+            access_type: public_method
+            serialized_name: AcceptedEventInviteeIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAcceptedEventInviteeIds
+                setter: setAcceptedEventInviteeIds
+            xml_list:
+                inline: true
+                entry_name: AcceptedEventInviteeIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        acceptedEventRelations:
+            expose: true
+            access_type: public_method
+            serialized_name: AcceptedEventRelations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAcceptedEventRelations
+                setter: setAcceptedEventRelations
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: Account
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AccountType
+        accountId:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountId
+                setter: setAccountId
+            type: string
+        activityDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActivityDate
+                setter: setActivityDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        activityDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityDateTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActivityDateTime
+                setter: setActivityDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        attachedContentDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: AttachedContentDocuments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachedContentDocuments
+                setter: setAttachedContentDocuments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        attachments:
+            expose: true
+            access_type: public_method
+            serialized_name: Attachments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachments
+                setter: setAttachments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        combinedAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: CombinedAttachments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCombinedAttachments
+                setter: setCombinedAttachments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        contentDocumentLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentLinks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentLinks
+                setter: setContentDocumentLinks
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        declinedEventInviteeIds:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclinedEventInviteeIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeclinedEventInviteeIds
+                setter: setDeclinedEventInviteeIds
+            xml_list:
+                inline: true
+                entry_name: DeclinedEventInviteeIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        declinedEventRelations:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclinedEventRelations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeclinedEventRelations
+                setter: setDeclinedEventRelations
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        durationInMinutes:
+            expose: true
+            access_type: public_method
+            serialized_name: DurationInMinutes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurationInMinutes
+                setter: setDurationInMinutes
+            type: int
+        endDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDateTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEndDateTime
+                setter: setEndDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        eventRelations:
+            expose: true
+            access_type: public_method
+            serialized_name: EventRelations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEventRelations
+                setter: setEventRelations
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        eventSubtype:
+            expose: true
+            access_type: public_method
+            serialized_name: EventSubtype
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEventSubtype
+                setter: setEventSubtype
+            type: string
+        feedSubscriptionsForEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedSubscriptionsForEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedSubscriptionsForEntity
+                setter: setFeedSubscriptionsForEntity
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        feeds:
+            expose: true
+            access_type: public_method
+            serialized_name: Feeds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeeds
+                setter: setFeeds
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        groupEventType:
+            expose: true
+            access_type: public_method
+            serialized_name: GroupEventType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroupEventType
+                setter: setGroupEventType
+            type: string
+        isAllDayEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAllDayEvent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAllDayEvent
+                setter: setIsAllDayEvent
+            type: bool
+        isArchived:
+            expose: true
+            access_type: public_method
+            serialized_name: IsArchived
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsArchived
+                setter: setIsArchived
+            type: bool
+        isChild:
+            expose: true
+            access_type: public_method
+            serialized_name: IsChild
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsChild
+                setter: setIsChild
+            type: bool
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isGroupEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: IsGroupEvent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsGroupEvent
+                setter: setIsGroupEvent
+            type: bool
+        isPrivate:
+            expose: true
+            access_type: public_method
+            serialized_name: IsPrivate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsPrivate
+                setter: setIsPrivate
+            type: bool
+        isRecurrence:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRecurrence
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRecurrence
+                setter: setIsRecurrence
+            type: bool
+        isRecurrence2:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRecurrence2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRecurrence2
+                setter: setIsRecurrence2
+            type: bool
+        isRecurrence2Exception:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRecurrence2Exception
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRecurrence2Exception
+                setter: setIsRecurrence2Exception
+            type: bool
+        isRecurrence2Exclusion:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRecurrence2Exclusion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRecurrence2Exclusion
+                setter: setIsRecurrence2Exclusion
+            type: bool
+        isReminderSet:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReminderSet
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReminderSet
+                setter: setIsReminderSet
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: Location
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: string
+        owner:
+            expose: true
+            access_type: public_method
+            serialized_name: Owner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwner
+                setter: setOwner
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        ownerId:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnerId
+                setter: setOwnerId
+            type: string
+        recurrence2PatternStartDate:
+            expose: true
+            access_type: public_method
+            serialized_name: Recurrence2PatternStartDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrence2PatternStartDate
+                setter: setRecurrence2PatternStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        recurrence2PatternText:
+            expose: true
+            access_type: public_method
+            serialized_name: Recurrence2PatternText
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrence2PatternText
+                setter: setRecurrence2PatternText
+            type: string
+        recurrence2PatternTimeZone:
+            expose: true
+            access_type: public_method
+            serialized_name: Recurrence2PatternTimeZone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrence2PatternTimeZone
+                setter: setRecurrence2PatternTimeZone
+            type: string
+        recurrence2PatternVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: Recurrence2PatternVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrence2PatternVersion
+                setter: setRecurrence2PatternVersion
+            type: string
+        recurrenceActivityId:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceActivityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceActivityId
+                setter: setRecurrenceActivityId
+            type: string
+        recurrenceDayOfMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceDayOfMonth
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceDayOfMonth
+                setter: setRecurrenceDayOfMonth
+            type: int
+        recurrenceDayOfWeekMask:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceDayOfWeekMask
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceDayOfWeekMask
+                setter: setRecurrenceDayOfWeekMask
+            type: int
+        recurrenceEndDateOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceEndDateOnly
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceEndDateOnly
+                setter: setRecurrenceEndDateOnly
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        recurrenceInstance:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceInstance
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceInstance
+                setter: setRecurrenceInstance
+            type: string
+        recurrenceInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceInterval
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceInterval
+                setter: setRecurrenceInterval
+            type: int
+        recurrenceMonthOfYear:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceMonthOfYear
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceMonthOfYear
+                setter: setRecurrenceMonthOfYear
+            type: string
+        recurrenceStartDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceStartDateTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceStartDateTime
+                setter: setRecurrenceStartDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        recurrenceTimeZoneSidKey:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceTimeZoneSidKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceTimeZoneSidKey
+                setter: setRecurrenceTimeZoneSidKey
+            type: string
+        recurrenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurrenceType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurrenceType
+                setter: setRecurrenceType
+            type: string
+        recurringEvents:
+            expose: true
+            access_type: public_method
+            serialized_name: RecurringEvents
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecurringEvents
+                setter: setRecurringEvents
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        reminderDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderDateTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getReminderDateTime
+                setter: setReminderDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        showAs:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowAs
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowAs
+                setter: setShowAs
+            type: string
+        startDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDateTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartDateTime
+                setter: setStartDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: Subject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        topicAssignments:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicAssignments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTopicAssignments
+                setter: setTopicAssignments
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        undecidedEventInviteeIds:
+            expose: true
+            access_type: public_method
+            serialized_name: UndecidedEventInviteeIds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUndecidedEventInviteeIds
+                setter: setUndecidedEventInviteeIds
+            xml_list:
+                inline: true
+                entry_name: UndecidedEventInviteeIds
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            type: array<string>
+        undecidedEventRelations:
+            expose: true
+            access_type: public_method
+            serialized_name: UndecidedEventRelations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUndecidedEventRelations
+                setter: setUndecidedEventRelations
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        what:
+            expose: true
+            access_type: public_method
+            serialized_name: What
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhat
+                setter: setWhat
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        whatId:
+            expose: true
+            access_type: public_method
+            serialized_name: WhatId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhatId
+                setter: setWhatId
+            type: string
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: Who
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        whoId:
+            expose: true
+            access_type: public_method
+            serialized_name: WhoId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhoId
+                setter: setWhoId
+            type: string

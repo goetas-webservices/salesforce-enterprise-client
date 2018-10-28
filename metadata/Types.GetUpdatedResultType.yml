@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetUpdatedResultType:
+    properties:
+        ids:
+            expose: true
+            access_type: public_method
+            serialized_name: ids
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIds
+                setter: setIds
+            xml_list:
+                inline: true
+                entry_name: ids
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        latestDateCovered:
+            expose: true
+            access_type: public_method
+            serialized_name: latestDateCovered
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLatestDateCovered
+                setter: setLatestDateCovered
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

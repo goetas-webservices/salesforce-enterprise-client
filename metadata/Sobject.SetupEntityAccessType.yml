@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\SetupEntityAccessType:
+    properties:
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: Parent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\PermissionSetType
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string
+        setupEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: SetupEntityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSetupEntityId
+                setter: setSetupEntityId
+            type: string
+        setupEntityType:
+            expose: true
+            access_type: public_method
+            serialized_name: SetupEntityType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSetupEntityType
+                setter: setSetupEntityType
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

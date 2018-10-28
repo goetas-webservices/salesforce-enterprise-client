@@ -1,0 +1,66 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeNounResultType:
+    properties:
+        caseValues:
+            expose: true
+            access_type: public_method
+            serialized_name: caseValues
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCaseValues
+                setter: setCaseValues
+            xml_list:
+                inline: true
+                entry_name: caseValues
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\NameCaseValueType>
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: developerName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        gender:
+            expose: true
+            access_type: public_method
+            serialized_name: gender
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getGender
+                setter: setGender
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        pluralAlias:
+            expose: true
+            access_type: public_method
+            serialized_name: pluralAlias
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPluralAlias
+                setter: setPluralAlias
+            type: string
+        startsWith:
+            expose: true
+            access_type: public_method
+            serialized_name: startsWith
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartsWith
+                setter: setStartsWith
+            type: string

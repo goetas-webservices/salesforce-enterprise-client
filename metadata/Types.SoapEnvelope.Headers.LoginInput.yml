@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapEnvelope\Headers\LoginInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        loginScopeHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getLoginScopeHeader
+                setter: setLoginScopeHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: LoginScopeHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\LoginScopeHeader''>'

@@ -1,0 +1,216 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SingleEmailMessageType:
+    properties:
+        bccAddresses:
+            expose: true
+            access_type: public_method
+            serialized_name: bccAddresses
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBccAddresses
+                setter: setBccAddresses
+            xml_list:
+                inline: true
+                entry_name: bccAddresses
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        ccAddresses:
+            expose: true
+            access_type: public_method
+            serialized_name: ccAddresses
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCcAddresses
+                setter: setCcAddresses
+            xml_list:
+                inline: true
+                entry_name: ccAddresses
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        charset:
+            expose: true
+            access_type: public_method
+            serialized_name: charset
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCharset
+                setter: setCharset
+            type: string
+        documentAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: documentAttachments
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDocumentAttachments
+                setter: setDocumentAttachments
+            xml_list:
+                inline: true
+                entry_name: documentAttachments
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        entityAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: entityAttachments
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityAttachments
+                setter: setEntityAttachments
+            xml_list:
+                inline: true
+                entry_name: entityAttachments
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        fileAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: fileAttachments
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFileAttachments
+                setter: setFileAttachments
+            xml_list:
+                inline: true
+                entry_name: fileAttachments
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\EmailFileAttachmentType>
+        htmlBody:
+            expose: true
+            access_type: public_method
+            serialized_name: htmlBody
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHtmlBody
+                setter: setHtmlBody
+            type: string
+        inReplyTo:
+            expose: true
+            access_type: public_method
+            serialized_name: inReplyTo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInReplyTo
+                setter: setInReplyTo
+            type: string
+        optOutPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: optOutPolicy
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptOutPolicy
+                setter: setOptOutPolicy
+            type: string
+        orgWideEmailAddressId:
+            expose: true
+            access_type: public_method
+            serialized_name: orgWideEmailAddressId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgWideEmailAddressId
+                setter: setOrgWideEmailAddressId
+            type: string
+        plainTextBody:
+            expose: true
+            access_type: public_method
+            serialized_name: plainTextBody
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPlainTextBody
+                setter: setPlainTextBody
+            type: string
+        references:
+            expose: true
+            access_type: public_method
+            serialized_name: references
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReferences
+                setter: setReferences
+            type: string
+        targetObjectId:
+            expose: true
+            access_type: public_method
+            serialized_name: targetObjectId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetObjectId
+                setter: setTargetObjectId
+            type: string
+        templateId:
+            expose: true
+            access_type: public_method
+            serialized_name: templateId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTemplateId
+                setter: setTemplateId
+            type: string
+        templateName:
+            expose: true
+            access_type: public_method
+            serialized_name: templateName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTemplateName
+                setter: setTemplateName
+            type: string
+        toAddresses:
+            expose: true
+            access_type: public_method
+            serialized_name: toAddresses
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getToAddresses
+                setter: setToAddresses
+            xml_list:
+                inline: true
+                entry_name: toAddresses
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        treatBodiesAsTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: treatBodiesAsTemplate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTreatBodiesAsTemplate
+                setter: setTreatBodiesAsTemplate
+            type: bool
+        treatTargetObjectAsRecipient:
+            expose: true
+            access_type: public_method
+            serialized_name: treatTargetObjectAsRecipient
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTreatTargetObjectAsRecipient
+                setter: setTreatTargetObjectAsRecipient
+            type: bool
+        whatId:
+            expose: true
+            access_type: public_method
+            serialized_name: whatId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhatId
+                setter: setWhatId
+            type: string

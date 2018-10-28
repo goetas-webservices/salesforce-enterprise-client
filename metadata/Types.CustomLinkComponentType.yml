@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\CustomLinkComponentType:
+    properties:
+        customLink:
+            expose: true
+            access_type: public_method
+            serialized_name: customLink
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomLink
+                setter: setCustomLink
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutButtonType

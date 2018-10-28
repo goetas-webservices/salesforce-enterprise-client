@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PicklistEntryType:
+    properties:
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: bool
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValue
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        validFor:
+            expose: true
+            access_type: public_method
+            serialized_name: validFor
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getValidFor
+                setter: setValidFor
+            type: \AnySimpleType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

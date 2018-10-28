@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\CaseTeamMemberType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        member:
+            expose: true
+            access_type: public_method
+            serialized_name: Member
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMember
+                setter: setMember
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        memberId:
+            expose: true
+            access_type: public_method
+            serialized_name: MemberId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMemberId
+                setter: setMemberId
+            type: string
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: Parent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CaseType
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        teamRole:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamRole
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamRole
+                setter: setTeamRole
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CaseTeamRoleType
+        teamRoleId:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamRoleId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamRoleId
+                setter: setTeamRoleId
+            type: string
+        teamTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamTemplate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamTemplate
+                setter: setTeamTemplate
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CaseTeamTemplateType
+        teamTemplateId:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamTemplateId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamTemplateId
+                setter: setTeamTemplateId
+            type: string
+        teamTemplateMember:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamTemplateMember
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamTemplateMember
+                setter: setTeamTemplateMember
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CaseTeamTemplateMemberType
+        teamTemplateMemberId:
+            expose: true
+            access_type: public_method
+            serialized_name: TeamTemplateMemberId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTeamTemplateMemberId
+                setter: setTeamTemplateMemberId
+            type: string

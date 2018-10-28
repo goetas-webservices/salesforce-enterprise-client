@@ -1,0 +1,1162 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AccountCleanInfoType:
+    properties:
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: Account
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AccountType
+        accountId:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountId
+                setter: setAccountId
+            type: string
+        accountSite:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountSite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountSite
+                setter: setAccountSite
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\AddressType
+        annualRevenue:
+            expose: true
+            access_type: public_method
+            serialized_name: AnnualRevenue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAnnualRevenue
+                setter: setAnnualRevenue
+            type: float
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        cleanedByJob:
+            expose: true
+            access_type: public_method
+            serialized_name: CleanedByJob
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCleanedByJob
+                setter: setCleanedByJob
+            type: bool
+        cleanedByUser:
+            expose: true
+            access_type: public_method
+            serialized_name: CleanedByUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCleanedByUser
+                setter: setCleanedByUser
+            type: bool
+        companyName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompanyName
+                setter: setCompanyName
+            type: string
+        companyStatusDataDotCom:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyStatusDataDotCom
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompanyStatusDataDotCom
+                setter: setCompanyStatusDataDotCom
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dandBCompanyDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DandBCompanyDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDandBCompanyDunsNumber
+                setter: setDandBCompanyDunsNumber
+            type: string
+        dataDotComId:
+            expose: true
+            access_type: public_method
+            serialized_name: DataDotComId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataDotComId
+                setter: setDataDotComId
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        dunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDunsNumber
+                setter: setDunsNumber
+            type: string
+        dunsRightMatchConfidence:
+            expose: true
+            access_type: public_method
+            serialized_name: DunsRightMatchConfidence
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDunsRightMatchConfidence
+                setter: setDunsRightMatchConfidence
+            type: int
+        dunsRightMatchGrade:
+            expose: true
+            access_type: public_method
+            serialized_name: DunsRightMatchGrade
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDunsRightMatchGrade
+                setter: setDunsRightMatchGrade
+            type: string
+        fax:
+            expose: true
+            access_type: public_method
+            serialized_name: Fax
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFax
+                setter: setFax
+            type: string
+        geocodeAccuracy:
+            expose: true
+            access_type: public_method
+            serialized_name: GeocodeAccuracy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGeocodeAccuracy
+                setter: setGeocodeAccuracy
+            type: string
+        industry:
+            expose: true
+            access_type: public_method
+            serialized_name: Industry
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIndustry
+                setter: setIndustry
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isDifferentAccountSite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentAccountSite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentAccountSite
+                setter: setIsDifferentAccountSite
+            type: bool
+        isDifferentAnnualRevenue:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentAnnualRevenue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentAnnualRevenue
+                setter: setIsDifferentAnnualRevenue
+            type: bool
+        isDifferentCity:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentCity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentCity
+                setter: setIsDifferentCity
+            type: bool
+        isDifferentCompanyName:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentCompanyName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentCompanyName
+                setter: setIsDifferentCompanyName
+            type: bool
+        isDifferentCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentCountry
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentCountry
+                setter: setIsDifferentCountry
+            type: bool
+        isDifferentCountryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentCountryCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentCountryCode
+                setter: setIsDifferentCountryCode
+            type: bool
+        isDifferentDandBCompanyDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentDandBCompanyDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentDandBCompanyDunsNumber
+                setter: setIsDifferentDandBCompanyDunsNumber
+            type: bool
+        isDifferentDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentDescription
+                setter: setIsDifferentDescription
+            type: bool
+        isDifferentDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentDunsNumber
+                setter: setIsDifferentDunsNumber
+            type: bool
+        isDifferentFax:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentFax
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentFax
+                setter: setIsDifferentFax
+            type: bool
+        isDifferentIndustry:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentIndustry
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentIndustry
+                setter: setIsDifferentIndustry
+            type: bool
+        isDifferentNaicsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentNaicsCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentNaicsCode
+                setter: setIsDifferentNaicsCode
+            type: bool
+        isDifferentNaicsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentNaicsDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentNaicsDescription
+                setter: setIsDifferentNaicsDescription
+            type: bool
+        isDifferentNumberOfEmployees:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentNumberOfEmployees
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentNumberOfEmployees
+                setter: setIsDifferentNumberOfEmployees
+            type: bool
+        isDifferentOwnership:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentOwnership
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentOwnership
+                setter: setIsDifferentOwnership
+            type: bool
+        isDifferentPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentPhone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentPhone
+                setter: setIsDifferentPhone
+            type: bool
+        isDifferentPostalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentPostalCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentPostalCode
+                setter: setIsDifferentPostalCode
+            type: bool
+        isDifferentSic:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentSic
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentSic
+                setter: setIsDifferentSic
+            type: bool
+        isDifferentSicDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentSicDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentSicDescription
+                setter: setIsDifferentSicDescription
+            type: bool
+        isDifferentState:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentState
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentState
+                setter: setIsDifferentState
+            type: bool
+        isDifferentStateCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentStateCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentStateCode
+                setter: setIsDifferentStateCode
+            type: bool
+        isDifferentStreet:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentStreet
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentStreet
+                setter: setIsDifferentStreet
+            type: bool
+        isDifferentTickerSymbol:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentTickerSymbol
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentTickerSymbol
+                setter: setIsDifferentTickerSymbol
+            type: bool
+        isDifferentTradestyle:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentTradestyle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentTradestyle
+                setter: setIsDifferentTradestyle
+            type: bool
+        isDifferentWebsite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentWebsite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentWebsite
+                setter: setIsDifferentWebsite
+            type: bool
+        isDifferentYearStarted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDifferentYearStarted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDifferentYearStarted
+                setter: setIsDifferentYearStarted
+            type: bool
+        isFlaggedWrongAccountSite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongAccountSite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongAccountSite
+                setter: setIsFlaggedWrongAccountSite
+            type: bool
+        isFlaggedWrongAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongAddress
+                setter: setIsFlaggedWrongAddress
+            type: bool
+        isFlaggedWrongAnnualRevenue:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongAnnualRevenue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongAnnualRevenue
+                setter: setIsFlaggedWrongAnnualRevenue
+            type: bool
+        isFlaggedWrongCompanyName:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongCompanyName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongCompanyName
+                setter: setIsFlaggedWrongCompanyName
+            type: bool
+        isFlaggedWrongDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongDescription
+                setter: setIsFlaggedWrongDescription
+            type: bool
+        isFlaggedWrongDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongDunsNumber
+                setter: setIsFlaggedWrongDunsNumber
+            type: bool
+        isFlaggedWrongFax:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongFax
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongFax
+                setter: setIsFlaggedWrongFax
+            type: bool
+        isFlaggedWrongIndustry:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongIndustry
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongIndustry
+                setter: setIsFlaggedWrongIndustry
+            type: bool
+        isFlaggedWrongNaicsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongNaicsCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongNaicsCode
+                setter: setIsFlaggedWrongNaicsCode
+            type: bool
+        isFlaggedWrongNaicsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongNaicsDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongNaicsDescription
+                setter: setIsFlaggedWrongNaicsDescription
+            type: bool
+        isFlaggedWrongNumberOfEmployees:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongNumberOfEmployees
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongNumberOfEmployees
+                setter: setIsFlaggedWrongNumberOfEmployees
+            type: bool
+        isFlaggedWrongOwnership:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongOwnership
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongOwnership
+                setter: setIsFlaggedWrongOwnership
+            type: bool
+        isFlaggedWrongPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongPhone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongPhone
+                setter: setIsFlaggedWrongPhone
+            type: bool
+        isFlaggedWrongSic:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongSic
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongSic
+                setter: setIsFlaggedWrongSic
+            type: bool
+        isFlaggedWrongSicDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongSicDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongSicDescription
+                setter: setIsFlaggedWrongSicDescription
+            type: bool
+        isFlaggedWrongTickerSymbol:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongTickerSymbol
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongTickerSymbol
+                setter: setIsFlaggedWrongTickerSymbol
+            type: bool
+        isFlaggedWrongTradestyle:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongTradestyle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongTradestyle
+                setter: setIsFlaggedWrongTradestyle
+            type: bool
+        isFlaggedWrongWebsite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongWebsite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongWebsite
+                setter: setIsFlaggedWrongWebsite
+            type: bool
+        isFlaggedWrongYearStarted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlaggedWrongYearStarted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlaggedWrongYearStarted
+                setter: setIsFlaggedWrongYearStarted
+            type: bool
+        isInactive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsInactive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsInactive
+                setter: setIsInactive
+            type: bool
+        isReviewedAccountSite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedAccountSite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedAccountSite
+                setter: setIsReviewedAccountSite
+            type: bool
+        isReviewedAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedAddress
+                setter: setIsReviewedAddress
+            type: bool
+        isReviewedAnnualRevenue:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedAnnualRevenue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedAnnualRevenue
+                setter: setIsReviewedAnnualRevenue
+            type: bool
+        isReviewedCompanyName:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedCompanyName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedCompanyName
+                setter: setIsReviewedCompanyName
+            type: bool
+        isReviewedDandBCompanyDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedDandBCompanyDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedDandBCompanyDunsNumber
+                setter: setIsReviewedDandBCompanyDunsNumber
+            type: bool
+        isReviewedDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedDescription
+                setter: setIsReviewedDescription
+            type: bool
+        isReviewedDunsNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedDunsNumber
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedDunsNumber
+                setter: setIsReviewedDunsNumber
+            type: bool
+        isReviewedFax:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedFax
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedFax
+                setter: setIsReviewedFax
+            type: bool
+        isReviewedIndustry:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedIndustry
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedIndustry
+                setter: setIsReviewedIndustry
+            type: bool
+        isReviewedNaicsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedNaicsCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedNaicsCode
+                setter: setIsReviewedNaicsCode
+            type: bool
+        isReviewedNaicsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedNaicsDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedNaicsDescription
+                setter: setIsReviewedNaicsDescription
+            type: bool
+        isReviewedNumberOfEmployees:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedNumberOfEmployees
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedNumberOfEmployees
+                setter: setIsReviewedNumberOfEmployees
+            type: bool
+        isReviewedOwnership:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedOwnership
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedOwnership
+                setter: setIsReviewedOwnership
+            type: bool
+        isReviewedPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedPhone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedPhone
+                setter: setIsReviewedPhone
+            type: bool
+        isReviewedSic:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedSic
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedSic
+                setter: setIsReviewedSic
+            type: bool
+        isReviewedSicDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedSicDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedSicDescription
+                setter: setIsReviewedSicDescription
+            type: bool
+        isReviewedTickerSymbol:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedTickerSymbol
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedTickerSymbol
+                setter: setIsReviewedTickerSymbol
+            type: bool
+        isReviewedTradestyle:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedTradestyle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedTradestyle
+                setter: setIsReviewedTradestyle
+            type: bool
+        isReviewedWebsite:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedWebsite
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedWebsite
+                setter: setIsReviewedWebsite
+            type: bool
+        isReviewedYearStarted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReviewedYearStarted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReviewedYearStarted
+                setter: setIsReviewedYearStarted
+            type: bool
+        lastMatchedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastMatchedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastMatchedDate
+                setter: setLastMatchedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastStatusChangedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastStatusChangedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastStatusChangedBy
+                setter: setLastStatusChangedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastStatusChangedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastStatusChangedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastStatusChangedById
+                setter: setLastStatusChangedById
+            type: string
+        lastStatusChangedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastStatusChangedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastStatusChangedDate
+                setter: setLastStatusChangedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Latitude
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: float
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Longitude
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: float
+        naicsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NaicsCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNaicsCode
+                setter: setNaicsCode
+            type: string
+        naicsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: NaicsDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNaicsDescription
+                setter: setNaicsDescription
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        numberOfEmployees:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfEmployees
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNumberOfEmployees
+                setter: setNumberOfEmployees
+            type: int
+        ownership:
+            expose: true
+            access_type: public_method
+            serialized_name: Ownership
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnership
+                setter: setOwnership
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: string
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: string
+        sic:
+            expose: true
+            access_type: public_method
+            serialized_name: Sic
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSic
+                setter: setSic
+            type: string
+        sicDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: SicDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSicDescription
+                setter: setSicDescription
+            type: string
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: State
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getState
+                setter: setState
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: Street
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        tickerSymbol:
+            expose: true
+            access_type: public_method
+            serialized_name: TickerSymbol
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTickerSymbol
+                setter: setTickerSymbol
+            type: string
+        tradestyle:
+            expose: true
+            access_type: public_method
+            serialized_name: Tradestyle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTradestyle
+                setter: setTradestyle
+            type: string
+        userRecordAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: UserRecordAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserRecordAccess
+                setter: setUserRecordAccess
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserRecordAccessType
+        website:
+            expose: true
+            access_type: public_method
+            serialized_name: Website
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWebsite
+                setter: setWebsite
+            type: string
+        yearStarted:
+            expose: true
+            access_type: public_method
+            serialized_name: YearStarted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getYearStarted
+                setter: setYearStarted
+            type: string

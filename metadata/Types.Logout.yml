@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Logout:
+    xml_root_name: logout
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

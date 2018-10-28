@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapEnvelope\Headers\ProcessOutput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        debuggingInfo:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getDebuggingInfo
+                setter: setDebuggingInfo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: DebuggingInfo
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\DebuggingInfo''>'
+        limitInfoHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getLimitInfoHeader
+                setter: setLimitInfoHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: LimitInfoHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\LimitInfoHeader''>'

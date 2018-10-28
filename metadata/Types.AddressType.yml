@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\AddressType:
+    properties:
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: city
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        geocodeAccuracy:
+            expose: true
+            access_type: public_method
+            serialized_name: geocodeAccuracy
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getGeocodeAccuracy
+                setter: setGeocodeAccuracy
+            type: string
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: postalCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: string
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: state
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getState
+                setter: setState
+            type: string
+        stateCode:
+            expose: true
+            access_type: public_method
+            serialized_name: stateCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStateCode
+                setter: setStateCode
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: street
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string

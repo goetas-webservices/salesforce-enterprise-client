@@ -1,0 +1,66 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LeadConvertResultType:
+    properties:
+        accountId:
+            expose: true
+            access_type: public_method
+            serialized_name: accountId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountId
+                setter: setAccountId
+            type: string
+        contactId:
+            expose: true
+            access_type: public_method
+            serialized_name: contactId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContactId
+                setter: setContactId
+            type: string
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        leadId:
+            expose: true
+            access_type: public_method
+            serialized_name: leadId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLeadId
+                setter: setLeadId
+            type: string
+        opportunityId:
+            expose: true
+            access_type: public_method
+            serialized_name: opportunityId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityId
+                setter: setOpportunityId
+            type: string
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool

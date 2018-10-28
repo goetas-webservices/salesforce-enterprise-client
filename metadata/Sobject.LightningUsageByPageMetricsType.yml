@@ -1,0 +1,132 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\LightningUsageByPageMetricsType:
+    properties:
+        eptBin3To5:
+            expose: true
+            access_type: public_method
+            serialized_name: EptBin3To5
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEptBin3To5
+                setter: setEptBin3To5
+            type: int
+        eptBin5To8:
+            expose: true
+            access_type: public_method
+            serialized_name: EptBin5To8
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEptBin5To8
+                setter: setEptBin5To8
+            type: int
+        eptBin8To10:
+            expose: true
+            access_type: public_method
+            serialized_name: EptBin8To10
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEptBin8To10
+                setter: setEptBin8To10
+            type: int
+        eptBinOver10:
+            expose: true
+            access_type: public_method
+            serialized_name: EptBinOver10
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEptBinOver10
+                setter: setEptBinOver10
+            type: int
+        eptBinUnder3:
+            expose: true
+            access_type: public_method
+            serialized_name: EptBinUnder3
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEptBinUnder3
+                setter: setEptBinUnder3
+            type: int
+        metricsDate:
+            expose: true
+            access_type: public_method
+            serialized_name: MetricsDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMetricsDate
+                setter: setMetricsDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        pageName:
+            expose: true
+            access_type: public_method
+            serialized_name: PageName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPageName
+                setter: setPageName
+            type: string
+        recordCountEPT:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordCountEPT
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordCountEPT
+                setter: setRecordCountEPT
+            type: int
+        sumEPT:
+            expose: true
+            access_type: public_method
+            serialized_name: SumEPT
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSumEPT
+                setter: setSumEPT
+            type: int
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        totalCount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTotalCount
+                setter: setTotalCount
+            type: int
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

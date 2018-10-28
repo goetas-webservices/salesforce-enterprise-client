@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LimitInfoHeader:
+    xml_root_name: LimitInfoHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        limitInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: limitInfo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimitInfo
+                setter: setLimitInfo
+            xml_list:
+                inline: true
+                entry_name: limitInfo
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\LimitInfoType>

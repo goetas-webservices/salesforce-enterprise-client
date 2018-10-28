@@ -1,0 +1,142 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserEntityAccessType:
+    properties:
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        entityDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinition
+                setter: setEntityDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        entityDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinitionId
+                setter: setEntityDefinitionId
+            type: string
+        isActivateable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActivateable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActivateable
+                setter: setIsActivateable
+            type: bool
+        isCreatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCreatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCreatable
+                setter: setIsCreatable
+            type: bool
+        isDeletable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeletable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeletable
+                setter: setIsDeletable
+            type: bool
+        isEditable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEditable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEditable
+                setter: setIsEditable
+            type: bool
+        isFlsUpdatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsFlsUpdatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsFlsUpdatable
+                setter: setIsFlsUpdatable
+            type: bool
+        isMergeable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsMergeable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsMergeable
+                setter: setIsMergeable
+            type: bool
+        isReadable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsReadable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsReadable
+                setter: setIsReadable
+            type: bool
+        isUndeletable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsUndeletable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsUndeletable
+                setter: setIsUndeletable
+            type: bool
+        isUpdatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsUpdatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsUpdatable
+                setter: setIsUpdatable
+            type: bool
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

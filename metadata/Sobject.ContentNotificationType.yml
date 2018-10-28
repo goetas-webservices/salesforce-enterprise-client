@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentNotificationType:
+    properties:
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        entityIdentifierId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityIdentifierId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityIdentifierId
+                setter: setEntityIdentifierId
+            type: string
+        entityType:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityType
+                setter: setEntityType
+            type: string
+        nature:
+            expose: true
+            access_type: public_method
+            serialized_name: Nature
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNature
+                setter: setNature
+            type: string
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: Subject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: Text
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getText
+                setter: setText
+            type: string
+        users:
+            expose: true
+            access_type: public_method
+            serialized_name: Users
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsers
+                setter: setUsers
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        usersId:
+            expose: true
+            access_type: public_method
+            serialized_name: UsersId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsersId
+                setter: setUsersId
+            type: string

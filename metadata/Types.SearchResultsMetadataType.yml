@@ -1,0 +1,30 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchResultsMetadataType:
+    properties:
+        entityLabelMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: entityLabelMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityLabelMetadata
+                setter: setEntityLabelMetadata
+            xml_list:
+                inline: true
+                entry_name: entityLabelMetadata
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\LabelsSearchMetadataType>
+        entityMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: entityMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityMetadata
+                setter: setEntityMetadata
+            xml_list:
+                inline: true
+                entry_name: entityMetadata
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySearchMetadataType>

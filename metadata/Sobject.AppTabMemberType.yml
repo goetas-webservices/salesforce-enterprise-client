@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AppTabMemberType:
+    properties:
+        appDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: AppDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppDefinition
+                setter: setAppDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AppDefinitionType
+        appDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: AppDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppDefinitionId
+                setter: setAppDefinitionId
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        sortOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: SortOrder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortOrder
+                setter: setSortOrder
+            type: int
+        tabDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinition
+                setter: setTabDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\TabDefinitionType
+        tabDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: TabDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabDefinitionId
+                setter: setTabDefinitionId
+            type: string
+        workspaceDriverField:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkspaceDriverField
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWorkspaceDriverField
+                setter: setWorkspaceDriverField
+            type: string

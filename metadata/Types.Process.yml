@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Process:
+    xml_root_name: process
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        actions:
+            expose: true
+            access_type: public_method
+            serialized_name: actions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActions
+                setter: setActions
+            xml_list:
+                inline: true
+                entry_name: actions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ProcessRequestType>

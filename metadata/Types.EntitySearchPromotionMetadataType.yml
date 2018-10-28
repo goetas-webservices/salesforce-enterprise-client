@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySearchPromotionMetadataType:
+    properties:
+        promotedResultCount:
+            expose: true
+            access_type: public_method
+            serialized_name: promotedResultCount
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPromotedResultCount
+                setter: setPromotedResultCount
+            type: int

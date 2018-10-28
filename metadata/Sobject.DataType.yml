@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\DataType:
+    properties:
+        contextServiceDataTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContextServiceDataTypeId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextServiceDataTypeId
+                setter: setContextServiceDataTypeId
+            type: string
+        contextWsdlDataTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContextWsdlDataTypeId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextWsdlDataTypeId
+                setter: setContextWsdlDataTypeId
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        isComplex:
+            expose: true
+            access_type: public_method
+            serialized_name: IsComplex
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsComplex
+                setter: setIsComplex
+            type: bool

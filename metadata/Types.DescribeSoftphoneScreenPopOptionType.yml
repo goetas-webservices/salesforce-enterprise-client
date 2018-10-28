@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneScreenPopOptionType:
+    properties:
+        matchType:
+            expose: true
+            access_type: public_method
+            serialized_name: matchType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMatchType
+                setter: setMatchType
+            type: string
+        screenPopData:
+            expose: true
+            access_type: public_method
+            serialized_name: screenPopData
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScreenPopData
+                setter: setScreenPopData
+            type: string
+        screenPopType:
+            expose: true
+            access_type: public_method
+            serialized_name: screenPopType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScreenPopType
+                setter: setScreenPopType
+            type: string

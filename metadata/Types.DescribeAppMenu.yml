@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeAppMenu:
+    xml_root_name: describeAppMenu
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        appMenuType:
+            expose: true
+            access_type: public_method
+            serialized_name: appMenuType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppMenuType
+                setter: setAppMenuType
+            type: string
+        networkId:
+            expose: true
+            access_type: public_method
+            serialized_name: networkId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNetworkId
+                setter: setNetworkId
+            type: string

@@ -1,0 +1,210 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutButtonType:
+    properties:
+        behavior:
+            expose: true
+            access_type: public_method
+            serialized_name: behavior
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBehavior
+                setter: setBehavior
+            type: string
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: colors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            xml_list:
+                inline: true
+                entry_name: colors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType>
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: content
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContent
+                setter: setContent
+            type: string
+        contentSource:
+            expose: true
+            access_type: public_method
+            serialized_name: contentSource
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentSource
+                setter: setContentSource
+            type: string
+        custom:
+            expose: true
+            access_type: public_method
+            serialized_name: custom
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustom
+                setter: setCustom
+            type: bool
+        encoding:
+            expose: true
+            access_type: public_method
+            serialized_name: encoding
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEncoding
+                setter: setEncoding
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: icons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            xml_list:
+                inline: true
+                entry_name: icons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        menubar:
+            expose: true
+            access_type: public_method
+            serialized_name: menubar
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMenubar
+                setter: setMenubar
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        overridden:
+            expose: true
+            access_type: public_method
+            serialized_name: overridden
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOverridden
+                setter: setOverridden
+            type: bool
+        resizeable:
+            expose: true
+            access_type: public_method
+            serialized_name: resizeable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getResizeable
+                setter: setResizeable
+            type: bool
+        scrollbars:
+            expose: true
+            access_type: public_method
+            serialized_name: scrollbars
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScrollbars
+                setter: setScrollbars
+            type: bool
+        showsLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: showsLocation
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowsLocation
+                setter: setShowsLocation
+            type: bool
+        showsStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: showsStatus
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowsStatus
+                setter: setShowsStatus
+            type: bool
+        toolbar:
+            expose: true
+            access_type: public_method
+            serialized_name: toolbar
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getToolbar
+                setter: setToolbar
+            type: bool
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int
+        windowPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: windowPosition
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWindowPosition
+                setter: setWindowPosition
+            type: string

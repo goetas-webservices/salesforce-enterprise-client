@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\CampaignShareType:
+    properties:
+        campaign:
+            expose: true
+            access_type: public_method
+            serialized_name: Campaign
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCampaign
+                setter: setCampaign
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CampaignType
+        campaignAccessLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: CampaignAccessLevel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCampaignAccessLevel
+                setter: setCampaignAccessLevel
+            type: string
+        campaignId:
+            expose: true
+            access_type: public_method
+            serialized_name: CampaignId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCampaignId
+                setter: setCampaignId
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        rowCause:
+            expose: true
+            access_type: public_method
+            serialized_name: RowCause
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRowCause
+                setter: setRowCause
+            type: string
+        userOrGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOrGroup
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserOrGroup
+                setter: setUserOrGroup
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        userOrGroupId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOrGroupId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserOrGroupId
+                setter: setUserOrGroupId
+            type: string

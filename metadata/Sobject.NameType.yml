@@ -1,0 +1,192 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\NameType:
+    properties:
+        alias:
+            expose: true
+            access_type: public_method
+            serialized_name: Alias
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAlias
+                setter: setAlias
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: string
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: string
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: bool
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: LastName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            type: string
+        lastReferencedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastReferencedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastReferencedDate
+                setter: setLastReferencedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastViewedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastViewedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastViewedDate
+                setter: setLastViewedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        nameOrAlias:
+            expose: true
+            access_type: public_method
+            serialized_name: NameOrAlias
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNameOrAlias
+                setter: setNameOrAlias
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: string
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: Profile
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ProfileType
+        profileId:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProfileId
+                setter: setProfileId
+            type: string
+        recordType:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordType
+                setter: setRecordType
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\RecordType
+        recordTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordTypeId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeId
+                setter: setRecordTypeId
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        userRole:
+            expose: true
+            access_type: public_method
+            serialized_name: UserRole
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserRole
+                setter: setUserRole
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserRoleType
+        userRoleId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserRoleId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserRoleId
+                setter: setUserRoleId
+            type: string
+        username:
+            expose: true
+            access_type: public_method
+            serialized_name: Username
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsername
+                setter: setUsername
+            type: string

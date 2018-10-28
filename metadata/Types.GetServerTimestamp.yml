@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetServerTimestamp:
+    xml_root_name: getServerTimestamp
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

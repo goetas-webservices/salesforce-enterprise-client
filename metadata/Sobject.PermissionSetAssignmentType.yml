@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PermissionSetAssignmentType:
+    properties:
+        assignee:
+            expose: true
+            access_type: public_method
+            serialized_name: Assignee
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssignee
+                setter: setAssignee
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        assigneeId:
+            expose: true
+            access_type: public_method
+            serialized_name: AssigneeId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssigneeId
+                setter: setAssigneeId
+            type: string
+        permissionSet:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionSet
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionSet
+                setter: setPermissionSet
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\PermissionSetType
+        permissionSetId:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionSetId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionSetId
+                setter: setPermissionSetId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EmailFileAttachmentType:
+    properties:
+        body:
+            expose: true
+            access_type: public_method
+            serialized_name: body
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBody
+                setter: setBody
+            type: \AnySimpleType
+        contentType:
+            expose: true
+            access_type: public_method
+            serialized_name: contentType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentType
+                setter: setContentType
+            type: string
+        fileName:
+            expose: true
+            access_type: public_method
+            serialized_name: fileName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFileName
+                setter: setFileName
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        inline:
+            expose: true
+            access_type: public_method
+            serialized_name: inline
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInline
+                setter: setInline
+            type: bool

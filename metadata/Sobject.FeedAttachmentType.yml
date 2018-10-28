@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\FeedAttachmentType:
+    properties:
+        feedEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedEntityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedEntityId
+                setter: setFeedEntityId
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        recordId:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordId
+                setter: setRecordId
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

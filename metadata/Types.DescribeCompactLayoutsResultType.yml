@@ -1,0 +1,40 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeCompactLayoutsResultType:
+    properties:
+        compactLayouts:
+            expose: true
+            access_type: public_method
+            serialized_name: compactLayouts
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompactLayouts
+                setter: setCompactLayouts
+            xml_list:
+                inline: true
+                entry_name: compactLayouts
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeCompactLayoutType>
+        defaultCompactLayoutId:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultCompactLayoutId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultCompactLayoutId
+                setter: setDefaultCompactLayoutId
+            type: string
+        recordTypeCompactLayoutMappings:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeCompactLayoutMappings
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeCompactLayoutMappings
+                setter: setRecordTypeCompactLayoutMappings
+            xml_list:
+                inline: true
+                entry_name: recordTypeCompactLayoutMappings
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\RecordTypeCompactLayoutMappingType>

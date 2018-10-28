@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchRecordMetadataType:
+    properties:
+        searchPromoted:
+            expose: true
+            access_type: public_method
+            serialized_name: searchPromoted
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchPromoted
+                setter: setSearchPromoted
+            type: bool
+        spellCorrected:
+            expose: true
+            access_type: public_method
+            serialized_name: spellCorrected
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSpellCorrected
+                setter: setSpellCorrected
+            type: bool

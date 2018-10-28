@@ -1,0 +1,28 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DebuggingHeader:
+    xml_root_name: DebuggingHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        categories:
+            expose: true
+            access_type: public_method
+            serialized_name: categories
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCategories
+                setter: setCategories
+            xml_list:
+                inline: true
+                entry_name: categories
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\LogInfoType>
+        debugLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: debugLevel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDebugLevel
+                setter: setDebugLevel
+            type: string

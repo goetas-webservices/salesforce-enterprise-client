@@ -1,0 +1,3 @@
+GoetasWebservices\Client\SalesforceEnterprise\Fault\InvalidQueryLocatorFault:
+    xml_root_name: InvalidQueryLocatorFault
+    xml_root_namespace: 'urn:fault.enterprise.soap.sforce.com'

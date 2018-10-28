@@ -1,0 +1,580 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\FieldType:
+    properties:
+        aggregatable:
+            expose: true
+            access_type: public_method
+            serialized_name: aggregatable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAggregatable
+                setter: setAggregatable
+            type: bool
+        aiPredictionField:
+            expose: true
+            access_type: public_method
+            serialized_name: aiPredictionField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAiPredictionField
+                setter: setAiPredictionField
+            type: bool
+        autoNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: autoNumber
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAutoNumber
+                setter: setAutoNumber
+            type: bool
+        byteLength:
+            expose: true
+            access_type: public_method
+            serialized_name: byteLength
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getByteLength
+                setter: setByteLength
+            type: int
+        calculated:
+            expose: true
+            access_type: public_method
+            serialized_name: calculated
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCalculated
+                setter: setCalculated
+            type: bool
+        calculatedFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: calculatedFormula
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCalculatedFormula
+                setter: setCalculatedFormula
+            type: string
+        cascadeDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: cascadeDelete
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCascadeDelete
+                setter: setCascadeDelete
+            type: bool
+        caseSensitive:
+            expose: true
+            access_type: public_method
+            serialized_name: caseSensitive
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCaseSensitive
+                setter: setCaseSensitive
+            type: bool
+        compoundFieldName:
+            expose: true
+            access_type: public_method
+            serialized_name: compoundFieldName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompoundFieldName
+                setter: setCompoundFieldName
+            type: string
+        controllerName:
+            expose: true
+            access_type: public_method
+            serialized_name: controllerName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getControllerName
+                setter: setControllerName
+            type: string
+        createable:
+            expose: true
+            access_type: public_method
+            serialized_name: createable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreateable
+                setter: setCreateable
+            type: bool
+        custom:
+            expose: true
+            access_type: public_method
+            serialized_name: custom
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustom
+                setter: setCustom
+            type: bool
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValue
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: \AnyType
+        defaultValueFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueFormula
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValueFormula
+                setter: setDefaultValueFormula
+            type: string
+        defaultedOnCreate:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultedOnCreate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultedOnCreate
+                setter: setDefaultedOnCreate
+            type: bool
+        dependentPicklist:
+            expose: true
+            access_type: public_method
+            serialized_name: dependentPicklist
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDependentPicklist
+                setter: setDependentPicklist
+            type: bool
+        deprecatedAndHidden:
+            expose: true
+            access_type: public_method
+            serialized_name: deprecatedAndHidden
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeprecatedAndHidden
+                setter: setDeprecatedAndHidden
+            type: bool
+        digits:
+            expose: true
+            access_type: public_method
+            serialized_name: digits
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDigits
+                setter: setDigits
+            type: int
+        displayLocationInDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: displayLocationInDecimal
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDisplayLocationInDecimal
+                setter: setDisplayLocationInDecimal
+            type: bool
+        encrypted:
+            expose: true
+            access_type: public_method
+            serialized_name: encrypted
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEncrypted
+                setter: setEncrypted
+            type: bool
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: externalId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: bool
+        extraTypeInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: extraTypeInfo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getExtraTypeInfo
+                setter: setExtraTypeInfo
+            type: string
+        filterable:
+            expose: true
+            access_type: public_method
+            serialized_name: filterable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFilterable
+                setter: setFilterable
+            type: bool
+        filteredLookupInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: filteredLookupInfo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFilteredLookupInfo
+                setter: setFilteredLookupInfo
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\FilteredLookupInfoType
+        formulaTreatNullNumberAsZero:
+            expose: true
+            access_type: public_method
+            serialized_name: formulaTreatNullNumberAsZero
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFormulaTreatNullNumberAsZero
+                setter: setFormulaTreatNullNumberAsZero
+            type: bool
+        groupable:
+            expose: true
+            access_type: public_method
+            serialized_name: groupable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroupable
+                setter: setGroupable
+            type: bool
+        highScaleNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: highScaleNumber
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHighScaleNumber
+                setter: setHighScaleNumber
+            type: bool
+        htmlFormatted:
+            expose: true
+            access_type: public_method
+            serialized_name: htmlFormatted
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHtmlFormatted
+                setter: setHtmlFormatted
+            type: bool
+        idLookup:
+            expose: true
+            access_type: public_method
+            serialized_name: idLookup
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdLookup
+                setter: setIdLookup
+            type: bool
+        inlineHelpText:
+            expose: true
+            access_type: public_method
+            serialized_name: inlineHelpText
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInlineHelpText
+                setter: setInlineHelpText
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        length:
+            expose: true
+            access_type: public_method
+            serialized_name: length
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLength
+                setter: setLength
+            type: int
+        mask:
+            expose: true
+            access_type: public_method
+            serialized_name: mask
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMask
+                setter: setMask
+            type: string
+        maskType:
+            expose: true
+            access_type: public_method
+            serialized_name: maskType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaskType
+                setter: setMaskType
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        nameField:
+            expose: true
+            access_type: public_method
+            serialized_name: nameField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNameField
+                setter: setNameField
+            type: bool
+        namePointing:
+            expose: true
+            access_type: public_method
+            serialized_name: namePointing
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamePointing
+                setter: setNamePointing
+            type: bool
+        nillable:
+            expose: true
+            access_type: public_method
+            serialized_name: nillable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNillable
+                setter: setNillable
+            type: bool
+        permissionable:
+            expose: true
+            access_type: public_method
+            serialized_name: permissionable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionable
+                setter: setPermissionable
+            type: bool
+        picklistValues:
+            expose: true
+            access_type: public_method
+            serialized_name: picklistValues
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPicklistValues
+                setter: setPicklistValues
+            xml_list:
+                inline: true
+                entry_name: picklistValues
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\PicklistEntryType>
+        polymorphicForeignKey:
+            expose: true
+            access_type: public_method
+            serialized_name: polymorphicForeignKey
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPolymorphicForeignKey
+                setter: setPolymorphicForeignKey
+            type: bool
+        precision:
+            expose: true
+            access_type: public_method
+            serialized_name: precision
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPrecision
+                setter: setPrecision
+            type: int
+        queryByDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: queryByDistance
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryByDistance
+                setter: setQueryByDistance
+            type: bool
+        referenceTargetField:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceTargetField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReferenceTargetField
+                setter: setReferenceTargetField
+            type: string
+        referenceTo:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceTo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReferenceTo
+                setter: setReferenceTo
+            xml_list:
+                inline: true
+                entry_name: referenceTo
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        relationshipName:
+            expose: true
+            access_type: public_method
+            serialized_name: relationshipName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipName
+                setter: setRelationshipName
+            type: string
+        relationshipOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: relationshipOrder
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipOrder
+                setter: setRelationshipOrder
+            type: int
+        restrictedDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: restrictedDelete
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRestrictedDelete
+                setter: setRestrictedDelete
+            type: bool
+        restrictedPicklist:
+            expose: true
+            access_type: public_method
+            serialized_name: restrictedPicklist
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRestrictedPicklist
+                setter: setRestrictedPicklist
+            type: bool
+        scale:
+            expose: true
+            access_type: public_method
+            serialized_name: scale
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getScale
+                setter: setScale
+            type: int
+        searchPrefilterable:
+            expose: true
+            access_type: public_method
+            serialized_name: searchPrefilterable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchPrefilterable
+                setter: setSearchPrefilterable
+            type: bool
+        soapType:
+            expose: true
+            access_type: public_method
+            serialized_name: soapType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSoapType
+                setter: setSoapType
+            type: string
+        sortable:
+            expose: true
+            access_type: public_method
+            serialized_name: sortable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortable
+                setter: setSortable
+            type: bool
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        unique:
+            expose: true
+            access_type: public_method
+            serialized_name: unique
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUnique
+                setter: setUnique
+            type: bool
+        updateable:
+            expose: true
+            access_type: public_method
+            serialized_name: updateable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpdateable
+                setter: setUpdateable
+            type: bool
+        writeRequiresMasterRead:
+            expose: true
+            access_type: public_method
+            serialized_name: writeRequiresMasterRead
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWriteRequiresMasterRead
+                setter: setWriteRequiresMasterRead
+            type: bool

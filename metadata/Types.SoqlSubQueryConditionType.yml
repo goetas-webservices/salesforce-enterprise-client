@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoqlSubQueryConditionType:
+    properties:
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: field
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: string
+        operator:
+            expose: true
+            access_type: public_method
+            serialized_name: operator
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOperator
+                setter: setOperator
+            type: string
+        subQuery:
+            expose: true
+            access_type: public_method
+            serialized_name: subQuery
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubQuery
+                setter: setSubQuery
+            type: string

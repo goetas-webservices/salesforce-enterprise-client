@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\DatacloudAddressType:
+    properties:
+        addressLine1:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressLine1
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAddressLine1
+                setter: setAddressLine1
+            type: string
+        addressLine2:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressLine2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAddressLine2
+                setter: setAddressLine2
+            type: string
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: string
+        geoAccuracyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: GeoAccuracyCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGeoAccuracyCode
+                setter: setGeoAccuracyCode
+            type: string
+        geoAccuracyNum:
+            expose: true
+            access_type: public_method
+            serialized_name: GeoAccuracyNum
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGeoAccuracyNum
+                setter: setGeoAccuracyNum
+            type: string
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Latitude
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: string
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Longitude
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: string
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: string
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: State
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getState
+                setter: setState
+            type: string

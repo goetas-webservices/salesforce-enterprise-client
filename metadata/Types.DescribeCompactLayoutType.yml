@@ -1,0 +1,84 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeCompactLayoutType:
+    properties:
+        actions:
+            expose: true
+            access_type: public_method
+            serialized_name: actions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActions
+                setter: setActions
+            xml_list:
+                inline: true
+                entry_name: actions
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutButtonType>
+        fieldItems:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldItems
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldItems
+                setter: setFieldItems
+            xml_list:
+                inline: true
+                entry_name: fieldItems
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutItemType>
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        imageItems:
+            expose: true
+            access_type: public_method
+            serialized_name: imageItems
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getImageItems
+                setter: setImageItems
+            xml_list:
+                inline: true
+                entry_name: imageItems
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutItemType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        objectType:
+            expose: true
+            access_type: public_method
+            serialized_name: objectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getObjectType
+                setter: setObjectType
+            type: string

@@ -1,0 +1,242 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobalSObjectResultType:
+    properties:
+        activateable:
+            expose: true
+            access_type: public_method
+            serialized_name: activateable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActivateable
+                setter: setActivateable
+            type: bool
+        createable:
+            expose: true
+            access_type: public_method
+            serialized_name: createable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreateable
+                setter: setCreateable
+            type: bool
+        custom:
+            expose: true
+            access_type: public_method
+            serialized_name: custom
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustom
+                setter: setCustom
+            type: bool
+        customSetting:
+            expose: true
+            access_type: public_method
+            serialized_name: customSetting
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomSetting
+                setter: setCustomSetting
+            type: bool
+        deletable:
+            expose: true
+            access_type: public_method
+            serialized_name: deletable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeletable
+                setter: setDeletable
+            type: bool
+        deprecatedAndHidden:
+            expose: true
+            access_type: public_method
+            serialized_name: deprecatedAndHidden
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeprecatedAndHidden
+                setter: setDeprecatedAndHidden
+            type: bool
+        feedEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: feedEnabled
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedEnabled
+                setter: setFeedEnabled
+            type: bool
+        hasSubtypes:
+            expose: true
+            access_type: public_method
+            serialized_name: hasSubtypes
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasSubtypes
+                setter: setHasSubtypes
+            type: bool
+        idEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: idEnabled
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdEnabled
+                setter: setIdEnabled
+            type: bool
+        isSubtype:
+            expose: true
+            access_type: public_method
+            serialized_name: isSubtype
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSubtype
+                setter: setIsSubtype
+            type: bool
+        keyPrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: keyPrefix
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getKeyPrefix
+                setter: setKeyPrefix
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        labelPlural:
+            expose: true
+            access_type: public_method
+            serialized_name: labelPlural
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabelPlural
+                setter: setLabelPlural
+            type: string
+        layoutable:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutable
+                setter: setLayoutable
+            type: bool
+        mergeable:
+            expose: true
+            access_type: public_method
+            serialized_name: mergeable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMergeable
+                setter: setMergeable
+            type: bool
+        mruEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: mruEnabled
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMruEnabled
+                setter: setMruEnabled
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        queryable:
+            expose: true
+            access_type: public_method
+            serialized_name: queryable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryable
+                setter: setQueryable
+            type: bool
+        replicateable:
+            expose: true
+            access_type: public_method
+            serialized_name: replicateable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReplicateable
+                setter: setReplicateable
+            type: bool
+        retrieveable:
+            expose: true
+            access_type: public_method
+            serialized_name: retrieveable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRetrieveable
+                setter: setRetrieveable
+            type: bool
+        searchable:
+            expose: true
+            access_type: public_method
+            serialized_name: searchable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchable
+                setter: setSearchable
+            type: bool
+        triggerable:
+            expose: true
+            access_type: public_method
+            serialized_name: triggerable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTriggerable
+                setter: setTriggerable
+            type: bool
+        undeletable:
+            expose: true
+            access_type: public_method
+            serialized_name: undeletable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUndeletable
+                setter: setUndeletable
+            type: bool
+        updateable:
+            expose: true
+            access_type: public_method
+            serialized_name: updateable
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpdateable
+                setter: setUpdateable
+            type: bool

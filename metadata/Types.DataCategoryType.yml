@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DataCategoryType:
+    properties:
+        childCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: childCategories
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getChildCategories
+                setter: setChildCategories
+            xml_list:
+                inline: true
+                entry_name: childCategories
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DataCategoryType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string

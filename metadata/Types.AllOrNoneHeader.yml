@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\AllOrNoneHeader:
+    xml_root_name: AllOrNoneHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        allOrNone:
+            expose: true
+            access_type: public_method
+            serialized_name: allOrNone
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAllOrNone
+                setter: setAllOrNone
+            type: bool

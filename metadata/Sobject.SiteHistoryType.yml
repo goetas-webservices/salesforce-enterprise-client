@@ -1,0 +1,92 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\SiteHistoryType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: Field
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        newValue:
+            expose: true
+            access_type: public_method
+            serialized_name: NewValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNewValue
+                setter: setNewValue
+            type: \AnyType
+        oldValue:
+            expose: true
+            access_type: public_method
+            serialized_name: OldValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOldValue
+                setter: setOldValue
+            type: \AnyType
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: Site
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSite
+                setter: setSite
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SiteType
+        siteId:
+            expose: true
+            access_type: public_method
+            serialized_name: SiteId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSiteId
+                setter: setSiteId
+            type: string

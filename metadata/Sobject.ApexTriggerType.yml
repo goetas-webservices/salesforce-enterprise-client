@@ -1,0 +1,242 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTriggerType:
+    properties:
+        apiVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: ApiVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiVersion
+                setter: setApiVersion
+            type: float
+        body:
+            expose: true
+            access_type: public_method
+            serialized_name: Body
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBody
+                setter: setBody
+            type: string
+        bodyCrc:
+            expose: true
+            access_type: public_method
+            serialized_name: BodyCrc
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBodyCrc
+                setter: setBodyCrc
+            type: float
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        isValid:
+            expose: true
+            access_type: public_method
+            serialized_name: IsValid
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsValid
+                setter: setIsValid
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lengthWithoutComments:
+            expose: true
+            access_type: public_method
+            serialized_name: LengthWithoutComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLengthWithoutComments
+                setter: setLengthWithoutComments
+            type: int
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        tableEnumOrId:
+            expose: true
+            access_type: public_method
+            serialized_name: TableEnumOrId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTableEnumOrId
+                setter: setTableEnumOrId
+            type: string
+        usageAfterDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageAfterDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageAfterDelete
+                setter: setUsageAfterDelete
+            type: bool
+        usageAfterInsert:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageAfterInsert
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageAfterInsert
+                setter: setUsageAfterInsert
+            type: bool
+        usageAfterUndelete:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageAfterUndelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageAfterUndelete
+                setter: setUsageAfterUndelete
+            type: bool
+        usageAfterUpdate:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageAfterUpdate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageAfterUpdate
+                setter: setUsageAfterUpdate
+            type: bool
+        usageBeforeDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageBeforeDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageBeforeDelete
+                setter: setUsageBeforeDelete
+            type: bool
+        usageBeforeInsert:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageBeforeInsert
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageBeforeInsert
+                setter: setUsageBeforeInsert
+            type: bool
+        usageBeforeUpdate:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageBeforeUpdate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageBeforeUpdate
+                setter: setUsageBeforeUpdate
+            type: bool
+        usageIsBulk:
+            expose: true
+            access_type: public_method
+            serialized_name: UsageIsBulk
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsageIsBulk
+                setter: setUsageIsBulk
+            type: bool

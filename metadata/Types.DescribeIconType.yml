@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType:
+    properties:
+        contentType:
+            expose: true
+            access_type: public_method
+            serialized_name: contentType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentType
+                setter: setContentType
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        theme:
+            expose: true
+            access_type: public_method
+            serialized_name: theme
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTheme
+                setter: setTheme
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int

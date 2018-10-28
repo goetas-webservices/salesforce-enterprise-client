@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\QueryMore:
+    xml_root_name: queryMore
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        queryLocator:
+            expose: true
+            access_type: public_method
+            serialized_name: queryLocator
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryLocator
+                setter: setQueryLocator
+            type: string

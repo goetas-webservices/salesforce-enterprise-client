@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\NameCaseValueType:
+    properties:
+        article:
+            expose: true
+            access_type: public_method
+            serialized_name: article
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getArticle
+                setter: setArticle
+            type: string
+        caseType:
+            expose: true
+            access_type: public_method
+            serialized_name: caseType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCaseType
+                setter: setCaseType
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        possessive:
+            expose: true
+            access_type: public_method
+            serialized_name: possessive
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPossessive
+                setter: setPossessive
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

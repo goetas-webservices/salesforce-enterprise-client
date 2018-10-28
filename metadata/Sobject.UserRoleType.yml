@@ -1,0 +1,172 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserRoleType:
+    properties:
+        caseAccessForAccountOwner:
+            expose: true
+            access_type: public_method
+            serialized_name: CaseAccessForAccountOwner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCaseAccessForAccountOwner
+                setter: setCaseAccessForAccountOwner
+            type: string
+        contactAccessForAccountOwner:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactAccessForAccountOwner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContactAccessForAccountOwner
+                setter: setContactAccessForAccountOwner
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        forecastUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getForecastUserId
+                setter: setForecastUserId
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        mayForecastManagerShare:
+            expose: true
+            access_type: public_method
+            serialized_name: MayForecastManagerShare
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMayForecastManagerShare
+                setter: setMayForecastManagerShare
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        opportunityAccessForAccountOwner:
+            expose: true
+            access_type: public_method
+            serialized_name: OpportunityAccessForAccountOwner
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityAccessForAccountOwner
+                setter: setOpportunityAccessForAccountOwner
+            type: string
+        parentRoleId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentRoleId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentRoleId
+                setter: setParentRoleId
+            type: string
+        portalAccountId:
+            expose: true
+            access_type: public_method
+            serialized_name: PortalAccountId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPortalAccountId
+                setter: setPortalAccountId
+            type: string
+        portalAccountOwnerId:
+            expose: true
+            access_type: public_method
+            serialized_name: PortalAccountOwnerId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPortalAccountOwnerId
+                setter: setPortalAccountOwnerId
+            type: string
+        portalType:
+            expose: true
+            access_type: public_method
+            serialized_name: PortalType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPortalType
+                setter: setPortalType
+            type: string
+        rollupDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: RollupDescription
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRollupDescription
+                setter: setRollupDescription
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        users:
+            expose: true
+            access_type: public_method
+            serialized_name: Users
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsers
+                setter: setUsers
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType

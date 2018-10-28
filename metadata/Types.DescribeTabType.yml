@@ -1,0 +1,100 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeTabType:
+    properties:
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: colors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            xml_list:
+                inline: true
+                entry_name: colors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType>
+        custom:
+            expose: true
+            access_type: public_method
+            serialized_name: custom
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustom
+                setter: setCustom
+            type: bool
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: iconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: icons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            xml_list:
+                inline: true
+                entry_name: icons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        miniIconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: miniIconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMiniIconUrl
+                setter: setMiniIconUrl
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        sobjectName:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjectName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectName
+                setter: setSobjectName
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

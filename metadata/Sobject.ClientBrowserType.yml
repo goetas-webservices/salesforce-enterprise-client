@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ClientBrowserType:
+    properties:
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        fullUserAgent:
+            expose: true
+            access_type: public_method
+            serialized_name: FullUserAgent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFullUserAgent
+                setter: setFullUserAgent
+            type: string
+        lastUpdate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastUpdate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastUpdate
+                setter: setLastUpdate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        proxyInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ProxyInfo
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProxyInfo
+                setter: setProxyInfo
+            type: string
+        users:
+            expose: true
+            access_type: public_method
+            serialized_name: Users
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsers
+                setter: setUsers
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        usersId:
+            expose: true
+            access_type: public_method
+            serialized_name: UsersId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsersId
+                setter: setUsersId
+            type: string

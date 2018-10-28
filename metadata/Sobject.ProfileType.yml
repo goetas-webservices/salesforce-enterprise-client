@@ -1,0 +1,2212 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ProfileType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastReferencedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastReferencedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastReferencedDate
+                setter: setLastReferencedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastViewedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastViewedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastViewedDate
+                setter: setLastViewedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        permissionsAccessCMC:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAccessCMC
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAccessCMC
+                setter: setPermissionsAccessCMC
+            type: bool
+        permissionsActivateContract:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsActivateContract
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsActivateContract
+                setter: setPermissionsActivateContract
+            type: bool
+        permissionsActivateOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsActivateOrder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsActivateOrder
+                setter: setPermissionsActivateOrder
+            type: bool
+        permissionsAddAnalyticsRemoteConnections:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAddAnalyticsRemoteConnections
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAddAnalyticsRemoteConnections
+                setter: setPermissionsAddAnalyticsRemoteConnections
+            type: bool
+        permissionsAddDirectMessageMembers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAddDirectMessageMembers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAddDirectMessageMembers
+                setter: setPermissionsAddDirectMessageMembers
+            type: bool
+        permissionsAllowEmailIC:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAllowEmailIC
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAllowEmailIC
+                setter: setPermissionsAllowEmailIC
+            type: bool
+        permissionsAllowLightningLogin:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAllowLightningLogin
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAllowLightningLogin
+                setter: setPermissionsAllowLightningLogin
+            type: bool
+        permissionsAllowUniversalSearch:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAllowUniversalSearch
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAllowUniversalSearch
+                setter: setPermissionsAllowUniversalSearch
+            type: bool
+        permissionsAllowViewEditConvertedLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAllowViewEditConvertedLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAllowViewEditConvertedLeads
+                setter: setPermissionsAllowViewEditConvertedLeads
+            type: bool
+        permissionsAllowViewKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAllowViewKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAllowViewKnowledge
+                setter: setPermissionsAllowViewKnowledge
+            type: bool
+        permissionsApexRestServices:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsApexRestServices
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsApexRestServices
+                setter: setPermissionsApexRestServices
+            type: bool
+        permissionsApiEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsApiEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsApiEnabled
+                setter: setPermissionsApiEnabled
+            type: bool
+        permissionsAssignPermissionSets:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAssignPermissionSets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAssignPermissionSets
+                setter: setPermissionsAssignPermissionSets
+            type: bool
+        permissionsAssignTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAssignTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAssignTopics
+                setter: setPermissionsAssignTopics
+            type: bool
+        permissionsAuthorApex:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAuthorApex
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAuthorApex
+                setter: setPermissionsAuthorApex
+            type: bool
+        permissionsAutomaticActivityCapture:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAutomaticActivityCapture
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAutomaticActivityCapture
+                setter: setPermissionsAutomaticActivityCapture
+            type: bool
+        permissionsBulkApiHardDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsBulkApiHardDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsBulkApiHardDelete
+                setter: setPermissionsBulkApiHardDelete
+            type: bool
+        permissionsBulkMacrosAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsBulkMacrosAllowed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsBulkMacrosAllowed
+                setter: setPermissionsBulkMacrosAllowed
+            type: bool
+        permissionsCampaignInfluence2:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCampaignInfluence2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCampaignInfluence2
+                setter: setPermissionsCampaignInfluence2
+            type: bool
+        permissionsCanApproveFeedPost:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanApproveFeedPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanApproveFeedPost
+                setter: setPermissionsCanApproveFeedPost
+            type: bool
+        permissionsCanEditDataPrepRecipe:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanEditDataPrepRecipe
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanEditDataPrepRecipe
+                setter: setPermissionsCanEditDataPrepRecipe
+            type: bool
+        permissionsCanInsertFeedSystemFields:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanInsertFeedSystemFields
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanInsertFeedSystemFields
+                setter: setPermissionsCanInsertFeedSystemFields
+            type: bool
+        permissionsCanManageMaps:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanManageMaps
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanManageMaps
+                setter: setPermissionsCanManageMaps
+            type: bool
+        permissionsCanUseNewDashboardBuilder:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanUseNewDashboardBuilder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanUseNewDashboardBuilder
+                setter: setPermissionsCanUseNewDashboardBuilder
+            type: bool
+        permissionsCanVerifyComment:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCanVerifyComment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCanVerifyComment
+                setter: setPermissionsCanVerifyComment
+            type: bool
+        permissionsChangeDashboardColors:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChangeDashboardColors
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChangeDashboardColors
+                setter: setPermissionsChangeDashboardColors
+            type: bool
+        permissionsChatterComposeUiCodesnippet:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterComposeUiCodesnippet
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterComposeUiCodesnippet
+                setter: setPermissionsChatterComposeUiCodesnippet
+            type: bool
+        permissionsChatterEditOwnPost:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterEditOwnPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterEditOwnPost
+                setter: setPermissionsChatterEditOwnPost
+            type: bool
+        permissionsChatterEditOwnRecordPost:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterEditOwnRecordPost
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterEditOwnRecordPost
+                setter: setPermissionsChatterEditOwnRecordPost
+            type: bool
+        permissionsChatterFileLink:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterFileLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterFileLink
+                setter: setPermissionsChatterFileLink
+            type: bool
+        permissionsChatterInternalUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterInternalUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterInternalUser
+                setter: setPermissionsChatterInternalUser
+            type: bool
+        permissionsChatterInviteExternalUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterInviteExternalUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterInviteExternalUsers
+                setter: setPermissionsChatterInviteExternalUsers
+            type: bool
+        permissionsChatterOwnGroups:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterOwnGroups
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterOwnGroups
+                setter: setPermissionsChatterOwnGroups
+            type: bool
+        permissionsCloseConversations:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCloseConversations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCloseConversations
+                setter: setPermissionsCloseConversations
+            type: bool
+        permissionsConfigCustomRecs:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsConfigCustomRecs
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsConfigCustomRecs
+                setter: setPermissionsConfigCustomRecs
+            type: bool
+        permissionsConnectOrgToEnvironmentHub:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsConnectOrgToEnvironmentHub
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsConnectOrgToEnvironmentHub
+                setter: setPermissionsConnectOrgToEnvironmentHub
+            type: bool
+        permissionsContentAdministrator:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsContentAdministrator
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsContentAdministrator
+                setter: setPermissionsContentAdministrator
+            type: bool
+        permissionsContentWorkspaces:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsContentWorkspaces
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsContentWorkspaces
+                setter: setPermissionsContentWorkspaces
+            type: bool
+        permissionsConvertLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsConvertLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsConvertLeads
+                setter: setPermissionsConvertLeads
+            type: bool
+        permissionsCreateCustomizeDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateCustomizeDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateCustomizeDashboards
+                setter: setPermissionsCreateCustomizeDashboards
+            type: bool
+        permissionsCreateCustomizeFilters:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateCustomizeFilters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateCustomizeFilters
+                setter: setPermissionsCreateCustomizeFilters
+            type: bool
+        permissionsCreateCustomizeReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateCustomizeReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateCustomizeReports
+                setter: setPermissionsCreateCustomizeReports
+            type: bool
+        permissionsCreateDashboardFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateDashboardFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateDashboardFolders
+                setter: setPermissionsCreateDashboardFolders
+            type: bool
+        permissionsCreateLtngTempInPub:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateLtngTempInPub
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateLtngTempInPub
+                setter: setPermissionsCreateLtngTempInPub
+            type: bool
+        permissionsCreateMultiforce:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateMultiforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateMultiforce
+                setter: setPermissionsCreateMultiforce
+            type: bool
+        permissionsCreateReportFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateReportFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateReportFolders
+                setter: setPermissionsCreateReportFolders
+            type: bool
+        permissionsCreateReportInLightning:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateReportInLightning
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateReportInLightning
+                setter: setPermissionsCreateReportInLightning
+            type: bool
+        permissionsCreateTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateTopics
+                setter: setPermissionsCreateTopics
+            type: bool
+        permissionsCreateWorkspaces:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCreateWorkspaces
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCreateWorkspaces
+                setter: setPermissionsCreateWorkspaces
+            type: bool
+        permissionsCustomMobileAppsAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCustomMobileAppsAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCustomMobileAppsAccess
+                setter: setPermissionsCustomMobileAppsAccess
+            type: bool
+        permissionsCustomSidebarOnAllPages:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCustomSidebarOnAllPages
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCustomSidebarOnAllPages
+                setter: setPermissionsCustomSidebarOnAllPages
+            type: bool
+        permissionsCustomizeApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsCustomizeApplication
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsCustomizeApplication
+                setter: setPermissionsCustomizeApplication
+            type: bool
+        permissionsDataExport:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDataExport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDataExport
+                setter: setPermissionsDataExport
+            type: bool
+        permissionsDelegatedTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDelegatedTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDelegatedTwoFactor
+                setter: setPermissionsDelegatedTwoFactor
+            type: bool
+        permissionsDeleteActivatedContract:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDeleteActivatedContract
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDeleteActivatedContract
+                setter: setPermissionsDeleteActivatedContract
+            type: bool
+        permissionsDeleteTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDeleteTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDeleteTopics
+                setter: setPermissionsDeleteTopics
+            type: bool
+        permissionsDistributeFromPersWksp:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDistributeFromPersWksp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDistributeFromPersWksp
+                setter: setPermissionsDistributeFromPersWksp
+            type: bool
+        permissionsEditActivatedOrders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditActivatedOrders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditActivatedOrders
+                setter: setPermissionsEditActivatedOrders
+            type: bool
+        permissionsEditBrandTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditBrandTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditBrandTemplates
+                setter: setPermissionsEditBrandTemplates
+            type: bool
+        permissionsEditCaseComments:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditCaseComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditCaseComments
+                setter: setPermissionsEditCaseComments
+            type: bool
+        permissionsEditEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditEvent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditEvent
+                setter: setPermissionsEditEvent
+            type: bool
+        permissionsEditHtmlTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditHtmlTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditHtmlTemplates
+                setter: setPermissionsEditHtmlTemplates
+            type: bool
+        permissionsEditKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditKnowledge
+                setter: setPermissionsEditKnowledge
+            type: bool
+        permissionsEditMyDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditMyDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditMyDashboards
+                setter: setPermissionsEditMyDashboards
+            type: bool
+        permissionsEditMyReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditMyReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditMyReports
+                setter: setPermissionsEditMyReports
+            type: bool
+        permissionsEditOppLineItemUnitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditOppLineItemUnitPrice
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditOppLineItemUnitPrice
+                setter: setPermissionsEditOppLineItemUnitPrice
+            type: bool
+        permissionsEditPublicDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditPublicDocuments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditPublicDocuments
+                setter: setPermissionsEditPublicDocuments
+            type: bool
+        permissionsEditPublicFilters:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditPublicFilters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditPublicFilters
+                setter: setPermissionsEditPublicFilters
+            type: bool
+        permissionsEditPublicTemplates:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditPublicTemplates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditPublicTemplates
+                setter: setPermissionsEditPublicTemplates
+            type: bool
+        permissionsEditReadonlyFields:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditReadonlyFields
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditReadonlyFields
+                setter: setPermissionsEditReadonlyFields
+            type: bool
+        permissionsEditTask:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditTask
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditTask
+                setter: setPermissionsEditTask
+            type: bool
+        permissionsEditTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEditTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEditTopics
+                setter: setPermissionsEditTopics
+            type: bool
+        permissionsEmailAdministration:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEmailAdministration
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEmailAdministration
+                setter: setPermissionsEmailAdministration
+            type: bool
+        permissionsEmailMass:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEmailMass
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEmailMass
+                setter: setPermissionsEmailMass
+            type: bool
+        permissionsEmailSingle:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEmailSingle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEmailSingle
+                setter: setPermissionsEmailSingle
+            type: bool
+        permissionsEmailTemplateManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEmailTemplateManagement
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEmailTemplateManagement
+                setter: setPermissionsEmailTemplateManagement
+            type: bool
+        permissionsEnableCommunityAppLauncher:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEnableCommunityAppLauncher
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEnableCommunityAppLauncher
+                setter: setPermissionsEnableCommunityAppLauncher
+            type: bool
+        permissionsEnableNotifications:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsEnableNotifications
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsEnableNotifications
+                setter: setPermissionsEnableNotifications
+            type: bool
+        permissionsExportReport:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsExportReport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsExportReport
+                setter: setPermissionsExportReport
+            type: bool
+        permissionsFeedPinning:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsFeedPinning
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsFeedPinning
+                setter: setPermissionsFeedPinning
+            type: bool
+        permissionsFlowUFLRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsFlowUFLRequired
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsFlowUFLRequired
+                setter: setPermissionsFlowUFLRequired
+            type: bool
+        permissionsForceTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsForceTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsForceTwoFactor
+                setter: setPermissionsForceTwoFactor
+            type: bool
+        permissionsGiveRecognitionBadge:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsGiveRecognitionBadge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsGiveRecognitionBadge
+                setter: setPermissionsGiveRecognitionBadge
+            type: bool
+        permissionsGovernNetworks:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsGovernNetworks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsGovernNetworks
+                setter: setPermissionsGovernNetworks
+            type: bool
+        permissionsHideReadByList:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsHideReadByList
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsHideReadByList
+                setter: setPermissionsHideReadByList
+            type: bool
+        permissionsIdentityConnect:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsIdentityConnect
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsIdentityConnect
+                setter: setPermissionsIdentityConnect
+            type: bool
+        permissionsIdentityEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsIdentityEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsIdentityEnabled
+                setter: setPermissionsIdentityEnabled
+            type: bool
+        permissionsImportCustomObjects:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsImportCustomObjects
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsImportCustomObjects
+                setter: setPermissionsImportCustomObjects
+            type: bool
+        permissionsImportLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsImportLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsImportLeads
+                setter: setPermissionsImportLeads
+            type: bool
+        permissionsImportPersonal:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsImportPersonal
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsImportPersonal
+                setter: setPermissionsImportPersonal
+            type: bool
+        permissionsInsightsAppAdmin:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsAppAdmin
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsAppAdmin
+                setter: setPermissionsInsightsAppAdmin
+            type: bool
+        permissionsInsightsAppDashboardEditor:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsAppDashboardEditor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsAppDashboardEditor
+                setter: setPermissionsInsightsAppDashboardEditor
+            type: bool
+        permissionsInsightsAppEltEditor:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsAppEltEditor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsAppEltEditor
+                setter: setPermissionsInsightsAppEltEditor
+            type: bool
+        permissionsInsightsAppUploadUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsAppUploadUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsAppUploadUser
+                setter: setPermissionsInsightsAppUploadUser
+            type: bool
+        permissionsInsightsAppUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsAppUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsAppUser
+                setter: setPermissionsInsightsAppUser
+            type: bool
+        permissionsInsightsCreateApplication:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInsightsCreateApplication
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInsightsCreateApplication
+                setter: setPermissionsInsightsCreateApplication
+            type: bool
+        permissionsInstallMultiforce:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsInstallMultiforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsInstallMultiforce
+                setter: setPermissionsInstallMultiforce
+            type: bool
+        permissionsIotUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsIotUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsIotUser
+                setter: setPermissionsIotUser
+            type: bool
+        permissionsLightningConsoleAllowedForUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsLightningConsoleAllowedForUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsLightningConsoleAllowedForUser
+                setter: setPermissionsLightningConsoleAllowedForUser
+            type: bool
+        permissionsLightningExperienceUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsLightningExperienceUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsLightningExperienceUser
+                setter: setPermissionsLightningExperienceUser
+            type: bool
+        permissionsListEmailSend:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsListEmailSend
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsListEmailSend
+                setter: setPermissionsListEmailSend
+            type: bool
+        permissionsLtngPromoReserved01UserPerm:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsLtngPromoReserved01UserPerm
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsLtngPromoReserved01UserPerm
+                setter: setPermissionsLtngPromoReserved01UserPerm
+            type: bool
+        permissionsManageAnalyticSnapshots:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageAnalyticSnapshots
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageAnalyticSnapshots
+                setter: setPermissionsManageAnalyticSnapshots
+            type: bool
+        permissionsManageAuthProviders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageAuthProviders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageAuthProviders
+                setter: setPermissionsManageAuthProviders
+            type: bool
+        permissionsManageBusinessHourHolidays:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageBusinessHourHolidays
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageBusinessHourHolidays
+                setter: setPermissionsManageBusinessHourHolidays
+            type: bool
+        permissionsManageCallCenters:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCallCenters
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCallCenters
+                setter: setPermissionsManageCallCenters
+            type: bool
+        permissionsManageCases:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCases
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCases
+                setter: setPermissionsManageCases
+            type: bool
+        permissionsManageCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCategories
+                setter: setPermissionsManageCategories
+            type: bool
+        permissionsManageCertificates:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCertificates
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCertificates
+                setter: setPermissionsManageCertificates
+            type: bool
+        permissionsManageChatterMessages:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageChatterMessages
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageChatterMessages
+                setter: setPermissionsManageChatterMessages
+            type: bool
+        permissionsManageContentPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageContentPermissions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageContentPermissions
+                setter: setPermissionsManageContentPermissions
+            type: bool
+        permissionsManageContentProperties:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageContentProperties
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageContentProperties
+                setter: setPermissionsManageContentProperties
+            type: bool
+        permissionsManageContentTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageContentTypes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageContentTypes
+                setter: setPermissionsManageContentTypes
+            type: bool
+        permissionsManageCustomPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCustomPermissions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCustomPermissions
+                setter: setPermissionsManageCustomPermissions
+            type: bool
+        permissionsManageCustomReportTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageCustomReportTypes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageCustomReportTypes
+                setter: setPermissionsManageCustomReportTypes
+            type: bool
+        permissionsManageDashbdsInPubFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageDashbdsInPubFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageDashbdsInPubFolders
+                setter: setPermissionsManageDashbdsInPubFolders
+            type: bool
+        permissionsManageDataCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageDataCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageDataCategories
+                setter: setPermissionsManageDataCategories
+            type: bool
+        permissionsManageDataIntegrations:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageDataIntegrations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageDataIntegrations
+                setter: setPermissionsManageDataIntegrations
+            type: bool
+        permissionsManageDynamicDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageDynamicDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageDynamicDashboards
+                setter: setPermissionsManageDynamicDashboards
+            type: bool
+        permissionsManageEmailClientConfig:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageEmailClientConfig
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageEmailClientConfig
+                setter: setPermissionsManageEmailClientConfig
+            type: bool
+        permissionsManageEncryptionKeys:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageEncryptionKeys
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageEncryptionKeys
+                setter: setPermissionsManageEncryptionKeys
+            type: bool
+        permissionsManageExchangeConfig:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageExchangeConfig
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageExchangeConfig
+                setter: setPermissionsManageExchangeConfig
+            type: bool
+        permissionsManageHealthCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageHealthCheck
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageHealthCheck
+                setter: setPermissionsManageHealthCheck
+            type: bool
+        permissionsManageInteraction:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageInteraction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageInteraction
+                setter: setPermissionsManageInteraction
+            type: bool
+        permissionsManageInternalUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageInternalUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageInternalUsers
+                setter: setPermissionsManageInternalUsers
+            type: bool
+        permissionsManageIpAddresses:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageIpAddresses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageIpAddresses
+                setter: setPermissionsManageIpAddresses
+            type: bool
+        permissionsManageKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageKnowledge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageKnowledge
+                setter: setPermissionsManageKnowledge
+            type: bool
+        permissionsManageKnowledgeImportExport:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageKnowledgeImportExport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageKnowledgeImportExport
+                setter: setPermissionsManageKnowledgeImportExport
+            type: bool
+        permissionsManageLeads:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageLeads
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageLeads
+                setter: setPermissionsManageLeads
+            type: bool
+        permissionsManageLoginAccessPolicies:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageLoginAccessPolicies
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageLoginAccessPolicies
+                setter: setPermissionsManageLoginAccessPolicies
+            type: bool
+        permissionsManageMobile:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageMobile
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageMobile
+                setter: setPermissionsManageMobile
+            type: bool
+        permissionsManageNetworks:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageNetworks
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageNetworks
+                setter: setPermissionsManageNetworks
+            type: bool
+        permissionsManagePasswordPolicies:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManagePasswordPolicies
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManagePasswordPolicies
+                setter: setPermissionsManagePasswordPolicies
+            type: bool
+        permissionsManageProfilesPermissionsets:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageProfilesPermissionsets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageProfilesPermissionsets
+                setter: setPermissionsManageProfilesPermissionsets
+            type: bool
+        permissionsManagePvtRptsAndDashbds:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManagePvtRptsAndDashbds
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManagePvtRptsAndDashbds
+                setter: setPermissionsManagePvtRptsAndDashbds
+            type: bool
+        permissionsManageRemoteAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageRemoteAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageRemoteAccess
+                setter: setPermissionsManageRemoteAccess
+            type: bool
+        permissionsManageReportsInPubFolders:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageReportsInPubFolders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageReportsInPubFolders
+                setter: setPermissionsManageReportsInPubFolders
+            type: bool
+        permissionsManageRoles:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageRoles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageRoles
+                setter: setPermissionsManageRoles
+            type: bool
+        permissionsManageSearchPromotionRules:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSearchPromotionRules
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSearchPromotionRules
+                setter: setPermissionsManageSearchPromotionRules
+            type: bool
+        permissionsManageSessionPermissionSets:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSessionPermissionSets
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSessionPermissionSets
+                setter: setPermissionsManageSessionPermissionSets
+            type: bool
+        permissionsManageSharing:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSharing
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSharing
+                setter: setPermissionsManageSharing
+            type: bool
+        permissionsManageSolutions:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSolutions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSolutions
+                setter: setPermissionsManageSolutions
+            type: bool
+        permissionsManageSurveys:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSurveys
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSurveys
+                setter: setPermissionsManageSurveys
+            type: bool
+        permissionsManageSynonyms:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageSynonyms
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageSynonyms
+                setter: setPermissionsManageSynonyms
+            type: bool
+        permissionsManageTemplatedApp:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageTemplatedApp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageTemplatedApp
+                setter: setPermissionsManageTemplatedApp
+            type: bool
+        permissionsManageTwoFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageTwoFactor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageTwoFactor
+                setter: setPermissionsManageTwoFactor
+            type: bool
+        permissionsManageUnlistedGroups:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageUnlistedGroups
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageUnlistedGroups
+                setter: setPermissionsManageUnlistedGroups
+            type: bool
+        permissionsManageUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageUsers
+                setter: setPermissionsManageUsers
+            type: bool
+        permissionsMassInlineEdit:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsMassInlineEdit
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsMassInlineEdit
+                setter: setPermissionsMassInlineEdit
+            type: bool
+        permissionsMergeTopics:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsMergeTopics
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsMergeTopics
+                setter: setPermissionsMergeTopics
+            type: bool
+        permissionsModerateChatter:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModerateChatter
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModerateChatter
+                setter: setPermissionsModerateChatter
+            type: bool
+        permissionsModerateNetworkUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModerateNetworkUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModerateNetworkUsers
+                setter: setPermissionsModerateNetworkUsers
+            type: bool
+        permissionsModifyAllData:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModifyAllData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModifyAllData
+                setter: setPermissionsModifyAllData
+            type: bool
+        permissionsModifyMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModifyMetadata
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModifyMetadata
+                setter: setPermissionsModifyMetadata
+            type: bool
+        permissionsModifySecureAgents:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModifySecureAgents
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModifySecureAgents
+                setter: setPermissionsModifySecureAgents
+            type: bool
+        permissionsNewReportBuilder:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsNewReportBuilder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsNewReportBuilder
+                setter: setPermissionsNewReportBuilder
+            type: bool
+        permissionsPackaging2:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsPackaging2
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsPackaging2
+                setter: setPermissionsPackaging2
+            type: bool
+        permissionsPasswordNeverExpires:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsPasswordNeverExpires
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsPasswordNeverExpires
+                setter: setPermissionsPasswordNeverExpires
+            type: bool
+        permissionsPreventClassicExperience:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsPreventClassicExperience
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsPreventClassicExperience
+                setter: setPermissionsPreventClassicExperience
+            type: bool
+        permissionsPrivacyDataAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsPrivacyDataAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsPrivacyDataAccess
+                setter: setPermissionsPrivacyDataAccess
+            type: bool
+        permissionsPublishMultiforce:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsPublishMultiforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsPublishMultiforce
+                setter: setPermissionsPublishMultiforce
+            type: bool
+        permissionsRemoveDirectMessageMembers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsRemoveDirectMessageMembers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsRemoveDirectMessageMembers
+                setter: setPermissionsRemoveDirectMessageMembers
+            type: bool
+        permissionsResetPasswords:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsResetPasswords
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsResetPasswords
+                setter: setPermissionsResetPasswords
+            type: bool
+        permissionsRunFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsRunFlow
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsRunFlow
+                setter: setPermissionsRunFlow
+            type: bool
+        permissionsRunReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsRunReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsRunReports
+                setter: setPermissionsRunReports
+            type: bool
+        permissionsSalesConsole:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSalesConsole
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSalesConsole
+                setter: setPermissionsSalesConsole
+            type: bool
+        permissionsScheduleReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsScheduleReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsScheduleReports
+                setter: setPermissionsScheduleReports
+            type: bool
+        permissionsSelectFilesFromSalesforce:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSelectFilesFromSalesforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSelectFilesFromSalesforce
+                setter: setPermissionsSelectFilesFromSalesforce
+            type: bool
+        permissionsSendAnnouncementEmails:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSendAnnouncementEmails
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSendAnnouncementEmails
+                setter: setPermissionsSendAnnouncementEmails
+            type: bool
+        permissionsSendSitRequests:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSendSitRequests
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSendSitRequests
+                setter: setPermissionsSendSitRequests
+            type: bool
+        permissionsShareInternalArticles:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsShareInternalArticles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsShareInternalArticles
+                setter: setPermissionsShareInternalArticles
+            type: bool
+        permissionsShowCompanyNameAsUserBadge:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsShowCompanyNameAsUserBadge
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsShowCompanyNameAsUserBadge
+                setter: setPermissionsShowCompanyNameAsUserBadge
+            type: bool
+        permissionsSolutionImport:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSolutionImport
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSolutionImport
+                setter: setPermissionsSolutionImport
+            type: bool
+        permissionsStdAutomaticActivityCapture:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsStdAutomaticActivityCapture
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsStdAutomaticActivityCapture
+                setter: setPermissionsStdAutomaticActivityCapture
+            type: bool
+        permissionsSubmitMacrosAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubmitMacrosAllowed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubmitMacrosAllowed
+                setter: setPermissionsSubmitMacrosAllowed
+            type: bool
+        permissionsSubscribeDashboardToOtherUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubscribeDashboardToOtherUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubscribeDashboardToOtherUsers
+                setter: setPermissionsSubscribeDashboardToOtherUsers
+            type: bool
+        permissionsSubscribeReportToOtherUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubscribeReportToOtherUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubscribeReportToOtherUsers
+                setter: setPermissionsSubscribeReportToOtherUsers
+            type: bool
+        permissionsSubscribeReportsRunAsUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubscribeReportsRunAsUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubscribeReportsRunAsUser
+                setter: setPermissionsSubscribeReportsRunAsUser
+            type: bool
+        permissionsSubscribeToLightningDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubscribeToLightningDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubscribeToLightningDashboards
+                setter: setPermissionsSubscribeToLightningDashboards
+            type: bool
+        permissionsSubscribeToLightningReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsSubscribeToLightningReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsSubscribeToLightningReports
+                setter: setPermissionsSubscribeToLightningReports
+            type: bool
+        permissionsTransferAnyCase:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsTransferAnyCase
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsTransferAnyCase
+                setter: setPermissionsTransferAnyCase
+            type: bool
+        permissionsTransferAnyEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsTransferAnyEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsTransferAnyEntity
+                setter: setPermissionsTransferAnyEntity
+            type: bool
+        permissionsTransferAnyLead:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsTransferAnyLead
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsTransferAnyLead
+                setter: setPermissionsTransferAnyLead
+            type: bool
+        permissionsTwoFactorApi:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsTwoFactorApi
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsTwoFactorApi
+                setter: setPermissionsTwoFactorApi
+            type: bool
+        permissionsUseTeamReassignWizards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsUseTeamReassignWizards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsUseTeamReassignWizards
+                setter: setPermissionsUseTeamReassignWizards
+            type: bool
+        permissionsUseTemplatedApp:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsUseTemplatedApp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsUseTemplatedApp
+                setter: setPermissionsUseTemplatedApp
+            type: bool
+        permissionsUseWebLink:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsUseWebLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsUseWebLink
+                setter: setPermissionsUseWebLink
+            type: bool
+        permissionsViewAllActivities:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewAllActivities
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewAllActivities
+                setter: setPermissionsViewAllActivities
+            type: bool
+        permissionsViewAllData:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewAllData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewAllData
+                setter: setPermissionsViewAllData
+            type: bool
+        permissionsViewAllUsers:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewAllUsers
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewAllUsers
+                setter: setPermissionsViewAllUsers
+            type: bool
+        permissionsViewContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewContent
+                setter: setPermissionsViewContent
+            type: bool
+        permissionsViewDataAssessment:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewDataAssessment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewDataAssessment
+                setter: setPermissionsViewDataAssessment
+            type: bool
+        permissionsViewDataCategories:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewDataCategories
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewDataCategories
+                setter: setPermissionsViewDataCategories
+            type: bool
+        permissionsViewEncryptedData:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewEncryptedData
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewEncryptedData
+                setter: setPermissionsViewEncryptedData
+            type: bool
+        permissionsViewEventLogFiles:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewEventLogFiles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewEventLogFiles
+                setter: setPermissionsViewEventLogFiles
+            type: bool
+        permissionsViewHealthCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewHealthCheck
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewHealthCheck
+                setter: setPermissionsViewHealthCheck
+            type: bool
+        permissionsViewHelpLink:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewHelpLink
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewHelpLink
+                setter: setPermissionsViewHelpLink
+            type: bool
+        permissionsViewMyTeamsDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewMyTeamsDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewMyTeamsDashboards
+                setter: setPermissionsViewMyTeamsDashboards
+            type: bool
+        permissionsViewOnlyEmbeddedAppUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewOnlyEmbeddedAppUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewOnlyEmbeddedAppUser
+                setter: setPermissionsViewOnlyEmbeddedAppUser
+            type: bool
+        permissionsViewPublicDashboards:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewPublicDashboards
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewPublicDashboards
+                setter: setPermissionsViewPublicDashboards
+            type: bool
+        permissionsViewPublicReports:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewPublicReports
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewPublicReports
+                setter: setPermissionsViewPublicReports
+            type: bool
+        permissionsViewRoles:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewRoles
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewRoles
+                setter: setPermissionsViewRoles
+            type: bool
+        permissionsViewSetup:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewSetup
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewSetup
+                setter: setPermissionsViewSetup
+            type: bool
+        permissionsWaveTabularDownload:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsWaveTabularDownload
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsWaveTabularDownload
+                setter: setPermissionsWaveTabularDownload
+            type: bool
+        permissionsWorkCalibrationUser:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsWorkCalibrationUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsWorkCalibrationUser
+                setter: setPermissionsWorkCalibrationUser
+            type: bool
+        permissionsWorkDotComUserPerm:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsWorkDotComUserPerm
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsWorkDotComUserPerm
+                setter: setPermissionsWorkDotComUserPerm
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userLicense:
+            expose: true
+            access_type: public_method
+            serialized_name: UserLicense
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLicense
+                setter: setUserLicense
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserLicenseType
+        userLicenseId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserLicenseId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLicenseId
+                setter: setUserLicenseId
+            type: string
+        userType:
+            expose: true
+            access_type: public_method
+            serialized_name: UserType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserType
+                setter: setUserType
+            type: string
+        users:
+            expose: true
+            access_type: public_method
+            serialized_name: Users
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsers
+                setter: setUsers
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType

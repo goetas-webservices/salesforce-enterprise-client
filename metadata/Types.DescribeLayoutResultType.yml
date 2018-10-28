@@ -1,0 +1,40 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutResultType:
+    properties:
+        layouts:
+            expose: true
+            access_type: public_method
+            serialized_name: layouts
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayouts
+                setter: setLayouts
+            xml_list:
+                inline: true
+                entry_name: layouts
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutType>
+        recordTypeMappings:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeMappings
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeMappings
+                setter: setRecordTypeMappings
+            xml_list:
+                inline: true
+                entry_name: recordTypeMappings
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\RecordTypeMappingType>
+        recordTypeSelectorRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeSelectorRequired
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeSelectorRequired
+                setter: setRecordTypeSelectorRequired
+            type: bool

@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoqlNotConditionType:
+    properties:
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SoqlWhereConditionType

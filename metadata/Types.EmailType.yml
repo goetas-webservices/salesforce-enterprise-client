@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EmailType:
+    properties:
+        bccSender:
+            expose: true
+            access_type: public_method
+            serialized_name: bccSender
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBccSender
+                setter: setBccSender
+            type: bool
+        emailPriority:
+            expose: true
+            access_type: public_method
+            serialized_name: emailPriority
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmailPriority
+                setter: setEmailPriority
+            type: string
+        replyTo:
+            expose: true
+            access_type: public_method
+            serialized_name: replyTo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReplyTo
+                setter: setReplyTo
+            type: string
+        saveAsActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: saveAsActivity
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSaveAsActivity
+                setter: setSaveAsActivity
+            type: bool
+        senderDisplayName:
+            expose: true
+            access_type: public_method
+            serialized_name: senderDisplayName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSenderDisplayName
+                setter: setSenderDisplayName
+            type: string
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        useSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: useSignature
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUseSignature
+                setter: setUseSignature
+            type: bool

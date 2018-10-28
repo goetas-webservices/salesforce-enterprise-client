@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\VisualforceAccessMetricsType:
+    properties:
+        apexPage:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexPage
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexPage
+                setter: setApexPage
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexPageType
+        apexPageId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexPageId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexPageId
+                setter: setApexPageId
+            type: string
+        dailyPageViewCount:
+            expose: true
+            access_type: public_method
+            serialized_name: DailyPageViewCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDailyPageViewCount
+                setter: setDailyPageViewCount
+            type: int
+        logDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LogDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogDate
+                setter: setLogDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        metricsDate:
+            expose: true
+            access_type: public_method
+            serialized_name: MetricsDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMetricsDate
+                setter: setMetricsDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: Profile
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ProfileType
+        profileId:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProfileId
+                setter: setProfileId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

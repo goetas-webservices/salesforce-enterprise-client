@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\FeedTrackedChangeType:
+    properties:
+        feedItemId:
+            expose: true
+            access_type: public_method
+            serialized_name: FeedItemId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedItemId
+                setter: setFeedItemId
+            type: string
+        fieldName:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldName
+                setter: setFieldName
+            type: string
+        newValue:
+            expose: true
+            access_type: public_method
+            serialized_name: NewValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNewValue
+                setter: setNewValue
+            type: \AnyType
+        oldValue:
+            expose: true
+            access_type: public_method
+            serialized_name: OldValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOldValue
+                setter: setOldValue
+            type: \AnyType

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LogInfoType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: string
+        level:
+            expose: true
+            access_type: public_method
+            serialized_name: level
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLevel
+                setter: setLevel
+            type: string

@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewOrderByType:
+    properties:
+        fieldNameOrPath:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldNameOrPath
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldNameOrPath
+                setter: setFieldNameOrPath
+            type: string
+        nullsPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: nullsPosition
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNullsPosition
+                setter: setNullsPosition
+            type: string
+        sortDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: sortDirection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortDirection
+                setter: setSortDirection
+            type: string

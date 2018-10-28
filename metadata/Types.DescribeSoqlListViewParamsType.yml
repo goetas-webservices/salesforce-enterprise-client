@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoqlListViewParamsType:
+    properties:
+        developerNameOrId:
+            expose: true
+            access_type: public_method
+            serialized_name: developerNameOrId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperNameOrId
+                setter: setDeveloperNameOrId
+            type: string
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            type: string

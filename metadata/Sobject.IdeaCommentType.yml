@@ -1,0 +1,152 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\IdeaCommentType:
+    properties:
+        commentBody:
+            expose: true
+            access_type: public_method
+            serialized_name: CommentBody
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCommentBody
+                setter: setCommentBody
+            type: string
+        communityId:
+            expose: true
+            access_type: public_method
+            serialized_name: CommunityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCommunityId
+                setter: setCommunityId
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        creatorFullPhotoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorFullPhotoUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatorFullPhotoUrl
+                setter: setCreatorFullPhotoUrl
+            type: string
+        creatorName:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatorName
+                setter: setCreatorName
+            type: string
+        creatorSmallPhotoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorSmallPhotoUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatorSmallPhotoUrl
+                setter: setCreatorSmallPhotoUrl
+            type: string
+        idea:
+            expose: true
+            access_type: public_method
+            serialized_name: Idea
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdea
+                setter: setIdea
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\IdeaType
+        ideaId:
+            expose: true
+            access_type: public_method
+            serialized_name: IdeaId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdeaId
+                setter: setIdeaId
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isHtml:
+            expose: true
+            access_type: public_method
+            serialized_name: IsHtml
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsHtml
+                setter: setIsHtml
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        upVotes:
+            expose: true
+            access_type: public_method
+            serialized_name: UpVotes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpVotes
+                setter: setUpVotes
+            type: int
+        votes:
+            expose: true
+            access_type: public_method
+            serialized_name: Votes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getVotes
+                setter: setVotes
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType

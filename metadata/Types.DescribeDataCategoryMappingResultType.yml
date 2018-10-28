@@ -1,0 +1,92 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeDataCategoryMappingResultType:
+    properties:
+        dataCategoryGroupId:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryGroupId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryGroupId
+                setter: setDataCategoryGroupId
+            type: string
+        dataCategoryGroupLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryGroupLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryGroupLabel
+                setter: setDataCategoryGroupLabel
+            type: string
+        dataCategoryGroupName:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryGroupName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryGroupName
+                setter: setDataCategoryGroupName
+            type: string
+        dataCategoryId:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryId
+                setter: setDataCategoryId
+            type: string
+        dataCategoryLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryLabel
+                setter: setDataCategoryLabel
+            type: string
+        dataCategoryName:
+            expose: true
+            access_type: public_method
+            serialized_name: dataCategoryName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDataCategoryName
+                setter: setDataCategoryName
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        mappedEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: mappedEntity
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMappedEntity
+                setter: setMappedEntity
+            type: string
+        mappedField:
+            expose: true
+            access_type: public_method
+            serialized_name: mappedField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMappedField
+                setter: setMappedField
+            type: string

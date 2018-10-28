@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DisableFeedTrackingHeader:
+    xml_root_name: DisableFeedTrackingHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        disableFeedTracking:
+            expose: true
+            access_type: public_method
+            serialized_name: disableFeedTracking
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDisableFeedTracking
+                setter: setDisableFeedTracking
+            type: bool

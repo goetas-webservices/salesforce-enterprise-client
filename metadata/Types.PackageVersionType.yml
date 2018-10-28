@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PackageVersionType:
+    properties:
+        majorNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: majorNumber
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMajorNumber
+                setter: setMajorNumber
+            type: int
+        minorNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: minorNumber
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMinorNumber
+                setter: setMinorNumber
+            type: int
+        namespace:
+            expose: true
+            access_type: public_method
+            serialized_name: namespace
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespace
+                setter: setNamespace
+            type: string

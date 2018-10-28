@@ -1,0 +1,292 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PlatformActionType:
+    properties:
+        actionListContext:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionListContext
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionListContext
+                setter: setActionListContext
+            type: string
+        actionTarget:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionTarget
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionTarget
+                setter: setActionTarget
+            type: string
+        actionTargetType:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionTargetType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionTargetType
+                setter: setActionTargetType
+            type: string
+        apiName:
+            expose: true
+            access_type: public_method
+            serialized_name: ApiName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiName
+                setter: setApiName
+            type: string
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: Category
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: string
+        confirmationMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: ConfirmationMessage
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getConfirmationMessage
+                setter: setConfirmationMessage
+            type: string
+        deviceFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: DeviceFormat
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeviceFormat
+                setter: setDeviceFormat
+            type: string
+        externalId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExternalId
+                setter: setExternalId
+            type: string
+        groupId:
+            expose: true
+            access_type: public_method
+            serialized_name: GroupId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroupId
+                setter: setGroupId
+            type: string
+        iconContentType:
+            expose: true
+            access_type: public_method
+            serialized_name: IconContentType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconContentType
+                setter: setIconContentType
+            type: string
+        iconHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: IconHeight
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconHeight
+                setter: setIconHeight
+            type: int
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: IconUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        iconWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: IconWidth
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconWidth
+                setter: setIconWidth
+            type: int
+        invocationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: InvocationStatus
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInvocationStatus
+                setter: setInvocationStatus
+            type: string
+        invokedByUser:
+            expose: true
+            access_type: public_method
+            serialized_name: InvokedByUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInvokedByUser
+                setter: setInvokedByUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        invokedByUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: InvokedByUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInvokedByUserId
+                setter: setInvokedByUserId
+            type: string
+        isGroupDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: IsGroupDefault
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsGroupDefault
+                setter: setIsGroupDefault
+            type: bool
+        isMassAction:
+            expose: true
+            access_type: public_method
+            serialized_name: IsMassAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsMassAction
+                setter: setIsMassAction
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        primaryColor:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryColor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPrimaryColor
+                setter: setPrimaryColor
+            type: string
+        relatedListRecordId:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedListRecordId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedListRecordId
+                setter: setRelatedListRecordId
+            type: string
+        relatedSourceEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedSourceEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelatedSourceEntity
+                setter: setRelatedSourceEntity
+            type: string
+        section:
+            expose: true
+            access_type: public_method
+            serialized_name: Section
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSection
+                setter: setSection
+            type: string
+        sourceEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSourceEntity
+                setter: setSourceEntity
+            type: string
+        subtype:
+            expose: true
+            access_type: public_method
+            serialized_name: Subtype
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubtype
+                setter: setSubtype
+            type: string
+        targetObject:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetObject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetObject
+                setter: setTargetObject
+            type: string
+        targetUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetUrl
+                setter: setTargetUrl
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

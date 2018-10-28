@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserFieldAccessType:
+    properties:
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        entityDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinition
+                setter: setEntityDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        entityDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinitionId
+                setter: setEntityDefinitionId
+            type: string
+        fieldDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldDefinition
+                setter: setFieldDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\FieldDefinitionType
+        fieldDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldDefinitionId
+                setter: setFieldDefinitionId
+            type: string
+        isAccessible:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAccessible
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAccessible
+                setter: setIsAccessible
+            type: bool
+        isCreatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCreatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCreatable
+                setter: setIsCreatable
+            type: bool
+        isUpdatable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsUpdatable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsUpdatable
+                setter: setIsUpdatable
+            type: bool
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeGlobal:
+    xml_root_name: describeGlobal
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

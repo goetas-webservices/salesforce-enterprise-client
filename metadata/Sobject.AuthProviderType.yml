@@ -1,0 +1,242 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AuthProviderType:
+    properties:
+        authorizeUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizeUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuthorizeUrl
+                setter: setAuthorizeUrl
+            type: string
+        consumerKey:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getConsumerKey
+                setter: setConsumerKey
+            type: string
+        consumerSecret:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerSecret
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getConsumerSecret
+                setter: setConsumerSecret
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        customMetadataTypeRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomMetadataTypeRecord
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomMetadataTypeRecord
+                setter: setCustomMetadataTypeRecord
+            type: string
+        defaultScopes:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultScopes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultScopes
+                setter: setDefaultScopes
+            type: string
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        errorUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrorUrl
+                setter: setErrorUrl
+            type: string
+        executionUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: ExecutionUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExecutionUserId
+                setter: setExecutionUserId
+            type: string
+        friendlyName:
+            expose: true
+            access_type: public_method
+            serialized_name: FriendlyName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFriendlyName
+                setter: setFriendlyName
+            type: string
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: IconUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        idTokenIssuer:
+            expose: true
+            access_type: public_method
+            serialized_name: IdTokenIssuer
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdTokenIssuer
+                setter: setIdTokenIssuer
+            type: string
+        linkKickoffUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkKickoffUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkKickoffUrl
+                setter: setLinkKickoffUrl
+            type: string
+        logoutUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: LogoutUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogoutUrl
+                setter: setLogoutUrl
+            type: string
+        oauthKickoffUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: OauthKickoffUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOauthKickoffUrl
+                setter: setOauthKickoffUrl
+            type: string
+        optionsIncludeOrgIdInId:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsIncludeOrgIdInId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsIncludeOrgIdInId
+                setter: setOptionsIncludeOrgIdInId
+            type: bool
+        optionsSendAccessTokenInHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsSendAccessTokenInHeader
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsSendAccessTokenInHeader
+                setter: setOptionsSendAccessTokenInHeader
+            type: bool
+        optionsSendClientCredentialsInHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsSendClientCredentialsInHeader
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsSendClientCredentialsInHeader
+                setter: setOptionsSendClientCredentialsInHeader
+            type: bool
+        pluginId:
+            expose: true
+            access_type: public_method
+            serialized_name: PluginId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPluginId
+                setter: setPluginId
+            type: string
+        providerType:
+            expose: true
+            access_type: public_method
+            serialized_name: ProviderType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProviderType
+                setter: setProviderType
+            type: string
+        registrationHandlerId:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationHandlerId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRegistrationHandlerId
+                setter: setRegistrationHandlerId
+            type: string
+        ssoKickoffUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: SsoKickoffUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSsoKickoffUrl
+                setter: setSsoKickoffUrl
+            type: string
+        tokenUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: TokenUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTokenUrl
+                setter: setTokenUrl
+            type: string
+        userInfoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: UserInfoUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserInfoUrl
+                setter: setUserInfoUrl
+            type: string

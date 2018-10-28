@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchLayoutButtonType:
+    properties:
+        apiName:
+            expose: true
+            access_type: public_method
+            serialized_name: apiName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiName
+                setter: setApiName
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string

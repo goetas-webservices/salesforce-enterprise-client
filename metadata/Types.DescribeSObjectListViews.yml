@@ -1,0 +1,54 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSObjectListViews:
+    xml_root_name: describeSObjectListViews
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectType
+                setter: setSObjectType
+            type: string
+        recentsOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: recentsOnly
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecentsOnly
+                setter: setRecentsOnly
+            type: bool
+        isSoqlCompatible:
+            expose: true
+            access_type: public_method
+            serialized_name: isSoqlCompatible
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSoqlCompatible
+                setter: setIsSoqlCompatible
+            type: string
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            type: int
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: offset
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: int

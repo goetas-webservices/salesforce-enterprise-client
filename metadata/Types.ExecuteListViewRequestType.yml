@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ExecuteListViewRequestType:
+    properties:
+        developerNameOrId:
+            expose: true
+            access_type: public_method
+            serialized_name: developerNameOrId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperNameOrId
+                setter: setDeveloperNameOrId
+            type: string
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            type: int
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: offset
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: int
+        orderBy:
+            expose: true
+            access_type: public_method
+            serialized_name: orderBy
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrderBy
+                setter: setOrderBy
+            xml_list:
+                inline: true
+                entry_name: orderBy
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ListViewOrderByType>
+        sobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectType
+                setter: setSobjectType
+            type: string

@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\SearchLayoutType:
+    properties:
+        buttonsDisplayed:
+            expose: true
+            access_type: public_method
+            serialized_name: ButtonsDisplayed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getButtonsDisplayed
+                setter: setButtonsDisplayed
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SearchLayoutButtonsDisplayedType
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        entityDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinition
+                setter: setEntityDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        entityDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinitionId
+                setter: setEntityDefinitionId
+            type: string
+        fieldsDisplayed:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldsDisplayed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldsDisplayed
+                setter: setFieldsDisplayed
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SearchLayoutFieldsDisplayedType
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        layoutType:
+            expose: true
+            access_type: public_method
+            serialized_name: LayoutType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutType
+                setter: setLayoutType
+            type: string

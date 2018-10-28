@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DuplicateResultType:
+    properties:
+        allowSave:
+            expose: true
+            access_type: public_method
+            serialized_name: allowSave
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAllowSave
+                setter: setAllowSave
+            type: bool
+        duplicateRule:
+            expose: true
+            access_type: public_method
+            serialized_name: duplicateRule
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDuplicateRule
+                setter: setDuplicateRule
+            type: string
+        duplicateRuleEntityType:
+            expose: true
+            access_type: public_method
+            serialized_name: duplicateRuleEntityType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDuplicateRuleEntityType
+                setter: setDuplicateRuleEntityType
+            type: string
+        errorMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: errorMessage
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrorMessage
+                setter: setErrorMessage
+            type: string
+        matchResults:
+            expose: true
+            access_type: public_method
+            serialized_name: matchResults
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMatchResults
+                setter: setMatchResults
+            xml_list:
+                inline: true
+                entry_name: matchResults
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\MatchResultType>

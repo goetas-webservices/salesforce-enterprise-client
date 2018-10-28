@@ -1,0 +1,292 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\WebLinkType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        displayType:
+            expose: true
+            access_type: public_method
+            serialized_name: DisplayType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDisplayType
+                setter: setDisplayType
+            type: string
+        encodingKey:
+            expose: true
+            access_type: public_method
+            serialized_name: EncodingKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEncodingKey
+                setter: setEncodingKey
+            type: string
+        hasMenubar:
+            expose: true
+            access_type: public_method
+            serialized_name: HasMenubar
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasMenubar
+                setter: setHasMenubar
+            type: bool
+        hasScrollbars:
+            expose: true
+            access_type: public_method
+            serialized_name: HasScrollbars
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasScrollbars
+                setter: setHasScrollbars
+            type: bool
+        hasToolbar:
+            expose: true
+            access_type: public_method
+            serialized_name: HasToolbar
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasToolbar
+                setter: setHasToolbar
+            type: bool
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        isProtected:
+            expose: true
+            access_type: public_method
+            serialized_name: IsProtected
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsProtected
+                setter: setIsProtected
+            type: bool
+        isResizable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsResizable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsResizable
+                setter: setIsResizable
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        linkType:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkType
+                setter: setLinkType
+            type: string
+        masterLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: MasterLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMasterLabel
+                setter: setMasterLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        openType:
+            expose: true
+            access_type: public_method
+            serialized_name: OpenType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpenType
+                setter: setOpenType
+            type: string
+        pageOrSobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: PageOrSobjectType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPageOrSobjectType
+                setter: setPageOrSobjectType
+            type: string
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: string
+        requireRowSelection:
+            expose: true
+            access_type: public_method
+            serialized_name: RequireRowSelection
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequireRowSelection
+                setter: setRequireRowSelection
+            type: bool
+        scontrolId:
+            expose: true
+            access_type: public_method
+            serialized_name: ScontrolId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getScontrolId
+                setter: setScontrolId
+            type: string
+        showsLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowsLocation
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowsLocation
+                setter: setShowsLocation
+            type: bool
+        showsStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowsStatus
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowsStatus
+                setter: setShowsStatus
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: Url
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int

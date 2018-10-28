@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentVersionCommentType:
+    properties:
+        contentDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocument
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocument
+                setter: setContentDocument
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentDocumentType
+        contentDocumentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentId
+                setter: setContentDocumentId
+            type: string
+        contentVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentVersion
+                setter: setContentVersion
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentVersionType
+        contentVersionId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentVersionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentVersionId
+                setter: setContentVersionId
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userComment:
+            expose: true
+            access_type: public_method
+            serialized_name: UserComment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserComment
+                setter: setUserComment
+            type: string

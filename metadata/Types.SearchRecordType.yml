@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchRecordType:
+    properties:
+        record:
+            expose: true
+            access_type: public_method
+            serialized_name: record
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecord
+                setter: setRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        searchRecordMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: searchRecordMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchRecordMetadata
+                setter: setSearchRecordMetadata
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SearchRecordMetadataType
+        snippet:
+            expose: true
+            access_type: public_method
+            serialized_name: snippet
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSnippet
+                setter: setSnippet
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\SearchSnippetType

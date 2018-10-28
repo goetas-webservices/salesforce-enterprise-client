@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ProcessRequestType:
+    properties:
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: comments
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: string
+        nextApproverIds:
+            expose: true
+            access_type: public_method
+            serialized_name: nextApproverIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNextApproverIds
+                setter: setNextApproverIds
+            xml_list:
+                inline: true
+                entry_name: nextApproverIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

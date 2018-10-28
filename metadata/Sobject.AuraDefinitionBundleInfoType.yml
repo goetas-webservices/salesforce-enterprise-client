@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AuraDefinitionBundleInfoType:
+    properties:
+        apiVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: ApiVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiVersion
+                setter: setApiVersion
+            type: float
+        auraDefinitionBundleId:
+            expose: true
+            access_type: public_method
+            serialized_name: AuraDefinitionBundleId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuraDefinitionBundleId
+                setter: setAuraDefinitionBundleId
+            type: string
+        bundle:
+            expose: true
+            access_type: public_method
+            serialized_name: Bundle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getBundle
+                setter: setBundle
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string

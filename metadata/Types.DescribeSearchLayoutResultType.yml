@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSearchLayoutResultType:
+    properties:
+        errorMsg:
+            expose: true
+            access_type: public_method
+            serialized_name: errorMsg
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrorMsg
+                setter: setErrorMsg
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        limitRows:
+            expose: true
+            access_type: public_method
+            serialized_name: limitRows
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLimitRows
+                setter: setLimitRows
+            type: int
+        objectType:
+            expose: true
+            access_type: public_method
+            serialized_name: objectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getObjectType
+                setter: setObjectType
+            type: string
+        searchColumns:
+            expose: true
+            access_type: public_method
+            serialized_name: searchColumns
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchColumns
+                setter: setSearchColumns
+            xml_list:
+                inline: true
+                entry_name: searchColumns
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColumnType>

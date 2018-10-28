@@ -1,0 +1,304 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeQuickActionResultType:
+    properties:
+        accessLevelRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: accessLevelRequired
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccessLevelRequired
+                setter: setAccessLevelRequired
+            type: string
+        actionEnumOrId:
+            expose: true
+            access_type: public_method
+            serialized_name: actionEnumOrId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActionEnumOrId
+                setter: setActionEnumOrId
+            type: string
+        canvasApplicationId:
+            expose: true
+            access_type: public_method
+            serialized_name: canvasApplicationId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasApplicationId
+                setter: setCanvasApplicationId
+            type: string
+        canvasApplicationName:
+            expose: true
+            access_type: public_method
+            serialized_name: canvasApplicationName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasApplicationName
+                setter: setCanvasApplicationName
+            type: string
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: colors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            xml_list:
+                inline: true
+                entry_name: colors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType>
+        contextSobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: contextSobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextSobjectType
+                setter: setContextSobjectType
+            type: string
+        defaultValues:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValues
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValues
+                setter: setDefaultValues
+            xml_list:
+                inline: true
+                entry_name: defaultValues
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeQuickActionDefaultValueType>
+        flowDevName:
+            expose: true
+            access_type: public_method
+            serialized_name: flowDevName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlowDevName
+                setter: setFlowDevName
+            type: string
+        flowRecordIdVar:
+            expose: true
+            access_type: public_method
+            serialized_name: flowRecordIdVar
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFlowRecordIdVar
+                setter: setFlowRecordIdVar
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: int
+        iconName:
+            expose: true
+            access_type: public_method
+            serialized_name: iconName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconName
+                setter: setIconName
+            type: string
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: iconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: icons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            xml_list:
+                inline: true
+                entry_name: icons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        layout:
+            expose: true
+            access_type: public_method
+            serialized_name: layout
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayout
+                setter: setLayout
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType
+        lightningComponentBundleId:
+            expose: true
+            access_type: public_method
+            serialized_name: lightningComponentBundleId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLightningComponentBundleId
+                setter: setLightningComponentBundleId
+            type: string
+        lightningComponentBundleName:
+            expose: true
+            access_type: public_method
+            serialized_name: lightningComponentBundleName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLightningComponentBundleName
+                setter: setLightningComponentBundleName
+            type: string
+        lightningComponentQualifiedName:
+            expose: true
+            access_type: public_method
+            serialized_name: lightningComponentQualifiedName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLightningComponentQualifiedName
+                setter: setLightningComponentQualifiedName
+            type: string
+        miniIconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: miniIconUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMiniIconUrl
+                setter: setMiniIconUrl
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        showQuickActionLcHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: showQuickActionLcHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowQuickActionLcHeader
+                setter: setShowQuickActionLcHeader
+            type: bool
+        showQuickActionVfHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: showQuickActionVfHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowQuickActionVfHeader
+                setter: setShowQuickActionVfHeader
+            type: bool
+        targetParentField:
+            expose: true
+            access_type: public_method
+            serialized_name: targetParentField
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetParentField
+                setter: setTargetParentField
+            type: string
+        targetRecordTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: targetRecordTypeId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetRecordTypeId
+                setter: setTargetRecordTypeId
+            type: string
+        targetSobjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: targetSobjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetSobjectType
+                setter: setTargetSobjectType
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        visualforcePageName:
+            expose: true
+            access_type: public_method
+            serialized_name: visualforcePageName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getVisualforcePageName
+                setter: setVisualforcePageName
+            type: string
+        visualforcePageUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: visualforcePageUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getVisualforcePageUrl
+                setter: setVisualforcePageUrl
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: int

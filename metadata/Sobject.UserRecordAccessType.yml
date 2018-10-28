@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserRecordAccessType:
+    properties:
+        hasAllAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: HasAllAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasAllAccess
+                setter: setHasAllAccess
+            type: bool
+        hasDeleteAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: HasDeleteAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasDeleteAccess
+                setter: setHasDeleteAccess
+            type: bool
+        hasEditAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: HasEditAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasEditAccess
+                setter: setHasEditAccess
+            type: bool
+        hasReadAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: HasReadAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasReadAccess
+                setter: setHasReadAccess
+            type: bool
+        hasTransferAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: HasTransferAccess
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHasTransferAccess
+                setter: setHasTransferAccess
+            type: bool
+        maxAccessLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: MaxAccessLevel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaxAccessLevel
+                setter: setMaxAccessLevel
+            type: string
+        recordId:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordId
+                setter: setRecordId
+            type: string
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

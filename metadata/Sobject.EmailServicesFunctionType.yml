@@ -1,0 +1,232 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\EmailServicesFunctionType:
+    properties:
+        addressInactiveAction:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressInactiveAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAddressInactiveAction
+                setter: setAddressInactiveAction
+            type: string
+        addresses:
+            expose: true
+            access_type: public_method
+            serialized_name: Addresses
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAddresses
+                setter: setAddresses
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        apexClassId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexClassId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexClassId
+                setter: setApexClassId
+            type: string
+        attachmentOption:
+            expose: true
+            access_type: public_method
+            serialized_name: AttachmentOption
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAttachmentOption
+                setter: setAttachmentOption
+            type: string
+        authenticationFailureAction:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthenticationFailureAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuthenticationFailureAction
+                setter: setAuthenticationFailureAction
+            type: string
+        authorizationFailureAction:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizationFailureAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuthorizationFailureAction
+                setter: setAuthorizationFailureAction
+            type: string
+        authorizedSenders:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthorizedSenders
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuthorizedSenders
+                setter: setAuthorizedSenders
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        errorRoutingAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorRoutingAddress
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrorRoutingAddress
+                setter: setErrorRoutingAddress
+            type: string
+        functionInactiveAction:
+            expose: true
+            access_type: public_method
+            serialized_name: FunctionInactiveAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFunctionInactiveAction
+                setter: setFunctionInactiveAction
+            type: string
+        functionName:
+            expose: true
+            access_type: public_method
+            serialized_name: FunctionName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFunctionName
+                setter: setFunctionName
+            type: string
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: bool
+        isAuthenticationRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAuthenticationRequired
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAuthenticationRequired
+                setter: setIsAuthenticationRequired
+            type: bool
+        isErrorRoutingEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: IsErrorRoutingEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsErrorRoutingEnabled
+                setter: setIsErrorRoutingEnabled
+            type: bool
+        isTextAttachmentsAsBinary:
+            expose: true
+            access_type: public_method
+            serialized_name: IsTextAttachmentsAsBinary
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsTextAttachmentsAsBinary
+                setter: setIsTextAttachmentsAsBinary
+            type: bool
+        isTlsRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: IsTlsRequired
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsTlsRequired
+                setter: setIsTlsRequired
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        overLimitAction:
+            expose: true
+            access_type: public_method
+            serialized_name: OverLimitAction
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOverLimitAction
+                setter: setOverLimitAction
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

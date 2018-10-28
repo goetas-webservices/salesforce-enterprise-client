@@ -1,0 +1,4 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetUserInfo:
+    xml_root_name: getUserInfo
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties: {  }

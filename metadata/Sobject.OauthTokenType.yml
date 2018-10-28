@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OauthTokenType:
+    properties:
+        accessToken:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessToken
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccessToken
+                setter: setAccessToken
+            type: string
+        appMenuItem:
+            expose: true
+            access_type: public_method
+            serialized_name: AppMenuItem
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppMenuItem
+                setter: setAppMenuItem
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AppMenuItemType
+        appMenuItemId:
+            expose: true
+            access_type: public_method
+            serialized_name: AppMenuItemId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppMenuItemId
+                setter: setAppMenuItemId
+            type: string
+        appName:
+            expose: true
+            access_type: public_method
+            serialized_name: AppName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppName
+                setter: setAppName
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        deleteToken:
+            expose: true
+            access_type: public_method
+            serialized_name: DeleteToken
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeleteToken
+                setter: setDeleteToken
+            type: string
+        lastUsedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastUsedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastUsedDate
+                setter: setLastUsedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        requestToken:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestToken
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequestToken
+                setter: setRequestToken
+            type: string
+        useCount:
+            expose: true
+            access_type: public_method
+            serialized_name: UseCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUseCount
+                setter: setUseCount
+            type: int
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

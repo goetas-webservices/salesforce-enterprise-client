@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantFieldType:
+    properties:
+        apiName:
+            expose: true
+            access_type: public_method
+            serialized_name: apiName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getApiName
+                setter: setApiName
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        readOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: readOnly
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getReadOnly
+                setter: setReadOnly
+            type: bool
+        required:
+            expose: true
+            access_type: public_method
+            serialized_name: required
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequired
+                setter: setRequired
+            type: bool

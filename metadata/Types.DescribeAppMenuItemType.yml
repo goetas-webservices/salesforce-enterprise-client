@@ -1,0 +1,80 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeAppMenuItemType:
+    properties:
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: colors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            xml_list:
+                inline: true
+                entry_name: colors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeColorType>
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: content
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContent
+                setter: setContent
+            type: string
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: icons
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            xml_list:
+                inline: true
+                entry_name: icons
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeIconType>
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

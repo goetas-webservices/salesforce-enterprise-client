@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Merge:
+    xml_root_name: merge
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            xml_list:
+                inline: true
+                entry_name: request
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\MergeRequestType>

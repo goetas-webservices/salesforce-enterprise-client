@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutSectionType:
+    properties:
+        entityApiName:
+            expose: true
+            access_type: public_method
+            serialized_name: entityApiName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityApiName
+                setter: setEntityApiName
+            type: string
+        items:
+            expose: true
+            access_type: public_method
+            serialized_name: items
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getItems
+                setter: setItems
+            xml_list:
+                inline: true
+                entry_name: items
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSoftphoneLayoutItemType>

@@ -1,0 +1,132 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OpportunityHistoryType:
+    properties:
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: float
+        closeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CloseDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCloseDate
+                setter: setCloseDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expectedRevenue:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedRevenue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getExpectedRevenue
+                setter: setExpectedRevenue
+            type: float
+        forecastCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastCategory
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getForecastCategory
+                setter: setForecastCategory
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        opportunity:
+            expose: true
+            access_type: public_method
+            serialized_name: Opportunity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunity
+                setter: setOpportunity
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\OpportunityType
+        opportunityId:
+            expose: true
+            access_type: public_method
+            serialized_name: OpportunityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityId
+                setter: setOpportunityId
+            type: string
+        probability:
+            expose: true
+            access_type: public_method
+            serialized_name: Probability
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProbability
+                setter: setProbability
+            type: float
+        stageName:
+            expose: true
+            access_type: public_method
+            serialized_name: StageName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStageName
+                setter: setStageName
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

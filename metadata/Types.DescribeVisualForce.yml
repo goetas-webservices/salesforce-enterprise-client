@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeVisualForce:
+    xml_root_name: describeVisualForce
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        includeAllDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: includeAllDetails
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIncludeAllDetails
+                setter: setIncludeAllDetails
+            type: bool
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: namespacePrefix
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string

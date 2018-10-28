@@ -1,0 +1,106 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType:
+    properties:
+        collapsed:
+            expose: true
+            access_type: public_method
+            serialized_name: collapsed
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCollapsed
+                setter: setCollapsed
+            type: bool
+        columns:
+            expose: true
+            access_type: public_method
+            serialized_name: columns
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColumns
+                setter: setColumns
+            type: int
+        heading:
+            expose: true
+            access_type: public_method
+            serialized_name: heading
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getHeading
+                setter: setHeading
+            type: string
+        layoutRows:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutRows
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutRows
+                setter: setLayoutRows
+            xml_list:
+                inline: true
+                entry_name: layoutRows
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutRowType>
+        layoutSectionId:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutSectionId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutSectionId
+                setter: setLayoutSectionId
+            type: string
+        parentLayoutId:
+            expose: true
+            access_type: public_method
+            serialized_name: parentLayoutId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentLayoutId
+                setter: setParentLayoutId
+            type: string
+        rows:
+            expose: true
+            access_type: public_method
+            serialized_name: rows
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRows
+                setter: setRows
+            type: int
+        tabOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: tabOrder
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabOrder
+                setter: setTabOrder
+            type: string
+        useCollapsibleSection:
+            expose: true
+            access_type: public_method
+            serialized_name: useCollapsibleSection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUseCollapsibleSection
+                setter: setUseCollapsibleSection
+            type: bool
+        useHeading:
+            expose: true
+            access_type: public_method
+            serialized_name: useHeading
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUseHeading
+                setter: setUseHeading
+            type: bool

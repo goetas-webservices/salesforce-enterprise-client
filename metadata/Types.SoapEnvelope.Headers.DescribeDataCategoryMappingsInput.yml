@@ -1,0 +1,34 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SoapEnvelope\Headers\DescribeDataCategoryMappingsInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        sessionHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getSessionHeader
+                setter: setSessionHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: SessionHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\SessionHeader''>'
+        packageVersionHeader:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getPackageVersionHeader
+                setter: setPackageVersionHeader
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: PackageVersionHeader
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\PackageVersionHeader''>'
+        localeOptions:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getLocaleOptions
+                setter: setLocaleOptions
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            serialized_name: LocaleOptions
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\SalesforceEnterprise\Types\LocaleOptions''>'

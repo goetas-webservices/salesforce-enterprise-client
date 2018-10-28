@@ -1,0 +1,242 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\GetUserInfoResultType:
+    properties:
+        accessibilityMode:
+            expose: true
+            access_type: public_method
+            serialized_name: accessibilityMode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccessibilityMode
+                setter: setAccessibilityMode
+            type: bool
+        chatterExternal:
+            expose: true
+            access_type: public_method
+            serialized_name: chatterExternal
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getChatterExternal
+                setter: setChatterExternal
+            type: bool
+        currencySymbol:
+            expose: true
+            access_type: public_method
+            serialized_name: currencySymbol
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCurrencySymbol
+                setter: setCurrencySymbol
+            type: string
+        orgAttachmentFileSizeLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: orgAttachmentFileSizeLimit
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgAttachmentFileSizeLimit
+                setter: setOrgAttachmentFileSizeLimit
+            type: int
+        orgDefaultCurrencyIsoCode:
+            expose: true
+            access_type: public_method
+            serialized_name: orgDefaultCurrencyIsoCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgDefaultCurrencyIsoCode
+                setter: setOrgDefaultCurrencyIsoCode
+            type: string
+        orgDefaultCurrencyLocale:
+            expose: true
+            access_type: public_method
+            serialized_name: orgDefaultCurrencyLocale
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgDefaultCurrencyLocale
+                setter: setOrgDefaultCurrencyLocale
+            type: string
+        orgDisallowHtmlAttachments:
+            expose: true
+            access_type: public_method
+            serialized_name: orgDisallowHtmlAttachments
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgDisallowHtmlAttachments
+                setter: setOrgDisallowHtmlAttachments
+            type: bool
+        orgHasPersonAccounts:
+            expose: true
+            access_type: public_method
+            serialized_name: orgHasPersonAccounts
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrgHasPersonAccounts
+                setter: setOrgHasPersonAccounts
+            type: bool
+        organizationId:
+            expose: true
+            access_type: public_method
+            serialized_name: organizationId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrganizationId
+                setter: setOrganizationId
+            type: string
+        organizationMultiCurrency:
+            expose: true
+            access_type: public_method
+            serialized_name: organizationMultiCurrency
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrganizationMultiCurrency
+                setter: setOrganizationMultiCurrency
+            type: bool
+        organizationName:
+            expose: true
+            access_type: public_method
+            serialized_name: organizationName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOrganizationName
+                setter: setOrganizationName
+            type: string
+        profileId:
+            expose: true
+            access_type: public_method
+            serialized_name: profileId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getProfileId
+                setter: setProfileId
+            type: string
+        roleId:
+            expose: true
+            access_type: public_method
+            serialized_name: roleId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRoleId
+                setter: setRoleId
+            type: string
+        sessionSecondsValid:
+            expose: true
+            access_type: public_method
+            serialized_name: sessionSecondsValid
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSessionSecondsValid
+                setter: setSessionSecondsValid
+            type: int
+        userDefaultCurrencyIsoCode:
+            expose: true
+            access_type: public_method
+            serialized_name: userDefaultCurrencyIsoCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserDefaultCurrencyIsoCode
+                setter: setUserDefaultCurrencyIsoCode
+            type: string
+        userEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: userEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserEmail
+                setter: setUserEmail
+            type: string
+        userFullName:
+            expose: true
+            access_type: public_method
+            serialized_name: userFullName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserFullName
+                setter: setUserFullName
+            type: string
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: userId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string
+        userLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: userLanguage
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLanguage
+                setter: setUserLanguage
+            type: string
+        userLocale:
+            expose: true
+            access_type: public_method
+            serialized_name: userLocale
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLocale
+                setter: setUserLocale
+            type: string
+        userName:
+            expose: true
+            access_type: public_method
+            serialized_name: userName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserName
+                setter: setUserName
+            type: string
+        userTimeZone:
+            expose: true
+            access_type: public_method
+            serialized_name: userTimeZone
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserTimeZone
+                setter: setUserTimeZone
+            type: string
+        userType:
+            expose: true
+            access_type: public_method
+            serialized_name: userType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserType
+                setter: setUserType
+            type: string
+        userUiSkin:
+            expose: true
+            access_type: public_method
+            serialized_name: userUiSkin
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserUiSkin
+                setter: setUserUiSkin
+            type: string

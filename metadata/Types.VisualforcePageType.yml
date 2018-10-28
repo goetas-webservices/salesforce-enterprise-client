@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\VisualforcePageType:
+    properties:
+        showLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: showLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowLabel
+                setter: setShowLabel
+            type: bool
+        showScrollbars:
+            expose: true
+            access_type: public_method
+            serialized_name: showScrollbars
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getShowScrollbars
+                setter: setShowScrollbars
+            type: bool
+        suggestedHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: suggestedHeight
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuggestedHeight
+                setter: setSuggestedHeight
+            type: string
+        suggestedWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: suggestedWidth
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuggestedWidth
+                setter: setSuggestedWidth
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

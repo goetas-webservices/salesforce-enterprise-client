@@ -1,0 +1,38 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Retrieve:
+    xml_root_name: retrieve
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        fieldList:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldList
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldList
+                setter: setFieldList
+            type: string
+        sObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectType
+                setter: setSObjectType
+            type: string
+        ids:
+            expose: true
+            access_type: public_method
+            serialized_name: ids
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIds
+                setter: setIds
+            xml_list:
+                inline: true
+                entry_name: ids
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

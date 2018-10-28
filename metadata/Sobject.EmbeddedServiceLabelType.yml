@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\EmbeddedServiceLabelType:
+    properties:
+        customLabelName:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomLabelName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomLabelName
+                setter: setCustomLabelName
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        embeddedServiceConfigDeveloperName:
+            expose: true
+            access_type: public_method
+            serialized_name: EmbeddedServiceConfigDeveloperName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEmbeddedServiceConfigDeveloperName
+                setter: setEmbeddedServiceConfigDeveloperName
+            type: string
+        labelKey:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabelKey
+                setter: setLabelKey
+            type: string

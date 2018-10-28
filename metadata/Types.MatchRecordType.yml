@@ -1,0 +1,50 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\MatchRecordType:
+    properties:
+        additionalInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalInformation
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAdditionalInformation
+                setter: setAdditionalInformation
+            xml_list:
+                inline: true
+                entry_name: additionalInformation
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\AdditionalInformationMapType>
+        fieldDiffs:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldDiffs
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldDiffs
+                setter: setFieldDiffs
+            xml_list:
+                inline: true
+                entry_name: fieldDiffs
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\FieldDiffType>
+        matchConfidence:
+            expose: true
+            access_type: public_method
+            serialized_name: matchConfidence
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMatchConfidence
+                setter: setMatchConfidence
+            type: float
+        record:
+            expose: true
+            access_type: public_method
+            serialized_name: record
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecord
+                setter: setRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType

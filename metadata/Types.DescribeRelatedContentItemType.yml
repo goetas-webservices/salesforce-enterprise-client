@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeRelatedContentItemType:
+    properties:
+        describeLayoutItem:
+            expose: true
+            access_type: public_method
+            serialized_name: describeLayoutItem
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescribeLayoutItem
+                setter: setDescribeLayoutItem
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutItemType

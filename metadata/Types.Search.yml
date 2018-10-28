@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Search:
+    xml_root_name: search
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        searchString:
+            expose: true
+            access_type: public_method
+            serialized_name: searchString
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchString
+                setter: setSearchString
+            type: string

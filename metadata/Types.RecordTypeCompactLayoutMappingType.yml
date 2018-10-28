@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RecordTypeCompactLayoutMappingType:
+    properties:
+        available:
+            expose: true
+            access_type: public_method
+            serialized_name: available
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAvailable
+                setter: setAvailable
+            type: bool
+        compactLayoutId:
+            expose: true
+            access_type: public_method
+            serialized_name: compactLayoutId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompactLayoutId
+                setter: setCompactLayoutId
+            type: string
+        compactLayoutName:
+            expose: true
+            access_type: public_method
+            serialized_name: compactLayoutName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCompactLayoutName
+                setter: setCompactLayoutName
+            type: string
+        recordTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeId
+                setter: setRecordTypeId
+            type: string
+        recordTypeName:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeName
+                setter: setRecordTypeName
+            type: string

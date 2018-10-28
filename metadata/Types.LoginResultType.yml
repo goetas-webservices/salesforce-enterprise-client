@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LoginResultType:
+    properties:
+        metadataServerUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: metadataServerUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMetadataServerUrl
+                setter: setMetadataServerUrl
+            type: string
+        passwordExpired:
+            expose: true
+            access_type: public_method
+            serialized_name: passwordExpired
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPasswordExpired
+                setter: setPasswordExpired
+            type: bool
+        sandbox:
+            expose: true
+            access_type: public_method
+            serialized_name: sandbox
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSandbox
+                setter: setSandbox
+            type: bool
+        serverUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: serverUrl
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getServerUrl
+                setter: setServerUrl
+            type: string
+        sessionId:
+            expose: true
+            access_type: public_method
+            serialized_name: sessionId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSessionId
+                setter: setSessionId
+            type: string
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: userId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string
+        userInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: userInfo
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserInfo
+                setter: setUserInfo
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\GetUserInfoResultType

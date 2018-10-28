@@ -1,0 +1,84 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ProcessResultType:
+    properties:
+        actorIds:
+            expose: true
+            access_type: public_method
+            serialized_name: actorIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActorIds
+                setter: setActorIds
+            xml_list:
+                inline: true
+                entry_name: actorIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        entityId:
+            expose: true
+            access_type: public_method
+            serialized_name: entityId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityId
+                setter: setEntityId
+            type: string
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        instanceId:
+            expose: true
+            access_type: public_method
+            serialized_name: instanceId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInstanceId
+                setter: setInstanceId
+            type: string
+        instanceStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: instanceStatus
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInstanceStatus
+                setter: setInstanceStatus
+            type: string
+        newWorkitemIds:
+            expose: true
+            access_type: public_method
+            serialized_name: newWorkitemIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNewWorkitemIds
+                setter: setNewWorkitemIds
+            xml_list:
+                inline: true
+                entry_name: newWorkitemIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool

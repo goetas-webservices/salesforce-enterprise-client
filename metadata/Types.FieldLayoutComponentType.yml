@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\FieldLayoutComponentType:
+    properties:
+        components:
+            expose: true
+            access_type: public_method
+            serialized_name: components
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getComponents
+                setter: setComponents
+            xml_list:
+                inline: true
+                entry_name: components
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutComponentType>
+        fieldType:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldType
+                setter: setFieldType
+            type: string

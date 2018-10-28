@@ -1,0 +1,142 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ProcessInstanceWorkitemType:
+    properties:
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: Actor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActor
+                setter: setActor
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        actorId:
+            expose: true
+            access_type: public_method
+            serialized_name: ActorId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getActorId
+                setter: setActorId
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        elapsedTimeInDays:
+            expose: true
+            access_type: public_method
+            serialized_name: ElapsedTimeInDays
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getElapsedTimeInDays
+                setter: setElapsedTimeInDays
+            type: float
+        elapsedTimeInHours:
+            expose: true
+            access_type: public_method
+            serialized_name: ElapsedTimeInHours
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getElapsedTimeInHours
+                setter: setElapsedTimeInHours
+            type: float
+        elapsedTimeInMinutes:
+            expose: true
+            access_type: public_method
+            serialized_name: ElapsedTimeInMinutes
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getElapsedTimeInMinutes
+                setter: setElapsedTimeInMinutes
+            type: float
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        originalActor:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalActor
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOriginalActor
+                setter: setOriginalActor
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        originalActorId:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalActorId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOriginalActorId
+                setter: setOriginalActorId
+            type: string
+        processInstance:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessInstance
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProcessInstance
+                setter: setProcessInstance
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ProcessInstanceType
+        processInstanceId:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessInstanceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProcessInstanceId
+                setter: setProcessInstanceId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

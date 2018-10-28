@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\GroupMemberType:
+    properties:
+        group:
+            expose: true
+            access_type: public_method
+            serialized_name: Group
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroup
+                setter: setGroup
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\GroupType
+        groupId:
+            expose: true
+            access_type: public_method
+            serialized_name: GroupId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getGroupId
+                setter: setGroupId
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userOrGroupId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOrGroupId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserOrGroupId
+                setter: setUserOrGroupId
+            type: string

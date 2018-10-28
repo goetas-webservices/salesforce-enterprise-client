@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\IdpEventLogType:
+    properties:
+        appId:
+            expose: true
+            access_type: public_method
+            serialized_name: AppId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppId
+                setter: setAppId
+            type: string
+        authSessionId:
+            expose: true
+            access_type: public_method
+            serialized_name: AuthSessionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAuthSessionId
+                setter: setAuthSessionId
+            type: string
+        errorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCode
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrorCode
+                setter: setErrorCode
+            type: string
+        identityUsed:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentityUsed
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIdentityUsed
+                setter: setIdentityUsed
+            type: string
+        initiatedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: InitiatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInitiatedBy
+                setter: setInitiatedBy
+            type: string
+        optionsHasLogoutUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsHasLogoutUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsHasLogoutUrl
+                setter: setOptionsHasLogoutUrl
+            type: bool
+        samlEntityUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: SamlEntityUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSamlEntityUrl
+                setter: setSamlEntityUrl
+            type: string
+        ssoType:
+            expose: true
+            access_type: public_method
+            serialized_name: SsoType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSsoType
+                setter: setSsoType
+            type: string
+        timestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: Timestamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimestamp
+                setter: setTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

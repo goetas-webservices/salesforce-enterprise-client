@@ -1,0 +1,40 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\MergeRequestType:
+    properties:
+        additionalInformationMap:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalInformationMap
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAdditionalInformationMap
+                setter: setAdditionalInformationMap
+            xml_list:
+                inline: true
+                entry_name: additionalInformationMap
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\AdditionalInformationMapType>
+        masterRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: masterRecord
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMasterRecord
+                setter: setMasterRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        recordToMergeIds:
+            expose: true
+            access_type: public_method
+            serialized_name: recordToMergeIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordToMergeIds
+                setter: setRecordToMergeIds
+            xml_list:
+                inline: true
+                entry_name: recordToMergeIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

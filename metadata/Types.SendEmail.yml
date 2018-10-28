@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SendEmail:
+    xml_root_name: sendEmail
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        messages:
+            expose: true
+            access_type: public_method
+            serialized_name: messages
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMessages
+                setter: setMessages
+            xml_list:
+                inline: true
+                entry_name: messages
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\EmailType>

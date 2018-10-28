@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentDocumentLinkType:
+    properties:
+        contentDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocument
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocument
+                setter: setContentDocument
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentDocumentType
+        contentDocumentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentDocumentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentDocumentId
+                setter: setContentDocumentId
+            type: string
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        linkedEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedEntity
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkedEntity
+                setter: setLinkedEntity
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        linkedEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedEntityId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLinkedEntityId
+                setter: setLinkedEntityId
+            type: string
+        shareType:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getShareType
+                setter: setShareType
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        visibility:
+            expose: true
+            access_type: public_method
+            serialized_name: Visibility
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getVisibility
+                setter: setVisibility
+            type: string

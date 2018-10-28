@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceMemberType:
+    properties:
+        contentWorkspace:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspace
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspace
+                setter: setContentWorkspace
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceType
+        contentWorkspaceId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspaceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspaceId
+                setter: setContentWorkspaceId
+            type: string
+        contentWorkspacePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspacePermission
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspacePermission
+                setter: setContentWorkspacePermission
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspacePermissionType
+        contentWorkspacePermissionId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspacePermissionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspacePermissionId
+                setter: setContentWorkspacePermissionId
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        member:
+            expose: true
+            access_type: public_method
+            serialized_name: Member
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMember
+                setter: setMember
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        memberId:
+            expose: true
+            access_type: public_method
+            serialized_name: MemberId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMemberId
+                setter: setMemberId
+            type: string
+        memberType:
+            expose: true
+            access_type: public_method
+            serialized_name: MemberType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMemberType
+                setter: setMemberType
+            type: string

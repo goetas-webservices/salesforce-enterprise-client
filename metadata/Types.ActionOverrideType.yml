@@ -1,0 +1,52 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ActionOverrideType:
+    properties:
+        formFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: formFactor
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFormFactor
+                setter: setFormFactor
+            type: string
+        isAvailableInTouch:
+            expose: true
+            access_type: public_method
+            serialized_name: isAvailableInTouch
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAvailableInTouch
+                setter: setIsAvailableInTouch
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        pageId:
+            expose: true
+            access_type: public_method
+            serialized_name: pageId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPageId
+                setter: setPageId
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

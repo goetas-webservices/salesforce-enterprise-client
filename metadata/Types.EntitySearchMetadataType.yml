@@ -1,0 +1,56 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySearchMetadataType:
+    properties:
+        entityName:
+            expose: true
+            access_type: public_method
+            serialized_name: entityName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityName
+                setter: setEntityName
+            type: string
+        fieldMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldMetadata
+                setter: setFieldMetadata
+            xml_list:
+                inline: true
+                entry_name: fieldMetadata
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\FieldLevelSearchMetadataType>
+        intentQueryMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: intentQueryMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIntentQueryMetadata
+                setter: setIntentQueryMetadata
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\EntityIntentQueryMetadataType
+        searchPromotionMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: searchPromotionMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSearchPromotionMetadata
+                setter: setSearchPromotionMetadata
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySearchPromotionMetadataType
+        spellCorrectionMetadata:
+            expose: true
+            access_type: public_method
+            serialized_name: spellCorrectionMetadata
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSpellCorrectionMetadata
+                setter: setSpellCorrectionMetadata
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\EntitySpellCorrectionMetadataType

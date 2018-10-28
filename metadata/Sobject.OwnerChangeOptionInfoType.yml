@@ -1,0 +1,92 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\OwnerChangeOptionInfoType:
+    properties:
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultValue
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: bool
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        entityDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinition
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinition
+                setter: setEntityDefinition
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        entityDefinitionId:
+            expose: true
+            access_type: public_method
+            serialized_name: EntityDefinitionId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEntityDefinitionId
+                setter: setEntityDefinitionId
+            type: string
+        isEditable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsEditable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsEditable
+                setter: setIsEditable
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: Parent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\OwnerChangeOptionInfoType
+        parentId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentId
+                setter: setParentId
+            type: string

@@ -1,0 +1,232 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspacePermissionType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        permissionsAddComment:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAddComment
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAddComment
+                setter: setPermissionsAddComment
+            type: bool
+        permissionsAddContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAddContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAddContent
+                setter: setPermissionsAddContent
+            type: bool
+        permissionsAddContentOBO:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsAddContentOBO
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsAddContentOBO
+                setter: setPermissionsAddContentOBO
+            type: bool
+        permissionsArchiveContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsArchiveContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsArchiveContent
+                setter: setPermissionsArchiveContent
+            type: bool
+        permissionsChatterSharing:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsChatterSharing
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsChatterSharing
+                setter: setPermissionsChatterSharing
+            type: bool
+        permissionsDeleteContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDeleteContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDeleteContent
+                setter: setPermissionsDeleteContent
+            type: bool
+        permissionsDeliverContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsDeliverContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsDeliverContent
+                setter: setPermissionsDeliverContent
+            type: bool
+        permissionsFeatureContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsFeatureContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsFeatureContent
+                setter: setPermissionsFeatureContent
+            type: bool
+        permissionsManageWorkspace:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsManageWorkspace
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsManageWorkspace
+                setter: setPermissionsManageWorkspace
+            type: bool
+        permissionsModifyComments:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsModifyComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsModifyComments
+                setter: setPermissionsModifyComments
+            type: bool
+        permissionsOrganizeFileAndFolder:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsOrganizeFileAndFolder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsOrganizeFileAndFolder
+                setter: setPermissionsOrganizeFileAndFolder
+            type: bool
+        permissionsTagContent:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsTagContent
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsTagContent
+                setter: setPermissionsTagContent
+            type: bool
+        permissionsViewComments:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionsViewComments
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPermissionsViewComments
+                setter: setPermissionsViewComments
+            type: bool
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

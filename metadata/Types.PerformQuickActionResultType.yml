@@ -1,0 +1,84 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PerformQuickActionResultType:
+    properties:
+        contextId:
+            expose: true
+            access_type: public_method
+            serialized_name: contextId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextId
+                setter: setContextId
+            type: string
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: bool
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            xml_list:
+                inline: true
+                entry_name: errors
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\ErrorType>
+        feedItemIds:
+            expose: true
+            access_type: public_method
+            serialized_name: feedItemIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFeedItemIds
+                setter: setFeedItemIds
+            xml_list:
+                inline: true
+                entry_name: feedItemIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        ids:
+            expose: true
+            access_type: public_method
+            serialized_name: ids
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIds
+                setter: setIds
+            xml_list:
+                inline: true
+                entry_name: ids
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        success:
+            expose: true
+            access_type: public_method
+            serialized_name: success
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccess
+                setter: setSuccess
+            type: bool
+        successMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: successMessage
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSuccessMessage
+                setter: setSuccessMessage
+            type: string

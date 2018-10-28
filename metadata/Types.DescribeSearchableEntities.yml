@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSearchableEntities:
+    xml_root_name: describeSearchableEntities
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        includeOnlyEntitiesWithTabs:
+            expose: true
+            access_type: public_method
+            serialized_name: includeOnlyEntitiesWithTabs
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIncludeOnlyEntitiesWithTabs
+                setter: setIncludeOnlyEntitiesWithTabs
+            type: bool

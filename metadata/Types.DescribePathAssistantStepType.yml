@@ -1,0 +1,86 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantStepType:
+    properties:
+        closed:
+            expose: true
+            access_type: public_method
+            serialized_name: closed
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getClosed
+                setter: setClosed
+            type: bool
+        converted:
+            expose: true
+            access_type: public_method
+            serialized_name: converted
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getConverted
+                setter: setConverted
+            type: bool
+        fields:
+            expose: true
+            access_type: public_method
+            serialized_name: fields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getFields
+                setter: setFields
+            xml_list:
+                inline: true
+                entry_name: fields
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribePathAssistantFieldType>
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string
+        layoutSection:
+            expose: true
+            access_type: public_method
+            serialized_name: layoutSection
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLayoutSection
+                setter: setLayoutSection
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSectionType
+        picklistLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: picklistLabel
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPicklistLabel
+                setter: setPicklistLabel
+            type: string
+        picklistValue:
+            expose: true
+            access_type: public_method
+            serialized_name: picklistValue
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPicklistValue
+                setter: setPicklistValue
+            type: string
+        won:
+            expose: true
+            access_type: public_method
+            serialized_name: won
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWon
+                setter: setWon
+            type: bool

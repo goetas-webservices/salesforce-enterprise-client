@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\CustomObjectUserLicenseMetricsType:
+    properties:
+        customObjectId:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomObjectId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomObjectId
+                setter: setCustomObjectId
+            type: string
+        customObjectName:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomObjectName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomObjectName
+                setter: setCustomObjectName
+            type: string
+        customObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomObjectType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCustomObjectType
+                setter: setCustomObjectType
+            type: string
+        metricsDate:
+            expose: true
+            access_type: public_method
+            serialized_name: MetricsDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMetricsDate
+                setter: setMetricsDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        objectCount:
+            expose: true
+            access_type: public_method
+            serialized_name: ObjectCount
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getObjectCount
+                setter: setObjectCount
+            type: int
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        userLicense:
+            expose: true
+            access_type: public_method
+            serialized_name: UserLicense
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLicense
+                setter: setUserLicense
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserLicenseType
+        userLicenseId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserLicenseId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserLicenseId
+                setter: setUserLicenseId
+            type: string

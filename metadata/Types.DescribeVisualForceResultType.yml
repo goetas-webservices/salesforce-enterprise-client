@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeVisualForceResultType:
+    properties:
+        domain:
+            expose: true
+            access_type: public_method
+            serialized_name: domain
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDomain
+                setter: setDomain
+            type: string

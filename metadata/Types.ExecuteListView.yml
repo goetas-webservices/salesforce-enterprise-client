@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ExecuteListView:
+    xml_root_name: executeListView
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\ExecuteListViewRequestType

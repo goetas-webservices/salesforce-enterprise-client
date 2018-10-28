@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ExtendedErrorDetailsType:
+    properties:
+        extendedErrorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: extendedErrorCode
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getExtendedErrorCode
+                setter: setExtendedErrorCode
+            type: string

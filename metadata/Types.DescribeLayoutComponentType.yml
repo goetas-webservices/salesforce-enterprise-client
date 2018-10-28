@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutComponentType:
+    properties:
+        displayLines:
+            expose: true
+            access_type: public_method
+            serialized_name: displayLines
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDisplayLines
+                setter: setDisplayLines
+            type: int
+        tabOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: tabOrder
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTabOrder
+                setter: setTabOrder
+            type: int
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

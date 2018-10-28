@@ -1,0 +1,24 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\Login:
+    xml_root_name: login
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        username:
+            expose: true
+            access_type: public_method
+            serialized_name: username
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUsername
+                setter: setUsername
+            type: string
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: password
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            type: string

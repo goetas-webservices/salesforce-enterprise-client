@@ -1,0 +1,62 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeLayoutSaveOptionType:
+    properties:
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValue
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: bool
+        isDisplayed:
+            expose: true
+            access_type: public_method
+            serialized_name: isDisplayed
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDisplayed
+                setter: setIsDisplayed
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        restHeaderName:
+            expose: true
+            access_type: public_method
+            serialized_name: restHeaderName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRestHeaderName
+                setter: setRestHeaderName
+            type: string
+        soapHeaderName:
+            expose: true
+            access_type: public_method
+            serialized_name: soapHeaderName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSoapHeaderName
+                setter: setSoapHeaderName
+            type: string

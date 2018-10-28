@@ -1,0 +1,50 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\MassEmailMessageType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        targetObjectIds:
+            expose: true
+            access_type: public_method
+            serialized_name: targetObjectIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTargetObjectIds
+                setter: setTargetObjectIds
+            xml_list:
+                inline: true
+                entry_name: targetObjectIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        templateId:
+            expose: true
+            access_type: public_method
+            serialized_name: templateId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTemplateId
+                setter: setTemplateId
+            type: string
+        whatIds:
+            expose: true
+            access_type: public_method
+            serialized_name: whatIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWhatIds
+                setter: setWhatIds
+            xml_list:
+                inline: true
+                entry_name: whatIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

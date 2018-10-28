@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RelatedListSortType:
+    properties:
+        ascending:
+            expose: true
+            access_type: public_method
+            serialized_name: ascending
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAscending
+                setter: setAscending
+            type: bool
+        column:
+            expose: true
+            access_type: public_method
+            serialized_name: column
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getColumn
+                setter: setColumn
+            type: string

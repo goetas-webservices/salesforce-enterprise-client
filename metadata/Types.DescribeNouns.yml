@@ -1,0 +1,38 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeNouns:
+    xml_root_name: describeNouns
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        nouns:
+            expose: true
+            access_type: public_method
+            serialized_name: nouns
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getNouns
+                setter: setNouns
+            xml_list:
+                inline: true
+                entry_name: nouns
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>
+        onlyRenamed:
+            expose: true
+            access_type: public_method
+            serialized_name: onlyRenamed
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOnlyRenamed
+                setter: setOnlyRenamed
+            type: bool
+        includeFields:
+            expose: true
+            access_type: public_method
+            serialized_name: includeFields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getIncludeFields
+                setter: setIncludeFields
+            type: bool

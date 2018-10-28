@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceSubscriptionType:
+    properties:
+        contentWorkspace:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspace
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspace
+                setter: setContentWorkspace
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentWorkspaceType
+        contentWorkspaceId:
+            expose: true
+            access_type: public_method
+            serialized_name: ContentWorkspaceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getContentWorkspaceId
+                setter: setContentWorkspaceId
+            type: string
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

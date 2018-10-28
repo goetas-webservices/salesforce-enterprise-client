@@ -1,0 +1,72 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RecordTypeInfoType:
+    properties:
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: bool
+        available:
+            expose: true
+            access_type: public_method
+            serialized_name: available
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAvailable
+                setter: setAvailable
+            type: bool
+        defaultRecordTypeMapping:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultRecordTypeMapping
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultRecordTypeMapping
+                setter: setDefaultRecordTypeMapping
+            type: bool
+        developerName:
+            expose: true
+            access_type: public_method
+            serialized_name: developerName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeveloperName
+                setter: setDeveloperName
+            type: string
+        master:
+            expose: true
+            access_type: public_method
+            serialized_name: master
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getMaster
+                setter: setMaster
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        recordTypeId:
+            expose: true
+            access_type: public_method
+            serialized_name: recordTypeId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecordTypeId
+                setter: setRecordTypeId
+            type: string

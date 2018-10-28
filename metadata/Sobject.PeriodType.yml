@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PeriodType:
+    properties:
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        fiscalYearSettings:
+            expose: true
+            access_type: public_method
+            serialized_name: FiscalYearSettings
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFiscalYearSettings
+                setter: setFiscalYearSettings
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\FiscalYearSettingsType
+        fiscalYearSettingsId:
+            expose: true
+            access_type: public_method
+            serialized_name: FiscalYearSettingsId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFiscalYearSettingsId
+                setter: setFiscalYearSettingsId
+            type: string
+        fullyQualifiedLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: FullyQualifiedLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFullyQualifiedLabel
+                setter: setFullyQualifiedLabel
+            type: string
+        isForecastPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: IsForecastPeriod
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsForecastPeriod
+                setter: setIsForecastPeriod
+            type: bool
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: int
+        periodLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: PeriodLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPeriodLabel
+                setter: setPeriodLabel
+            type: string
+        quarterLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: QuarterLabel
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuarterLabel
+                setter: setQuarterLabel
+            type: string
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string

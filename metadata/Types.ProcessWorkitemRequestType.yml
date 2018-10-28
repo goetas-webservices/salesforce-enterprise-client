@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ProcessWorkitemRequestType:
+    properties:
+        action:
+            expose: true
+            access_type: public_method
+            serialized_name: action
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAction
+                setter: setAction
+            type: string
+        workitemId:
+            expose: true
+            access_type: public_method
+            serialized_name: workitemId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWorkitemId
+                setter: setWorkitemId
+            type: string

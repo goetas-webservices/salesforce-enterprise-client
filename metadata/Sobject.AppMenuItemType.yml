@@ -1,0 +1,392 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\AppMenuItemType:
+    properties:
+        applicationId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicationId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApplicationId
+                setter: setApplicationId
+            type: string
+        canvasAccessMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasAccessMethod
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasAccessMethod
+                setter: setCanvasAccessMethod
+            type: string
+        canvasEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasEnabled
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasEnabled
+                setter: setCanvasEnabled
+            type: bool
+        canvasOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasOptions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasOptions
+                setter: setCanvasOptions
+            type: string
+        canvasReferenceId:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasReferenceId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasReferenceId
+                setter: setCanvasReferenceId
+            type: string
+        canvasSelectedLocations:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasSelectedLocations
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasSelectedLocations
+                setter: setCanvasSelectedLocations
+            type: string
+        canvasUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: CanvasUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCanvasUrl
+                setter: setCanvasUrl
+            type: string
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        iconUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: IconUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIconUrl
+                setter: setIconUrl
+            type: string
+        infoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInfoUrl
+                setter: setInfoUrl
+            type: string
+        isAccessible:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAccessible
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAccessible
+                setter: setIsAccessible
+            type: bool
+        isDeleted:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeleted
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeleted
+                setter: setIsDeleted
+            type: bool
+        isRegisteredDeviceOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRegisteredDeviceOnly
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRegisteredDeviceOnly
+                setter: setIsRegisteredDeviceOnly
+            type: bool
+        isUsingAdminAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: IsUsingAdminAuthorization
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsUsingAdminAuthorization
+                setter: setIsUsingAdminAuthorization
+            type: bool
+        isVisible:
+            expose: true
+            access_type: public_method
+            serialized_name: IsVisible
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsVisible
+                setter: setIsVisible
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        logoUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: LogoUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLogoUrl
+                setter: setLogoUrl
+            type: string
+        mobileAppBinaryId:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileAppBinaryId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileAppBinaryId
+                setter: setMobileAppBinaryId
+            type: string
+        mobileAppInstallUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileAppInstallUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileAppInstallUrl
+                setter: setMobileAppInstallUrl
+            type: string
+        mobileAppInstalledDate:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileAppInstalledDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileAppInstalledDate
+                setter: setMobileAppInstalledDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        mobileAppInstalledVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileAppInstalledVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileAppInstalledVersion
+                setter: setMobileAppInstalledVersion
+            type: string
+        mobileAppVer:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileAppVer
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileAppVer
+                setter: setMobileAppVer
+            type: string
+        mobileDeviceType:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileDeviceType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileDeviceType
+                setter: setMobileDeviceType
+            type: string
+        mobileMinOsVer:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileMinOsVer
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileMinOsVer
+                setter: setMobileMinOsVer
+            type: string
+        mobilePlatform:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilePlatform
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobilePlatform
+                setter: setMobilePlatform
+            type: string
+        mobileStartUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileStartUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileStartUrl
+                setter: setMobileStartUrl
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string
+        sortOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: SortOrder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSortOrder
+                setter: setSortOrder
+            type: int
+        startUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: StartUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartUrl
+                setter: setStartUrl
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        userSortOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: UserSortOrder
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserSortOrder
+                setter: setUserSortOrder
+            type: int

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\MruHeader:
+    xml_root_name: MruHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        updateMru:
+            expose: true
+            access_type: public_method
+            serialized_name: updateMru
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getUpdateMru
+                setter: setUpdateMru
+            type: bool

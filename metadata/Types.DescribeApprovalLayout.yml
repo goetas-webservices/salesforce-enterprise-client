@@ -1,0 +1,28 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeApprovalLayout:
+    xml_root_name: describeApprovalLayout
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        sObjectType:
+            expose: true
+            access_type: public_method
+            serialized_name: sObjectType
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSObjectType
+                setter: setSObjectType
+            type: string
+        approvalProcessNames:
+            expose: true
+            access_type: public_method
+            serialized_name: approvalProcessNames
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getApprovalProcessNames
+                setter: setApprovalProcessNames
+            xml_list:
+                inline: true
+                entry_name: approvalProcessNames
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

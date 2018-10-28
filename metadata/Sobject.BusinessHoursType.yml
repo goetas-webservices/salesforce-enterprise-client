@@ -1,0 +1,272 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\BusinessHoursType:
+    properties:
+        cases:
+            expose: true
+            access_type: public_method
+            serialized_name: Cases
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCases
+                setter: setCases
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        fridayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: FridayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFridayEndTime
+                setter: setFridayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        fridayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: FridayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFridayStartTime
+                setter: setFridayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: IsActive
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: bool
+        isDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDefault
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDefault
+                setter: setIsDefault
+            type: bool
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastViewedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastViewedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastViewedDate
+                setter: setLastViewedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        mondayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: MondayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMondayEndTime
+                setter: setMondayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        mondayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: MondayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMondayStartTime
+                setter: setMondayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        saturdayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SaturdayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSaturdayEndTime
+                setter: setSaturdayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        saturdayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SaturdayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSaturdayStartTime
+                setter: setSaturdayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        sundayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SundayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSundayEndTime
+                setter: setSundayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        sundayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: SundayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSundayStartTime
+                setter: setSundayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        thursdayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ThursdayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getThursdayEndTime
+                setter: setThursdayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        thursdayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ThursdayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getThursdayStartTime
+                setter: setThursdayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        timeZoneSidKey:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeZoneSidKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimeZoneSidKey
+                setter: setTimeZoneSidKey
+            type: string
+        tuesdayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: TuesdayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTuesdayEndTime
+                setter: setTuesdayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        tuesdayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: TuesdayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTuesdayStartTime
+                setter: setTuesdayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        wednesdayEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: WednesdayEndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWednesdayEndTime
+                setter: setWednesdayEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        wednesdayStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: WednesdayStartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getWednesdayStartTime
+                setter: setWednesdayStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time

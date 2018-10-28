@@ -1,0 +1,28 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\RetrieveMassQuickActionTemplates:
+    xml_root_name: retrieveMassQuickActionTemplates
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        quickActionName:
+            expose: true
+            access_type: public_method
+            serialized_name: quickActionName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuickActionName
+                setter: setQuickActionName
+            type: string
+        contextIds:
+            expose: true
+            access_type: public_method
+            serialized_name: contextIds
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextIds
+                setter: setContextIds
+            xml_list:
+                inline: true
+                entry_name: contextIds
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<string>

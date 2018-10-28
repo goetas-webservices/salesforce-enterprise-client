@@ -1,0 +1,82 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\PublisherType:
+    properties:
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        installedEntityDefinitions:
+            expose: true
+            access_type: public_method
+            serialized_name: InstalledEntityDefinitions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInstalledEntityDefinitions
+                setter: setInstalledEntityDefinitions
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        installedFieldDefinitions:
+            expose: true
+            access_type: public_method
+            serialized_name: InstalledFieldDefinitions
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInstalledFieldDefinitions
+                setter: setInstalledFieldDefinitions
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isSalesforce:
+            expose: true
+            access_type: public_method
+            serialized_name: IsSalesforce
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsSalesforce
+                setter: setIsSalesforce
+            type: bool
+        majorVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: MajorVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMajorVersion
+                setter: setMajorVersion
+            type: int
+        minorVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: MinorVersion
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMinorVersion
+                setter: setMinorVersion
+            type: int
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        namespacePrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: NamespacePrefix
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNamespacePrefix
+                setter: setNamespacePrefix
+            type: string

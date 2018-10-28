@@ -1,0 +1,42 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ContentUserSubscriptionType:
+    properties:
+        subscribedToUser:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscribedToUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubscribedToUser
+                setter: setSubscribedToUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        subscribedToUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscribedToUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubscribedToUserId
+                setter: setSubscribedToUserId
+            type: string
+        subscriberUser:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberUser
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubscriberUser
+                setter: setSubscriberUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        subscriberUserId:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberUserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSubscriberUserId
+                setter: setSubscriberUserId
+            type: string

@@ -1,0 +1,46 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType:
+    properties:
+        done:
+            expose: true
+            access_type: public_method
+            serialized_name: done
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDone
+                setter: setDone
+            type: bool
+        queryLocator:
+            expose: true
+            access_type: public_method
+            serialized_name: queryLocator
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueryLocator
+                setter: setQueryLocator
+            type: string
+        records:
+            expose: true
+            access_type: public_method
+            serialized_name: records
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecords
+                setter: setRecords
+            xml_list:
+                inline: true
+                entry_name: records
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType>
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: int

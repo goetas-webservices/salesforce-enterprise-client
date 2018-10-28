@@ -1,0 +1,162 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\CronTriggerType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        cronExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: CronExpression
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCronExpression
+                setter: setCronExpression
+            type: string
+        cronJobDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: CronJobDetail
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCronJobDetail
+                setter: setCronJobDetail
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\CronJobDetailType
+        cronJobDetailId:
+            expose: true
+            access_type: public_method
+            serialized_name: CronJobDetailId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCronJobDetailId
+                setter: setCronJobDetailId
+            type: string
+        endTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EndTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getEndTime
+                setter: setEndTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        nextFireTime:
+            expose: true
+            access_type: public_method
+            serialized_name: NextFireTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getNextFireTime
+                setter: setNextFireTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        ownerId:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnerId
+                setter: setOwnerId
+            type: string
+        previousFireTime:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousFireTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPreviousFireTime
+                setter: setPreviousFireTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        startTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartTime
+                setter: setStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: State
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getState
+                setter: setState
+            type: string
+        timeZoneSidKey:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeZoneSidKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimeZoneSidKey
+                setter: setTimeZoneSidKey
+            type: string
+        timesTriggered:
+            expose: true
+            access_type: public_method
+            serialized_name: TimesTriggered
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTimesTriggered
+                setter: setTimesTriggered
+            type: int

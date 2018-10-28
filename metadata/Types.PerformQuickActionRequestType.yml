@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\PerformQuickActionRequestType:
+    properties:
+        contextId:
+            expose: true
+            access_type: public_method
+            serialized_name: contextId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContextId
+                setter: setContextId
+            type: string
+        quickActionName:
+            expose: true
+            access_type: public_method
+            serialized_name: quickActionName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getQuickActionName
+                setter: setQuickActionName
+            type: string
+        records:
+            expose: true
+            access_type: public_method
+            serialized_name: records
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getRecords
+                setter: setRecords
+            xml_list:
+                inline: true
+                entry_name: records
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType>

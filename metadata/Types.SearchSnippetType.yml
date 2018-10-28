@@ -1,0 +1,26 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\SearchSnippetType:
+    properties:
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getText
+                setter: setText
+            type: string
+        wholeFields:
+            expose: true
+            access_type: public_method
+            serialized_name: wholeFields
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getWholeFields
+                setter: setWholeFields
+            xml_list:
+                inline: true
+                entry_name: wholeFields
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\NameValuePairType>

@@ -1,0 +1,102 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ThirdPartyAccountLinkType:
+    properties:
+        handle:
+            expose: true
+            access_type: public_method
+            serialized_name: Handle
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getHandle
+                setter: setHandle
+            type: string
+        isNotSsoUsable:
+            expose: true
+            access_type: public_method
+            serialized_name: IsNotSsoUsable
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsNotSsoUsable
+                setter: setIsNotSsoUsable
+            type: bool
+        provider:
+            expose: true
+            access_type: public_method
+            serialized_name: Provider
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getProvider
+                setter: setProvider
+            type: string
+        remoteIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: RemoteIdentifier
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRemoteIdentifier
+                setter: setRemoteIdentifier
+            type: string
+        ssoProvider:
+            expose: true
+            access_type: public_method
+            serialized_name: SsoProvider
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSsoProvider
+                setter: setSsoProvider
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AuthProviderType
+        ssoProviderId:
+            expose: true
+            access_type: public_method
+            serialized_name: SsoProviderId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSsoProviderId
+                setter: setSsoProviderId
+            type: string
+        ssoProviderName:
+            expose: true
+            access_type: public_method
+            serialized_name: SsoProviderName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSsoProviderName
+                setter: setSsoProviderName
+            type: string
+        thirdPartyAccountLinkKey:
+            expose: true
+            access_type: public_method
+            serialized_name: ThirdPartyAccountLinkKey
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getThirdPartyAccountLinkKey
+                setter: setThirdPartyAccountLinkKey
+            type: string
+        user:
+            expose: true
+            access_type: public_method
+            serialized_name: User
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUser
+                setter: setUser
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: string

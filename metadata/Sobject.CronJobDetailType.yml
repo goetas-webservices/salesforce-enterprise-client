@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\CronJobDetailType:
+    properties:
+        jobType:
+            expose: true
+            access_type: public_method
+            serialized_name: JobType
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJobType
+                setter: setJobType
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string

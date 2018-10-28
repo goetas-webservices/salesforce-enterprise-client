@@ -1,0 +1,14 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DebuggingInfo:
+    xml_root_name: DebuggingInfo
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        debugLog:
+            expose: true
+            access_type: public_method
+            serialized_name: debugLog
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDebugLog
+                setter: setDebugLog
+            type: string

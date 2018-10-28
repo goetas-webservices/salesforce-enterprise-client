@@ -1,0 +1,152 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\LeadConvertType:
+    properties:
+        accountId:
+            expose: true
+            access_type: public_method
+            serialized_name: accountId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountId
+                setter: setAccountId
+            type: string
+        accountRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: accountRecord
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAccountRecord
+                setter: setAccountRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        bypassAccountDedupeCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: bypassAccountDedupeCheck
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBypassAccountDedupeCheck
+                setter: setBypassAccountDedupeCheck
+            type: bool
+        bypassContactDedupeCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: bypassContactDedupeCheck
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getBypassContactDedupeCheck
+                setter: setBypassContactDedupeCheck
+            type: bool
+        contactId:
+            expose: true
+            access_type: public_method
+            serialized_name: contactId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContactId
+                setter: setContactId
+            type: string
+        contactRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: contactRecord
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getContactRecord
+                setter: setContactRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        convertedStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: convertedStatus
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getConvertedStatus
+                setter: setConvertedStatus
+            type: string
+        doNotCreateOpportunity:
+            expose: true
+            access_type: public_method
+            serialized_name: doNotCreateOpportunity
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDoNotCreateOpportunity
+                setter: setDoNotCreateOpportunity
+            type: bool
+        leadId:
+            expose: true
+            access_type: public_method
+            serialized_name: leadId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLeadId
+                setter: setLeadId
+            type: string
+        opportunityId:
+            expose: true
+            access_type: public_method
+            serialized_name: opportunityId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityId
+                setter: setOpportunityId
+            type: string
+        opportunityName:
+            expose: true
+            access_type: public_method
+            serialized_name: opportunityName
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityName
+                setter: setOpportunityName
+            type: string
+        opportunityRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: opportunityRecord
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOpportunityRecord
+                setter: setOpportunityRecord
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\SObjectType
+        overwriteLeadSource:
+            expose: true
+            access_type: public_method
+            serialized_name: overwriteLeadSource
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOverwriteLeadSource
+                setter: setOverwriteLeadSource
+            type: bool
+        ownerId:
+            expose: true
+            access_type: public_method
+            serialized_name: ownerId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getOwnerId
+                setter: setOwnerId
+            type: string
+        sendNotificationEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: sendNotificationEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getSendNotificationEmail
+                setter: setSendNotificationEmail
+            type: bool

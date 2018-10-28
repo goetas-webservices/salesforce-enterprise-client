@@ -1,0 +1,36 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\KnowledgeSettingsType:
+    properties:
+        defaultLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultLanguage
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultLanguage
+                setter: setDefaultLanguage
+            type: string
+        knowledgeEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: knowledgeEnabled
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getKnowledgeEnabled
+                setter: setKnowledgeEnabled
+            type: bool
+        languages:
+            expose: true
+            access_type: public_method
+            serialized_name: languages
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLanguages
+                setter: setLanguages
+            xml_list:
+                inline: true
+                entry_name: languages
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\KnowledgeLanguageItemType>

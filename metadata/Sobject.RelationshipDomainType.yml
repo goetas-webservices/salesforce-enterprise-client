@@ -1,0 +1,147 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\RelationshipDomainType:
+    properties:
+        childSobject:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildSobject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChildSobject
+                setter: setChildSobject
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        childSobjectId:
+            expose: true
+            access_type: public_method
+            serialized_name: ChildSobjectId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getChildSobjectId
+                setter: setChildSobjectId
+            type: string
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: Field
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\FieldDefinitionType
+        fieldId:
+            expose: true
+            access_type: public_method
+            serialized_name: FieldId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getFieldId
+                setter: setFieldId
+            type: string
+        isCascadeDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCascadeDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCascadeDelete
+                setter: setIsCascadeDelete
+            type: bool
+        isDeprecatedAndHidden:
+            expose: true
+            access_type: public_method
+            serialized_name: IsDeprecatedAndHidden
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsDeprecatedAndHidden
+                setter: setIsDeprecatedAndHidden
+            type: bool
+        isRestrictedDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: IsRestrictedDelete
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsRestrictedDelete
+                setter: setIsRestrictedDelete
+            type: bool
+        junctionIdListNames:
+            expose: true
+            access_type: public_method
+            serialized_name: JunctionIdListNames
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getJunctionIdListNames
+                setter: setJunctionIdListNames
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: names
+                skip_when_empty: true
+                namespace: 'urn:enterprise.soap.sforce.com'
+        parentSobject:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentSobject
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentSobject
+                setter: setParentSobject
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\EntityDefinitionType
+        parentSobjectId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentSobjectId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getParentSobjectId
+                setter: setParentSobjectId
+            type: string
+        relationshipInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationshipInfo
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipInfo
+                setter: setRelationshipInfo
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\RelationshipInfoType
+        relationshipInfoId:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationshipInfoId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipInfoId
+                setter: setRelationshipInfoId
+            type: string
+        relationshipName:
+            expose: true
+            access_type: public_method
+            serialized_name: RelationshipName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRelationshipName
+                setter: setRelationshipName
+            type: string

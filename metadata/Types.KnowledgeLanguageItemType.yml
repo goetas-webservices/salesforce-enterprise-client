@@ -1,0 +1,32 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\KnowledgeLanguageItemType:
+    properties:
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: bool
+        assigneeId:
+            expose: true
+            access_type: public_method
+            serialized_name: assigneeId
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getAssigneeId
+                setter: setAssigneeId
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string

@@ -1,0 +1,19 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeApprovalLayoutResponse:
+    xml_root_name: describeApprovalLayoutResponse
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        result:
+            expose: true
+            access_type: public_method
+            serialized_name: result
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getResult
+                setter: setResult
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeApprovalLayoutType>
+            xml_list:
+                inline: false
+                entry_name: approvalLayouts
+                skip_when_empty: false
+                namespace: 'urn:enterprise.soap.sforce.com'

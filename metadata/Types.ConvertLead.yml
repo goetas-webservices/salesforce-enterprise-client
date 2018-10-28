@@ -1,0 +1,18 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\ConvertLead:
+    xml_root_name: convertLead
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        leadConverts:
+            expose: true
+            access_type: public_method
+            serialized_name: leadConverts
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getLeadConverts
+                setter: setLeadConverts
+            xml_list:
+                inline: true
+                entry_name: leadConverts
+                namespace: 'urn:enterprise.soap.sforce.com'
+            type: array<GoetasWebservices\Client\SalesforceEnterprise\Types\LeadConvertType>

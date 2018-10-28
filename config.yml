@@ -1,0 +1,11 @@
+soap_client:
+    namespaces:
+        'urn:enterprise.soap.sforce.com': GoetasWebservices\Client\SalesforceEnterprise\Types
+        'urn:fault.enterprise.soap.sforce.com': GoetasWebservices\Client\SalesforceEnterprise\Fault
+        'urn:sobject.enterprise.soap.sforce.com': GoetasWebservices\Client\SalesforceEnterprise\Sobject
+    destinations_php:
+        GoetasWebservices\Client\SalesforceEnterprise: src
+    destinations_jms:
+        GoetasWebservices\Client\SalesforceEnterprise: metadata
+    metadata:
+        service.wsdl: null

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DeletedRecordType:
+    properties:
+        deletedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: deletedDate
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDeletedDate
+                setter: setDeletedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getId
+                setter: setId
+            type: string

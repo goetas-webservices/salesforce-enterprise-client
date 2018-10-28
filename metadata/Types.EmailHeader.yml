@@ -1,0 +1,34 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\EmailHeader:
+    xml_root_name: EmailHeader
+    xml_root_namespace: 'urn:enterprise.soap.sforce.com'
+    properties:
+        triggerAutoResponseEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: triggerAutoResponseEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTriggerAutoResponseEmail
+                setter: setTriggerAutoResponseEmail
+            type: bool
+        triggerOtherEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: triggerOtherEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTriggerOtherEmail
+                setter: setTriggerOtherEmail
+            type: bool
+        triggerUserEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: triggerUserEmail
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getTriggerUserEmail
+                setter: setTriggerUserEmail
+            type: bool

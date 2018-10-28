@@ -1,0 +1,112 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\TabDefinitionType:
+    properties:
+        appTabs:
+            expose: true
+            access_type: public_method
+            serialized_name: AppTabs
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAppTabs
+                setter: setAppTabs
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        colors:
+            expose: true
+            access_type: public_method
+            serialized_name: Colors
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getColors
+                setter: setColors
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        durableId:
+            expose: true
+            access_type: public_method
+            serialized_name: DurableId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getDurableId
+                setter: setDurableId
+            type: string
+        icons:
+            expose: true
+            access_type: public_method
+            serialized_name: Icons
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIcons
+                setter: setIcons
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        isAvailableInAloha:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAvailableInAloha
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAvailableInAloha
+                setter: setIsAvailableInAloha
+            type: bool
+        isAvailableInLightning:
+            expose: true
+            access_type: public_method
+            serialized_name: IsAvailableInLightning
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsAvailableInLightning
+                setter: setIsAvailableInLightning
+            type: bool
+        isCustom:
+            expose: true
+            access_type: public_method
+            serialized_name: IsCustom
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getIsCustom
+                setter: setIsCustom
+            type: bool
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        sobjectName:
+            expose: true
+            access_type: public_method
+            serialized_name: SobjectName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSobjectName
+                setter: setSobjectName
+            type: string
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: Url
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeQuickActionDefaultValueType:
+    properties:
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValue
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: string
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: field
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getField
+                setter: setField
+            type: string

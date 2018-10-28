@@ -1,0 +1,202 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ConnectedApplicationType:
+    properties:
+        createdBy:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedBy
+                setter: setCreatedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        createdById:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedById
+                setter: setCreatedById
+            type: string
+        createdDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getCreatedDate
+                setter: setCreatedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        installedMobileApps:
+            expose: true
+            access_type: public_method
+            serialized_name: InstalledMobileApps
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getInstalledMobileApps
+                setter: setInstalledMobileApps
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        lastModifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedBy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedBy
+                setter: setLastModifiedBy
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\UserType
+        lastModifiedById:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedById
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedById
+                setter: setLastModifiedById
+            type: string
+        lastModifiedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifiedDate
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getLastModifiedDate
+                setter: setLastModifiedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        mobileSessionTimeout:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileSessionTimeout
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileSessionTimeout
+                setter: setMobileSessionTimeout
+            type: string
+        mobileStartUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: MobileStartUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMobileStartUrl
+                setter: setMobileStartUrl
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        optionsAllowAdminApprovedUsersOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsAllowAdminApprovedUsersOnly
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsAllowAdminApprovedUsersOnly
+                setter: setOptionsAllowAdminApprovedUsersOnly
+            type: bool
+        optionsFullContentPushNotifications:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsFullContentPushNotifications
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsFullContentPushNotifications
+                setter: setOptionsFullContentPushNotifications
+            type: bool
+        optionsHasSessionLevelPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsHasSessionLevelPolicy
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsHasSessionLevelPolicy
+                setter: setOptionsHasSessionLevelPolicy
+            type: bool
+        optionsIsInternal:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsIsInternal
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsIsInternal
+                setter: setOptionsIsInternal
+            type: bool
+        optionsRefreshTokenValidityMetric:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionsRefreshTokenValidityMetric
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOptionsRefreshTokenValidityMetric
+                setter: setOptionsRefreshTokenValidityMetric
+            type: bool
+        pinLength:
+            expose: true
+            access_type: public_method
+            serialized_name: PinLength
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getPinLength
+                setter: setPinLength
+            type: string
+        refreshTokenValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: RefreshTokenValidityPeriod
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRefreshTokenValidityPeriod
+                setter: setRefreshTokenValidityPeriod
+            type: int
+        setupEntityAccessItems:
+            expose: true
+            access_type: public_method
+            serialized_name: SetupEntityAccessItems
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSetupEntityAccessItems
+                setter: setSetupEntityAccessItems
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        startUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: StartUrl
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStartUrl
+                setter: setStartUrl
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

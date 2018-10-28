@@ -1,0 +1,182 @@
+GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTestResultType:
+    properties:
+        apexClass:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexClass
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexClass
+                setter: setApexClass
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexClassType
+        apexClassId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexClassId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexClassId
+                setter: setApexClassId
+            type: string
+        apexLog:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexLog
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexLog
+                setter: setApexLog
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexLogType
+        apexLogId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexLogId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexLogId
+                setter: setApexLogId
+            type: string
+        apexTestResults:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexTestResults
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexTestResults
+                setter: setApexTestResults
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\QueryResultType
+        apexTestRunResult:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexTestRunResult
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexTestRunResult
+                setter: setApexTestRunResult
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTestRunResultType
+        apexTestRunResultId:
+            expose: true
+            access_type: public_method
+            serialized_name: ApexTestRunResultId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getApexTestRunResultId
+                setter: setApexTestRunResultId
+            type: string
+        asyncApexJob:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncApexJob
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncApexJob
+                setter: setAsyncApexJob
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\AsyncApexJobType
+        asyncApexJobId:
+            expose: true
+            access_type: public_method
+            serialized_name: AsyncApexJobId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getAsyncApexJobId
+                setter: setAsyncApexJobId
+            type: string
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: Message
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: string
+        methodName:
+            expose: true
+            access_type: public_method
+            serialized_name: MethodName
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getMethodName
+                setter: setMethodName
+            type: string
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: Outcome
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: string
+        queueItem:
+            expose: true
+            access_type: public_method
+            serialized_name: QueueItem
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueueItem
+                setter: setQueueItem
+            type: GoetasWebservices\Client\SalesforceEnterprise\Sobject\ApexTestQueueItemType
+        queueItemId:
+            expose: true
+            access_type: public_method
+            serialized_name: QueueItemId
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getQueueItemId
+                setter: setQueueItemId
+            type: string
+        runTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RunTime
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getRunTime
+                setter: setRunTime
+            type: int
+        stackTrace:
+            expose: true
+            access_type: public_method
+            serialized_name: StackTrace
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getStackTrace
+                setter: setStackTrace
+            type: string
+        systemModstamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemModstamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getSystemModstamp
+                setter: setSystemModstamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        testTimestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: TestTimestamp
+            xml_element:
+                namespace: 'urn:sobject.enterprise.soap.sforce.com'
+            accessor:
+                getter: getTestTimestamp
+                setter: setTestTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

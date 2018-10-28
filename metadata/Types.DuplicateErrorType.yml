@@ -1,0 +1,12 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DuplicateErrorType:
+    properties:
+        duplicateResult:
+            expose: true
+            access_type: public_method
+            serialized_name: duplicateResult
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getDuplicateResult
+                setter: setDuplicateResult
+            type: GoetasWebservices\Client\SalesforceEnterprise\Types\DuplicateResultType

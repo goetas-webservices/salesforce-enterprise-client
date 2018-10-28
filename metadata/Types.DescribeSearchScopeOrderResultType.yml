@@ -1,0 +1,22 @@
+GoetasWebservices\Client\SalesforceEnterprise\Types\DescribeSearchScopeOrderResultType:
+    properties:
+        keyPrefix:
+            expose: true
+            access_type: public_method
+            serialized_name: keyPrefix
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getKeyPrefix
+                setter: setKeyPrefix
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:enterprise.soap.sforce.com'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
