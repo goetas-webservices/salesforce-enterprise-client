@@ -9,7 +9,13 @@ require __DIR__ . '/vendor/autoload.php';
 
 // project initialization
 $container = new SoapContainer();
+
+// use this when cloning this repository and keeping the directory, comment it when including goetas-webservices/salesforce-enterprise-client via composer
 $serializer = SoapContainerBuilder::createSerializerBuilderFromContainer($container)->build();
+
+// uncomment this when including goetas-webservices/salesforce-enterprise-client via composer
+// $serializer = SoapContainerBuilder::createSerializerBuilderFromContainer($container, null, __DIR__ . '/vendor/goetas-webservices/salesforce-enterprise-client')->build();
+
 $metadata = $container->get('goetas_webservices.soap_client.metadata_reader');
 $factory = new ClientFactory($metadata, $serializer);
 
